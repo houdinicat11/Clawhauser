@@ -19,7 +19,7 @@ client.on('message', msg => {
 
 client.on('message', msg =>
 {
-	if(msg.content === 'here kitty'
+	if(msg.content === 'here kitty')
 	{
 		msg.reply('Meow, I am here now Prrrrrr...')
 	}
