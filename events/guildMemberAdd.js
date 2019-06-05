@@ -1,5 +1,5 @@
 module.exports = (client, member) => {
   member.send(
-    `Welcome on the server! Please be aware that we won't tolerate troll, spam or harassment. Have fun 😀`
+    `Welcome to the Server! All things go here so kick back and have fun, meow!
   );
 };
