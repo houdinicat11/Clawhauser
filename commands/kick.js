@@ -7,9 +7,9 @@ module.exports = message => {
     );
   }
 
-  if (!member.kickable) {
-    return message.reply(`I can't kick this user. Sorry!`);
-  }
+  //if (!member.kickable) {
+  //  return message.reply(`I can't kick this user. Sorry!`);
+ // }
 
   return member
     .kick()
