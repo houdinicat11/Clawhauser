@@ -51,11 +51,11 @@ for (const file of commandFiles)
 }
 
 console.log(client.commands); 
-// end music bot lines
+// end music bot lines // does not break code
 
 
 // music bot stuff
-/*client.once('ready', () => 
+client.once('ready', () => 
 {
  console.log('Ready!');
 });
@@ -82,7 +82,7 @@ client.on('message', async message => {
 		console.error(error);
 		message.reply('There was an error trying to execute that command!');
 	}
-});*/
+});
 // end music bot stuff
 
 
