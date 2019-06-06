@@ -11,7 +11,6 @@ module.exports = message => {
           // An error happened
           // This is generally due to the bot not being able to ban the member,
           // either due to missing permissions or role hierarchy
-          message.reply("Banned");
           // Log the error
           console.error(err);
         });
@@ -28,6 +27,6 @@ module.exports = message => {
 		
 	return member
 		.ban()
-		.then(() => message.reply(`${member.user.tag} was banned.`))
+		.then(() => message.reply(`${member.user.tag} was banned. Good Riddence`))
 		.catch(error => message.reply('\n'));
 };
