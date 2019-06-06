@@ -1,13 +1,13 @@
 require("dotenv").config();
 const Discord = require("discord.js");
 // start music bot const
-/*const Client = require('./client/Client');
+const Client = require('./client/Client');
 const 
 {
 	prefix,
 	token,
 } = require('./config.json');
-const ytdl = require('ytdl-core'); */
+const ytdl = require('ytdl-core'); 
 // end music bot const
 const fs = require("fs");
 const client = new Discord.Client();
