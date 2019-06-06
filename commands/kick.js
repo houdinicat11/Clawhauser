@@ -1,5 +1,5 @@
 module.exports = message => {
-  const member = message.mentions.members.first();
+	const member = message.mentions.members.first();
 
   if (!member) {
     return message.reply(
