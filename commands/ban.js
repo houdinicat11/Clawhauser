@@ -23,7 +23,7 @@ module.exports = message => {
 	}
 
 	if (!member.banable) {
-		return message.reply('I can\'t ban this user.');
+		//return message.reply('I can\'t ban this user.');
 	}
 		
 	return member
