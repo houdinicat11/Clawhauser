@@ -40,6 +40,20 @@ fs.readdir("./events/", (err, files) =>
   });
 });
 
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('Pong!')
+  }
+})
+
+client.on('message', msg =>
+{
+	if(msg.content === 'here kitty')
+	{
+		msg.reply('Meow, I am here now Prrrrrr...')
+	}
+})
+
 // music bot stuff
 client.once('ready', () => 
 {
@@ -71,19 +85,6 @@ client.on('message', async message => {
 });
 // end music bot stuff
 
-client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!')
-  }
-})
-
-client.on('message', msg =>
-{
-	if(msg.content === 'here kitty')
-	{
-		msg.reply('Meow, I am here now Prrrrrr...')
-	}
-})
 
 
 client.login(process.env.BOT_TOKEN);
