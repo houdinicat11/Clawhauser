@@ -5,7 +5,7 @@ module.exports = (client, message) => {
   if (message.content.startsWith("!kick")) {
     return kick(message);
   }
-};
+}
 
 module.exports = (client, message) => {
 	if(message.content.startsWith("!ban")) {
