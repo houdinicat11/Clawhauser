@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
 	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,7 +19,7 @@
     "discord.js": "^11.4.2",
     "discord.js-musicbot-addon": "^13.5.2",
     "dotenv": "^7.0.0",
-    "node-opus": "^0.3.2"
+    "node-opus": "^0.3.2",
 	"ffmpeg": "0.0.4",
     "ffmpeg-binaries": "^4.0.0",
     "opusscript": "0.0.6",
