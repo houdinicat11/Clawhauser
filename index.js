@@ -6,7 +6,7 @@ const {
 	prefix,
 	token,
 } = require('./config.json'); 
-//const ytdl = require('ytdl-core'); // might need
+const ytdl = require('ytdl-core'); // might need
 // end music bot const
 const fs = require("fs");
 const client = new Discord.Client();
