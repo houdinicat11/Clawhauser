@@ -1,34 +1,16 @@
 require("dotenv").config();
 const Discord = require("discord.js");
 // start music bot const
-const Client = require('./client/Client');
+/*const Client = require('./client/Client');
 const 
 {
 	prefix,
 	token,
 } = require('./config.json');
-const ytdl = require('ytdl-core');
+const ytdl = require('ytdl-core'); */
 // end music bot const
 const fs = require("fs");
 const client = new Discord.Client();
-
-// music bot lines
-client.commands = new Discord.Collection();
-
-
-const queue = new Map();
-
-const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
-
-for (const file of commandFiles) 
-{
-	const command = require(`./commands/${file}`);
-	client.commands.set(command.name, command);
-}
-
-console.log(client.commands);
-// end music bot lines
-
 
 fs.readdir("./events/", (err, files) => 
 {
@@ -54,8 +36,26 @@ client.on('message', msg =>
 	}
 })
 
+// music bot lines
+/*client.commands = new Discord.Collection();
+
+
+const queue = new Map();
+
+const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
+
+for (const file of commandFiles) 
+{
+	const command = require(`./commands/${file}`);
+	client.commands.set(command.name, command);
+}
+
+console.log(client.commands); */
+// end music bot lines
+
+
 // music bot stuff
-client.once('ready', () => 
+/*client.once('ready', () => 
 {
  console.log('Ready!');
 });
@@ -82,7 +82,7 @@ client.on('message', async message => {
 		console.error(error);
 		message.reply('There was an error trying to execute that command!');
 	}
-});
+});*/
 // end music bot stuff
 
 
