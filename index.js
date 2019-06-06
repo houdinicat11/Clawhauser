@@ -37,7 +37,7 @@ client.on('message', msg =>
 })
 
 // music bot lines
-/*client.commands = new Discord.Collection();
+client.commands = new Discord.Collection();
 
 
 const queue = new Map();
@@ -50,7 +50,7 @@ for (const file of commandFiles)
 	client.commands.set(command.name, command);
 }
 
-console.log(client.commands); */
+console.log(client.commands); 
 // end music bot lines
 
 
