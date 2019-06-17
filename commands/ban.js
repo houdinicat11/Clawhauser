@@ -27,6 +27,6 @@ module.exports = message => {
 		
 	return member
 		.ban()
-		.then(() => message.reply(`${member.user.tag} was banned. Good Riddence`))
+		.then(() => message.reply("${member.user.tag} was banned. Good Riddence"))
 		.catch(error => message.reply('I\'ve encountered an error'));
 };
