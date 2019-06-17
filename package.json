@@ -1,27 +1,18 @@
-{
-  "name": "Clawhauser",
+{{
+  "name": "clawhouser",
   "version": "1.0.0",
-  "description": "a simple bot in JS",
+  "description": "A simple JS bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-	"test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
-  "keywords": [
-	"discord",
-	"music",
-	"bot"
-  ],
+  "keywords": [],
   "author": "Peyton Krahulik",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.4.2",
-    "dotenv": "^7.0.0",
-	"ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "^4.0.0",
-    "opusscript": "0.0.6",
-    "ytdl-core": "^0.29.1"
+    "dotenv": "^7.0.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.11"
