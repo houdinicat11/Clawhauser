@@ -1,8 +1,11 @@
 module.exports = (client, emoji) => {
-	channel = emoji.guild.channels;
-	creator = emoji.fetchAuthor();
+	channel = emoji.guild.systemChannel;
 	name = emoji.name;
 	
+	if(channel)
+	{
+		channel.send(`A new emoji has been created, ${emoji} Check it out!`);
+	}
 	
-	//channel.send(`@here, ${creator.tag} has created an emoji called ${name}. Check it out!`);
+	console.log(`A new emoji has been created called: ${name}`);
 }
