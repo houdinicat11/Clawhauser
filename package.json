@@ -14,7 +14,6 @@
     "discord.js": "^11.5.1",
     "dotenv": "^7.0.0",
     "node-opus": "^0.3.2",
-    "node.js": "10.16.0",
     "opusscript": "0.0.6",
     "ytdl-core": "^0.29.2"
   },
