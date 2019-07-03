@@ -1,6 +1,7 @@
 const kick = require('../commands/kick');
 const ban = require('../commands/ban');
 const summon = require('../commands/summon');
+const connect = require('../commands/connect');
 const disconnect = require('../commands/disconnect');
 const play = require('../commands/play');
 const skip = require('../commands/skip');
@@ -11,6 +12,20 @@ const prefix = '!';
 module.exports = (client, message) => {
 	
 	const queue = new Map();
+	// needed emojis for the reaction
+	const league = client.emojis.get("595323879669366795");
+	const hearthstone = client.emojis.get("595701361149214758");
+	const pokemon = client.emojis.get("595702626209890334");
+	const tft = client.emojis.get("595727327602933770");
+	
+	// reacts to the role giving message
+	if(message.channel.toString() == "<#595315586183987221>")
+	{
+		message.react(pokemon);
+		message.react(hearthstone);
+		message.react(league);
+		message.react(tft);
+	}
 	
 	if( message.content == 'ping')
 	{
@@ -48,7 +63,7 @@ module.exports = (client, message) => {
 		return disconnect(message);
 	}
   
-	// summon to a voice channel
+	// spam pings a user till they get fed up and check discord
 	if( message.content.startsWith(`${prefix}summon`)) 
 	{
 		return summon(message);
@@ -57,7 +72,7 @@ module.exports = (client, message) => {
 	// connect to a voice channel
 	if( message.content.startsWith(`${prefix}connect`)) 
 	{
-		return summon(message);
+		return connect(message);
 	}
 	
 	// play a song by url
