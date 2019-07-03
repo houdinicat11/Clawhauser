@@ -7,7 +7,7 @@ const play = require('../commands/play');
 const skip = require('../commands/skip');
 const stop = require('../commands/stop');
 const purge = require('../commands/purge');
-const prefix = '!';
+const prefix = '~';
 
 module.exports = (client, message) => {
 	
@@ -30,6 +30,15 @@ module.exports = (client, message) => {
 	if( message.content == 'ping')
 	{
 		message.reply('Pong!')
+		return;
+	}
+	
+	
+	
+	if( message.mentions.users.first() == "<@585483518822449214>")
+	{
+		message.reply('Is this the pussy you are looking for??');
+		console.log(`${message.mentions.users.first()}`);
 		return;
 	}
   
