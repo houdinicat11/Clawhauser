@@ -23,7 +23,12 @@ module.exports = (client, messageReaction, user) => {
 		else if(emoji.name == "TFT")
 		{
 			member.removeRole("595727355956428816");
-			console.log(`Removed the role "TFT" from ${member.user.tag}.`)
+			console.log(`Removed the role "TFT" from ${member.user.tag}.`);
+		}
+		else if(emoji.name == "minecraft")
+		{
+			member.removeRole("596714835077627926");
+			console.log(`Removed the role "Minecraft" from ${member.user.tag}.`);
 		}
 	}
 	

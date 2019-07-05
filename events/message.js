@@ -17,6 +17,7 @@ module.exports = (client, message) => {
 	const hearthstone = client.emojis.get("595701361149214758");
 	const pokemon = client.emojis.get("595702626209890334");
 	const tft = client.emojis.get("595727327602933770");
+	const minecraft = client.emojis.get("596713646609006593");
 	
 	// reacts to the role giving message
 	if(message.channel.toString() == "<#595315586183987221>")
@@ -25,6 +26,7 @@ module.exports = (client, message) => {
 		message.react(hearthstone);
 		message.react(league);
 		message.react(tft);
+		message.react(minecraft);
 	}
 	
 	if( message.content == 'ping')
