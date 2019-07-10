@@ -18,6 +18,7 @@ module.exports = (client, message) => {
 	const pokemon = client.emojis.get("595702626209890334");
 	const tft = client.emojis.get("595727327602933770");
 	const minecraft = client.emojis.get("596713646609006593");
+	const aoe = client.emojis.get("330949650519687169");
 	
 	// reacts to the role giving message
 	if(message.channel.toString() == "<#595315586183987221>")
@@ -27,6 +28,7 @@ module.exports = (client, message) => {
 		message.react(league);
 		message.react(tft);
 		message.react(minecraft);
+		message.react(aoe);
 	}
 	
 	if( message.content == 'ping')

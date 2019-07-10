@@ -1,8 +1,16 @@
 README
 
+Clawhouser isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games
+or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are
+trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
+
 // todo: everything
 
-packages:
+dependencies:
+	node.js
+
+
+packages: in bot directory
 	
 	npm init -y
 	npm install discord.js
@@ -13,20 +21,12 @@ packages:
 	npm install node-opus
 	ffmpeg-20190604-d81913e-win64-static
 	npm install discord.js-musicbot-addon
-	// npm install discord.js ffmpeg-binaries opusscript ytdl-core --save - not needed
-	// npm install dotenv - not needed
 	npm install ytdl-core
 	npm install ffmpeg-binaries
 	npm install ffmpeg-static
 	npm install ffmpeg
-	npm i ffmpeg-binaries
-	npm install discord.js opusscript
-	npm install discord.js node-opus
-	npm install Node.js
+	npm install opusscript
 	npm install node.js
-	choco install ffmpeg
-	cmd/powershell
-	cmd/powershell choco install ffmpeg
-	// choco install ffmpeg - not needed
-	choco upgrade ffmpeg
+	choco install ffmpeg - RUN AS ADMIN
+	choco upgrade ffmpeg - RUN AS ADMIN
 	

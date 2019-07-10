@@ -20,7 +20,7 @@ module.exports = message => {
 	if(member != undefined)
 	{
 		// member in text form
-		var text = member.user.toString()
+		var text = member.user.toString();
 	
 		// make string
 		while(j < pingsPerMessage)
@@ -36,10 +36,10 @@ module.exports = message => {
 			i++;
 		}
 	}
-	else if(role != undefined);
+	else if(role != undefined)
 	{
 		// role in text form
-		var text = role.toString()
+		var text = role.toString();
 		
 		// make string
 		while(j < pingsPerMessage)
@@ -54,6 +54,10 @@ module.exports = message => {
 			channel.send(`${text}`);
 			i++;
 		}
+	}
+	else
+	{
+		message.reply("You did not entry a valid person or role");
 	}
    
 }
