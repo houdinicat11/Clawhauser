@@ -16,13 +16,16 @@ client.commands = new Discord.Collection();
 const queue = new Map();
 
 
-fs.readdir("./events/", (err, files) => {
-  files.forEach(file => {
+fs.readdir("./events/", (err, files) => 
+{
+  files.forEach(file => 
+  {
     const eventHandler = require(`./events/${file}`);
     const eventName = file.split(".")[0];
     client.on(eventName, (...args) => eventHandler(client, ...args));
   });
 });
+
 
 
 

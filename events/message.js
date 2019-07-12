@@ -42,7 +42,6 @@ module.exports = (client, message) => {
 	if( message.mentions.users.first() == "<@585483518822449214>")
 	{
 		message.reply('Is this the pussy you are looking for??');
-		console.log(`${message.mentions.users.first()}`);
 		return;
 	}
   
