@@ -4,7 +4,29 @@ Clawhouser isn’t endorsed by Riot Games and doesn’t reflect the views or opi
 or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are
 trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
 
-// todo: everything
+todo/work in progress
+	~ help command
+	~ music based on search criteria
+	~ auto delete messages
+	~ obtain the infinity gauntlet
+
+This is just a simple javascript bot for my discord server that I am using to learn javascript.
+
+Current Functionalities:
+	~ Add roles based on message reaction
+	~ Send messages to new players who join
+	~ play music based on youtube URL
+	~ skips songs
+	~ stops playing
+	~ summon to a voice channel
+	~ kick people
+	~ ban people
+	~ ping people many many time (summon them by sheer amount of pings)
+	~ add the basic role to anyone who joins the server
+	~ log channel creation/deletion + sends message
+	~ log emoji creation/deletion + sends message
+	~ simple message replies
+	~ mass deletes channel messages via the purge command
 
 dependencies:
 	node.js
