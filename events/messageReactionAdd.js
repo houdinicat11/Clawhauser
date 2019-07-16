@@ -35,5 +35,9 @@ module.exports = (client, messageReaction, user) => {
 			member.addRole("598577349746884635");
 			console.log(`Added the role "Age of Empires" to ${member.user.tag}.`);
 		}
+		else
+		{
+			console.log(`${emoji.id}`);
+		}
 	}
 }

@@ -7,9 +7,9 @@ const play = require('../commands/play');
 const skip = require('../commands/skip');
 const stop = require('../commands/stop');
 const purge = require('../commands/purge');
-const prefix = '~';
+const help = require('../commands/help');
 
-module.exports = (client, message) => {
+module.exports = (client, message, prefix) => {
 	
 	const queue = new Map();
 	// needed emojis for the reaction
@@ -114,6 +114,13 @@ module.exports = (client, message) => {
 		nowplaying.execute(message);
 		return;
 	}
+	
+	// help command
+	if( message.content.startsWith(`${prefix}help`))
+	{
+		return help(message, prefix);
+	}
+			
 	
 	if( message.content.startsWith(`${prefix}purge`))
 	{
