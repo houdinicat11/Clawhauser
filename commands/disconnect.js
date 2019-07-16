@@ -5,5 +5,8 @@ module.exports = message => {
 		voiceChannel.leave()
         console.log('Disconnected!');
 		txtChannel.send('`See Ya Later, Meow!`');
+		
+		message.delete(5000);
+		
 		return;
 }

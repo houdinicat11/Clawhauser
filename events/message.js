@@ -10,8 +10,6 @@ const purge = require('../commands/purge');
 const help = require('../commands/help');
 
 module.exports = (client, message, prefix) => {
-	
-	const queue = new Map();
 	// needed emojis for the reaction
 	const league = client.emojis.get("595323879669366795");
 	const hearthstone = client.emojis.get("595701361149214758");

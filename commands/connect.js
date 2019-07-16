@@ -10,4 +10,6 @@ module.exports = message => {
         .then(connection => console.log('Connected!'))
 		.then(() => message.reply(`\`Connected to ${voiceChannel.name}\``))
         .catch(console.error);
+		
+		message.delete(5000);
 }
