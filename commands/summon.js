@@ -8,9 +8,22 @@ module.exports = message => {
 	// gets the role mentioned in the command
 	const role = message.mentions.roles.first();
 	
+	const full = message.content.split(' ');
+	
+	
 	// sets the number of pings per message and then the number of pings default: 100 / pingsPerMessage minimum 1 message
 	const pingsPerMessage = 10;
-	const numPings = Math.ceil(100 / pingsPerMessage);
+	var numPings = full[2];
+	if( numPings == undefined ) 
+	{
+		numPings = Math.ceil(100 / pingsPerMessage);
+	}
+	else
+	{
+		numPings = parseInt(numPings);
+		numPings = Math.ceil(numPings / pingsPerMessage);
+	}
+	
 	
 	// trash vars
 	var i = 0;
