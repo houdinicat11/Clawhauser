@@ -16,7 +16,7 @@ module.exports = (client, message, prefix) => {
 	const pokemon = client.emojis.get("595702626209890334");
 	const tft = client.emojis.get("595727327602933770");
 	const minecraft = client.emojis.get("596713646609006593");
-	const aoe = client.emojis.get("330949650519687169");
+	const aoe = client.emojis.get("601065192411103232");
 	
 	// reacts to the role giving message
 	if(message.channel.toString() == "<#595315586183987221>")

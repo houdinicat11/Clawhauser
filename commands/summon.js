@@ -11,7 +11,7 @@ module.exports = message => {
 	const full = message.content.split(' ');
 	
 	
-	// sets the number of pings per message and then the number of pings default: 100 / pingsPerMessage minimum 1 message
+	// sets the number of pings per message and then the number of pings default: 100 / pingsPerMessage minimum 1 message of 10 pings
 	const pingsPerMessage = 10;
 	var numPings = full[2];
 	if( numPings == undefined ) 

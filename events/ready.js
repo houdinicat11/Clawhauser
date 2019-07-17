@@ -5,7 +5,7 @@ module.exports = client => {
   const pokemon = client.emojis.get("595702626209890334");
   const tft = client.emojis.get("595727327602933770");
   const minecraft = client.emojis.get("596713646609006593");
-  const aoe = client.emojis.get("330949650519687169");
+  const aoe = client.emojis.get("601065192411103232");
   const channel = client.channels.get("595315586183987221");
   var channelMess = client.channels.get("595315586183987221");
   const lastMessID = channel.fetchMessage(`${channel.lastMessageID}`);

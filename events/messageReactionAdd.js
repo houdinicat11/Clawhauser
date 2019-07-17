@@ -2,8 +2,9 @@ module.exports = (client, messageReaction, user) => {
 	const channel = messageReaction.message.channel;
 	const emoji = messageReaction.emoji;
 	const member = messageReaction.message.guild.members.get(`${user.id}`);
+	const rolesChannel = client.channels.get('595315586183987221');
 	
-	if(channel.toString() == "<#595315586183987221>")
+	if(channel == rolesChannel)
 	{
 		if(emoji.name == "league")
 		{
@@ -35,5 +36,9 @@ module.exports = (client, messageReaction, user) => {
 			member.addRole("598577349746884635");
 			console.log(`Added the role "Age of Empires" to ${member.user.tag}.`);
 		}
+		/*else
+		{
+			console.log(`${emoji.id}`);
+		}*/
 	}
 }

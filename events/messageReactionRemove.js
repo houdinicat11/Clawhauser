@@ -2,8 +2,9 @@ module.exports = (client, messageReaction, user) => {
 	const channel = messageReaction.message.channel;
 	const emoji = messageReaction.emoji;
 	const member = messageReaction.message.guild.members.get(`${user.id}`);
+	const rolesChannel = client.channels.get('595315586183987221');
 	
-	if(channel.toString() == "<#595315586183987221>")
+	if(channel == rolesChannel)
 	{
 		if(emoji.name == "league")
 		{
@@ -29,6 +30,11 @@ module.exports = (client, messageReaction, user) => {
 		{
 			member.removeRole("596714835077627926");
 			console.log(`Removed the role "Minecraft" from ${member.user.tag}.`);
+		}
+		else if(emoji.name == "wololo")
+		{
+			member.removeRole("598577349746884635");
+			console.log(`Removed the role "Age of Empires" from ${member.user.tag}.`);
 		}
 	}
 	
