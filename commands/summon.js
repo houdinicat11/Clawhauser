@@ -16,17 +16,16 @@ module.exports = message => {
 	var numPings = full[2];
 	if( numPings == undefined ) 
 	{
-		numPings = Math.ceil(100 / pingsPerMessage);
+		numPings = 100;
 	}
 	else
 	{
 		numPings = parseInt(numPings);
-		numPings = Math.ceil(numPings / pingsPerMessage);
 	}
 	
 	
 	// trash vars
-	var i = 0;
+	var i = 10;
 	var j = 1;
 	
 	// role or member
@@ -46,8 +45,18 @@ module.exports = message => {
 		while(i < numPings)
 		{
 			channel.send(`${text}`);
+			i +=10;
+		}
+		
+		i -= 10
+		text = member.user.toString();
+		while(i < numPings - 1)
+		{
+			text += member.user.toString();
 			i++;
 		}
+		
+		channel.send(`${text}`);
 	}
 	else if(role != undefined)
 	{
@@ -65,8 +74,18 @@ module.exports = message => {
 		while(i < numPings)
 		{
 			channel.send(`${text}`);
+			i += 10;
+		}
+		
+		i -= 10;
+		text = role.toString();
+		while(i < numPings - 1)
+		{
+			text += role.toString();
 			i++;
 		}
+		
+		channel.send(`${text}`);
 	}
 	else
 	{
