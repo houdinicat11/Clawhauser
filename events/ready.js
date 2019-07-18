@@ -11,7 +11,7 @@ module.exports = client => {
   const lastMessID = channel.fetchMessage(`${channel.lastMessageID}`);
   
   
-  client.user.setActivity("Meow!!");
+  client.user.setActivity("Knights Hospitaller");
   
   // deletes the previous role message
   channelMess.fetchMessage(`${channel.lastMessageID}`)

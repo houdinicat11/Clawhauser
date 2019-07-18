@@ -17,9 +17,10 @@ module.exports = (client, message, prefix) => {
 	const tft = client.emojis.get("595727327602933770");
 	const minecraft = client.emojis.get("596713646609006593");
 	const aoe = client.emojis.get("601065192411103232");
+	const rolesChannel = client.channels.get('595315586183987221');
 	
 	// reacts to the role giving message
-	if(message.channel.toString() == "<#595315586183987221>")
+	if(message.channel == rolesChannel)
 	{
 		message.react(pokemon);
 		message.react(hearthstone);
@@ -35,11 +36,17 @@ module.exports = (client, message, prefix) => {
 		return;
 	}
 	
-	
-	
 	if( message.mentions.users.first() == "<@585483518822449214>")
 	{
-		message.reply('Is this the pussy you are looking for??');
+		var randomNum = Math.floor(Math.random() * 10);
+		if(randomNum < 5)
+		{
+			message.reply('Deus Vult');
+		}
+		else
+		{
+			message.reply('Is this the pussy you\'re looking for??');
+		}
 		return;
 	}
   
