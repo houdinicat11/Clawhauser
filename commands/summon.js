@@ -48,14 +48,18 @@ module.exports = message => {
 			i +=10;
 		}
 		
-		i -= 10
+		// set the counter back
+		i -= 10;
+		// reset the string
 		text = member.user.toString();
+		// make string
 		while(i < numPings - 1)
 		{
 			text += member.user.toString();
 			i++;
 		}
 		
+		// ping
 		channel.send(`${text}`);
 	}
 	else if(role != undefined)
@@ -77,18 +81,23 @@ module.exports = message => {
 			i += 10;
 		}
 		
+		// set counter back
 		i -= 10;
+		// reset string
 		text = role.toString();
+		// make string
 		while(i < numPings - 1)
 		{
 			text += role.toString();
 			i++;
 		}
 		
+		// ping
 		channel.send(`${text}`);
 	}
 	else
 	{
+		// invalid person/role
 		message.reply("You did not entry a valid person or role");
 	}
    

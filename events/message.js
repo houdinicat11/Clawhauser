@@ -10,24 +10,26 @@ const purge = require('../commands/purge');
 const help = require('../commands/help');
 
 module.exports = (client, message, prefix) => {
-	// needed emojis for the reaction
-	const league = client.emojis.get("595323879669366795");
-	const hearthstone = client.emojis.get("595701361149214758");
-	const pokemon = client.emojis.get("595702626209890334");
-	const tft = client.emojis.get("595727327602933770");
-	const minecraft = client.emojis.get("596713646609006593");
-	const aoe = client.emojis.get("601065192411103232");
-	const rolesChannel = client.channels.get('595315586183987221');
 	
-	// reacts to the role giving message
-	if(message.channel == rolesChannel)
+	const trebuchet = client.emojis.get("601064767431639040");
+	var splitMess = message.content.toLowerCase().split(' ');
+	var found = false;
+	var i = 0;
+	
+	while(splitMess[i] && !found)
 	{
-		message.react(pokemon);
-		message.react(hearthstone);
-		message.react(league);
-		message.react(tft);
-		message.react(minecraft);
-		message.react(aoe);
+		if(splitMess[i] == "artillery")
+		{
+			message.channel.send("*Mortars rain down from the sky*");
+			found = true;
+		}
+		else if(splitMess[i] == "trebuchet")
+		{
+			message.react("601064767431639040");
+			message.channel.send("*Launches 90kg stones 300 meters*");
+			found = true;
+		}
+		i++;
 	}
 	
 	if( message.content == 'ping')
