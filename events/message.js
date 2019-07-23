@@ -12,6 +12,7 @@ const help = require('../commands/help');
 module.exports = (client, message, prefix) => {
 	
 	const trebuchet = client.emojis.get("601064767431639040");
+	const clawhauser = "<@585483518822449214>"
 	var splitMess = message.content.toLowerCase().split(' ');
 	var found = false;
 	var i = 0;
@@ -38,7 +39,7 @@ module.exports = (client, message, prefix) => {
 		return;
 	}
 	
-	if( message.mentions.users.first() == "<@585483518822449214>")
+	if( message.mentions.users.first() == clawhauser && message.author != clawhauser)
 	{
 		var randomNum = Math.floor(Math.random() * 10);
 		if(randomNum < 5)
@@ -50,6 +51,11 @@ module.exports = (client, message, prefix) => {
 			message.reply('Is this the pussy you\'re looking for??');
 		}
 		return;
+	}
+	
+	if(message.isMentioned("304765038273495040") && message.author != clawhauser)
+	{
+		message.reply("You dare summon the overlord like some common whore!!!!");
 	}
   
 	if(message.content === 'here kitty')
