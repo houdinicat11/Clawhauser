@@ -11,8 +11,6 @@ const ytdl = require('ytdl-core');
 //const client = new Discord.Client();
 const client = new Client();
 
-const queue = new Map();
-
 
 fs.readdir("./events/", (err, files) => 
 {
@@ -20,7 +18,7 @@ fs.readdir("./events/", (err, files) =>
   {
     const eventHandler = require(`./events/${file}`);
     const eventName = file.split(".")[0];
-    client.on(eventName, (...args) => eventHandler(client, ...args, prefix, queue));
+    client.on(eventName, (...args) => eventHandler(client, ...args, prefix));
   });
 });
 
