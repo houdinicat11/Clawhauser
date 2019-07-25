@@ -13,7 +13,7 @@ module.exports = (client, messageReaction, user) => {
 	
 	if(emoji == f)
 	{
-		channel.send(`${user.tag} has paid respects`);
+		channel.send(`${user.tag} has paid respects to ${messageReaction.message.author.tag}`);
 	}
 	
 	if(channel == rolesChannel)

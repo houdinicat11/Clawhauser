@@ -1,9 +1,11 @@
-require("dotenv").config();
+
 const Discord = require("discord.js");
+
+const config = require("./config.json");
 
 const Client = require('./client/Client');
 
-const prefix = '~';
+const prefix = config.prefix;
 
 
 const fs = require("fs");
@@ -23,4 +25,4 @@ fs.readdir("./events/", (err, files) =>
 });
 
 
-client.login(process.env.BOT_TOKEN);
+client.login(config.token);
