@@ -1,17 +1,9 @@
-
 const Discord = require("discord.js");
-
 const config = require("./config.json");
-
-const Client = require('./client/Client');
-
 const prefix = config.prefix;
-
-
 const fs = require("fs");
 const ytdl = require('ytdl-core');
-//const client = new Discord.Client();
-const client = new Client();
+const client = new Discord.Client();
 
 
 fs.readdir("./events/", (err, files) => 

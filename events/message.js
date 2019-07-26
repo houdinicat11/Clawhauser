@@ -38,6 +38,11 @@ module.exports = (client, message, prefix) => {
 		message.reply('Pong!')
 		return;
 	}
+	else if(message.content == "side chest")
+	{
+		message.channel.send("https://tenor.com/view/muscles-popping-body-building-dumbbell-nan-kilo-moteru-anime-gif-14489924");
+		return;
+	}
 	
 	if( message.mentions.users.first() == clawhauser && message.author != clawhauser)
 	{
@@ -55,7 +60,11 @@ module.exports = (client, message, prefix) => {
 	
 	if(message.isMentioned("304765038273495040") && message.author != clawhauser)
 	{
-		message.reply("You dare summon the overlord like some common whore!!!!");
+		var randomNum = Math.floor(Math.random() * 1000);
+		if(randomNum > 550 && randomNum < 565)
+		{
+			message.reply("You dare summon the overlord like some common whore!!!!");
+		}
 	}
   
 	if(message.content === 'here kitty')
