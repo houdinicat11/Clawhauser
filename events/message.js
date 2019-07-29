@@ -43,6 +43,16 @@ module.exports = (client, message, prefix) => {
 		message.channel.send("https://tenor.com/view/muscles-popping-body-building-dumbbell-nan-kilo-moteru-anime-gif-14489924");
 		return;
 	}
+	else if(message.content == "cherry" || message.content == "letoleto")
+	{
+		message.channel.send("https://cdn.weeb.sh/images/HJq3TuQw-.gif");
+		return;
+	}
+	else if(message.content == "dodge")
+	{
+		message.channel.send("https://tenor.com/view/dodge-anime-gif-9449699");
+		return;
+	}
 	
 	if( message.mentions.users.first() == clawhauser && message.author != clawhauser)
 	{
