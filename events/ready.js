@@ -1,9 +1,4 @@
-module.exports = client => {
-  ready(client);
-};
-
-
-async function ready(client)
+module.exports = async function ready(client) 
 {
   console.log(`Logged in as ${client.user.tag}!`);
   const league = client.emojis.get("595323879669366795");
@@ -35,4 +30,5 @@ async function ready(client)
   await channelMess.react(aoe);
 	
 	
-}
+};
+

@@ -1,3 +1,4 @@
+// commands
 const kick = require('../commands/kick');
 const ban = require('../commands/ban');
 const summon = require('../commands/summon');
@@ -11,28 +12,35 @@ const help = require('../commands/help');
 
 module.exports = (client, message, prefix) => {
 	
+	// emotes
 	const trebuchet = client.emojis.get("601064767431639040");
+	// people
 	const clawhauser = "<@585483518822449214>";
 	const houdinicat11 = "304765038273495040";
+	// message but split up
 	var splitMess = message.content.toLowerCase().split(' ');
 	
+	// error checking to advoid infinite loops
 	if(message.author == clawhauser)
 	{
 		return;
 	}
 	
+	// message parsing
 	if(messageParse(splitMess, message))
 	{
 		return;
 	}
 	
+	// basicially a connectivity test
 	if( message.content == 'ping')
 	{
 		message.reply('Pong!');
 		return;
 	}
 	
-	if( message.mentions.users.first() == clawhauser)
+	// message replay for @clawhauser
+	if( message.isMentioned(clawhauser))
 	{
 		var randomNum = Math.floor(Math.random() * 10);
 		if(randomNum < 5)
@@ -46,10 +54,11 @@ module.exports = (client, message, prefix) => {
 		return;
 	}
 	
+	// message reply that happens 5% of the time if I get pinged
 	if(message.isMentioned(houdinicat11))
 	{
 		var randomNum = Math.floor(Math.random() * 1000);
-		if(randomNum > 550 && randomNum < 565)
+		if(randomNum > 550 && randomNum < 600)
 		{
 			message.reply("You dare summon the overlord like some common whore!!!!");
 		}
@@ -125,7 +134,7 @@ module.exports = (client, message, prefix) => {
 		return help(message, prefix);
 	}
 			
-	
+	// purge command and commadn error
 	if( message.content.startsWith(`${prefix}purge`))
 	{
 		purge.execute(message);
@@ -143,8 +152,11 @@ module.exports = (client, message, prefix) => {
 function messageParse(splitMess, message)
 {
 	var i = 0;
+	
+	// loop throught the message
 	while(splitMess[i])
 	{
+		// check and react to key words
 		if(splitMess[i] == "artillery")
 		{
 			message.channel.send("*Mortars rain down from the sky*");
@@ -152,22 +164,26 @@ function messageParse(splitMess, message)
 		}
 		else if(splitMess[i] == "trebuchet")
 		{
+			// reacts with trebuchet emoji
 			message.react("601064767431639040");
 			message.channel.send("*Launches 90kg stones 300 meters*");
 			return true;
 		}
 		else if(splitMess[i] == "side" && splitMess[i+1] == "chest")
 		{
+			// dumbbell nan kilo gif
 			message.channel.send("https://tenor.com/view/muscles-popping-body-building-dumbbell-nan-kilo-moteru-anime-gif-14489924");
 			return true;
 		}
 		else if(splitMess[i] == "cherry" || splitMess[i] == "letoleto")
 		{
+			// cherry tongue gif
 			message.channel.send("https://cdn.weeb.sh/images/HJq3TuQw-.gif");
 			return true;
 		}
 		else if(splitMess[i] == "dodge" || splitMess[i] == "dodged")
 		{
+			// dodge gif
 			message.channel.send("https://tenor.com/view/dodge-anime-gif-9449699");
 			return true;
 		}
@@ -178,6 +194,7 @@ function messageParse(splitMess, message)
 		}
 		i++;
 	}
+	// returns true if those words are found, flase otherwise
 	return false;
 	
 }
