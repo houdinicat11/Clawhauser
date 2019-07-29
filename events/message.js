@@ -12,75 +12,47 @@ const help = require('../commands/help');
 module.exports = (client, message, prefix) => {
 	
 	const trebuchet = client.emojis.get("601064767431639040");
-	const clawhauser = "<@585483518822449214>"
+	const clawhauser = "<@585483518822449214>";
+	const houdinicat11 = "304765038273495040";
 	var splitMess = message.content.toLowerCase().split(' ');
-	var found = false;
-	var i = 0;
 	
-	while(splitMess[i] && !found)
+	if(message.author == clawhauser)
 	{
-		if(splitMess[i] == "artillery")
-		{
-			message.channel.send("*Mortars rain down from the sky*");
-			found = true;
-		}
-		else if(splitMess[i] == "trebuchet")
-		{
-			message.react("601064767431639040");
-			message.channel.send("*Launches 90kg stones 300 meters*");
-			found = true;
-		}
-		i++;
+		return;
+	}
+	
+	if(messageParse(splitMess, message))
+	{
+		return;
 	}
 	
 	if( message.content == 'ping')
 	{
-		message.reply('Pong!')
-		return;
-	}
-	else if(message.content == "side chest")
-	{
-		message.channel.send("https://tenor.com/view/muscles-popping-body-building-dumbbell-nan-kilo-moteru-anime-gif-14489924");
-		return;
-	}
-	else if(message.content == "cherry" || message.content == "letoleto")
-	{
-		message.channel.send("https://cdn.weeb.sh/images/HJq3TuQw-.gif");
-		return;
-	}
-	else if(message.content == "dodge")
-	{
-		message.channel.send("https://tenor.com/view/dodge-anime-gif-9449699");
+		message.reply('Pong!');
 		return;
 	}
 	
-	if( message.mentions.users.first() == clawhauser && message.author != clawhauser)
+	if( message.mentions.users.first() == clawhauser)
 	{
 		var randomNum = Math.floor(Math.random() * 10);
 		if(randomNum < 5)
 		{
-			message.reply('Deus Vult');
+			message.reply("Deus Vult");
 		}
 		else
 		{
-			message.reply('Is this the pussy you\'re looking for??');
+			message.reply("Is this the pussy you're looking for??");
 		}
 		return;
 	}
 	
-	if(message.isMentioned("304765038273495040") && message.author != clawhauser)
+	if(message.isMentioned(houdinicat11))
 	{
 		var randomNum = Math.floor(Math.random() * 1000);
 		if(randomNum > 550 && randomNum < 565)
 		{
 			message.reply("You dare summon the overlord like some common whore!!!!");
 		}
-	}
-  
-	if(message.content === 'here kitty')
-	{
-		message.reply('Meow, I am here now Prrrrrr...')
-		return;
 	}
   
 	// ban a member
@@ -167,5 +139,47 @@ module.exports = (client, message, prefix) => {
 	
 	
 };
+
+function messageParse(splitMess, message)
+{
+	var i = 0;
+	while(splitMess[i])
+	{
+		if(splitMess[i] == "artillery")
+		{
+			message.channel.send("*Mortars rain down from the sky*");
+			return true;
+		}
+		else if(splitMess[i] == "trebuchet")
+		{
+			message.react("601064767431639040");
+			message.channel.send("*Launches 90kg stones 300 meters*");
+			return true;
+		}
+		else if(splitMess[i] == "side" && splitMess[i+1] == "chest")
+		{
+			message.channel.send("https://tenor.com/view/muscles-popping-body-building-dumbbell-nan-kilo-moteru-anime-gif-14489924");
+			return true;
+		}
+		else if(splitMess[i] == "cherry" || splitMess[i] == "letoleto")
+		{
+			message.channel.send("https://cdn.weeb.sh/images/HJq3TuQw-.gif");
+			return true;
+		}
+		else if(splitMess[i] == "dodge" || splitMess[i] == "dodged")
+		{
+			message.channel.send("https://tenor.com/view/dodge-anime-gif-9449699");
+			return true;
+		}
+		else if(splitMess[i] == "here" && splitMess[i+1] == "kitty")
+		{
+			message.reply('Meow, I am here now Prrrrrr...')
+			return true;
+		}
+		i++;
+	}
+	return false;
+	
+}
 
 
