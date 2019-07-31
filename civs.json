@@ -1,0 +1,19 @@
+{
+    "Aztecs": {
+        "civType": "Infantry & Monk Civilization",
+        "civBonus": " - Villagers carry capacity +5 \n - All Military Units are created 15% faster \n - Monks gain 5 HP for every tech researched at the Monastery \n - Loom Tech free \n - No Gunpowder or Cavalry Units \n - Scout Cavalry is replaced by Eagle Scout",
+        "teamBonus": " - Relics generate +33% Gold",
+        "techs": " - Garland Wars - Increases Infantry attack by +4",
+        "units": " - Jaguar Warrior (Anti-Infantry Unit)"
+    },
+    "Berbers": {
+		"civType": "Cavalry and Naval Civilization",
+        "civBonus": " - Villagers move +10% faster \n - Stable units cost -20% (starting in castle age) \n - Ships move +10% faster",
+        "teamBonus": " - Genitour availible at Archery Range",
+        "techs": " - Kasbah: Team castles work +25% faster \n - Maghrabi Camels: Camel troops regenerate",
+        "units": " - Camel Archer: Cavalry Archer with bonus against cavalry archers \n - Genitour: Mounted Skirmisher"
+	}
+    
+    
+    
+}

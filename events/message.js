@@ -9,6 +9,7 @@ const skip = require('../commands/skip');
 const stop = require('../commands/stop');
 const purge = require('../commands/purge');
 const help = require('../commands/help');
+const civ = require('../commands/civ');
 
 module.exports = (client, message, prefix) => {
 	
@@ -64,14 +65,19 @@ module.exports = (client, message, prefix) => {
 		}
 	}
   
+	if(message.content.startsWith(`${prefix}civ`))
+	{
+		return civ(message);
+	}
+  
 	// ban a member
-	if (message.content.startsWith(`${prefix}ban`)) 
+	if(message.content.startsWith(`${prefix}ban`)) 
 	{
 		return ban(message);
 	}
   
 	// kick a member
-	if (message.content.startsWith(`${prefix}kick`)) 
+	if(message.content.startsWith(`${prefix}kick`)) 
 	{
 		return kick(message);
 	}
@@ -190,6 +196,11 @@ function messageParse(splitMess, message)
 		else if(splitMess[i] == "here" && splitMess[i+1] == "kitty")
 		{
 			message.reply('Meow, I am here now Prrrrrr...')
+			return true;
+		}
+		else if(splitMess[i] == "weeb")
+		{
+			message.channel.send("https://tenor.com/view/japan-anime-kawaii-sugoi-gif-4761309");
 			return true;
 		}
 		i++;
