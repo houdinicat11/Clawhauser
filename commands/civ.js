@@ -3,9 +3,9 @@
 module.exports = message => {
 	
     var splitMess = message.content.toLowerCase().split(' ');
-	splitMess[0] = splitMess[0].substr(1);
     var i = 0;
-    if(splitMess[1] == "help" || (splitMess[0] == "civ" && !splitMess[1]))
+	var found = false;
+    if(splitMess[1] == "help" || !splitMess[1])
     {
         var text = "Your choices are: ```";
         while(civs[i])
@@ -13,24 +13,47 @@ module.exports = message => {
             text = text + civs[i] + ", ";
 			i++;
         }
+		i = text.lastIndexOf(',');
+		text = text.slice(0,i);
 		text += "```"
         message.reply(text);
 		return;
     }
 	
 	i = 0;
-	while(splitMess[1] != civs[i].toLowerCase())
+	while(i != 35 && splitMess[1] != civs[i].toLowerCase())
 	{
 		i++;
 	}
 	if( i == 35 )
 	{
-		var text = "Your choices are: ```";
+		var firstChar = splitMess[1].charAt(0).toUpperCase();
+		i = 0;
+		var text = "Did you mean: ```";
         while(civs[i])
         {
-            text = text + civs[i] + ", ";
+			if(civs[i].startsWith(firstChar))
+			{
+				text = text + civs[i] + ", ";
+				found = true;
+			}
 			i++;
         }
+		
+		
+		if(!found)
+		{
+			i = 0;
+			text = "Your choices are: ```";
+			while(civs[i])
+			{
+				text = text + civs[i] + ", ";
+				i++;
+			}
+			
+		}
+		i = text.lastIndexOf(',');
+		text = text.slice(0,i);
 		text += "```"
         message.reply(text);
 		return;
@@ -40,8 +63,7 @@ module.exports = message => {
     return;
 }
 
-
-
+ 
 /*
 
     

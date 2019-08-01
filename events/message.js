@@ -10,6 +10,7 @@ const stop = require('../commands/stop');
 const purge = require('../commands/purge');
 const help = require('../commands/help');
 const civ = require('../commands/civ');
+const unit = require('../commands/units');
 
 module.exports = (client, message, prefix) => {
 	
@@ -68,6 +69,11 @@ module.exports = (client, message, prefix) => {
 	if(message.content.startsWith(`${prefix}civ`))
 	{
 		return civ(message);
+	}
+	
+	if(message.content.startsWith(`${prefix}unit`))
+	{
+		return unit(message);
 	}
   
 	// ban a member

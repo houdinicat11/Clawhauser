@@ -11,7 +11,7 @@
         "civBonus": " - Villagers move +10% faster \n - Stable units cost -20% (starting in castle age) \n - Ships move +10% faster",
         "teamBonus": " - Genitour availible at Archery Range",
         "techs": " - Kasbah: Team castles work +25% faster \n - Maghrabi Camels: Camel troops regenerate",
-        "units": " - Camel Archer: Cavalry Archer with bonus against cavalry archers \n - Genitour: Mounted Skirmisher"
+        "units": " - Camel Archer (Cavalry Archer with bonus against cavalry archers) \n - Genitour (Mounted Skirmisher)"
 	},
 	"Britons": {
 		"civType": "Foot-Archer Civilization",
@@ -32,7 +32,7 @@
 		"civBonus": " - Free Lumber Camp Upgrades \n - Infantry +1 Attack per Age (Starting in Feudal Age) \n - Monastery techs 50% cheaper",
 		"teamBonus": " - Relics are visible on the mini map",
 		"techs": " - Howdah: Battle Elephants get +1/+2 armor \n - Manipur Cavalry: Cavalry and Arambai get +6 attack versus buildings",
-		"units": " - Arambai: A powerful, but inaccurate cavalry"
+		"units": " - Arambai {A powerful, but inaccurate cavalry archer)"
 	},
 	"Byzantines": {
 		"civType": "Defensive Civilization ",
@@ -67,7 +67,7 @@
 		"civBonus": " - Archers move +15% faster \n - Receive +100 gold, +100 food when advancing to the next age \n - Pikemen and Halberdier upgrades free",
 		"teamBonus": " - Towers and Outposts +3 LOS",
 		"techs": " - Royal Heirs: Shotel Warriors are created nearly instantly \n Torsion Engines: Siege workshop units blast radius increase",
-		"units": " - Shotel Warrior: Cheap, quick to build infantry"
+		"units": " - Shotel Warrior (Cheap, quick to build infantry)"
 	},
 	"Franks": {
 		"civType": "Cavalry Civilization",
@@ -95,21 +95,21 @@
 		"civBonus": " - Start with a free llama \n - Villagers affected by Blacksmith upgrades \n - Houses support 10 population \n - Buildings cost -15% stone \n - Scout Cavalry is replaced by Eagle Scout",
 		"teamBonus": " - Farms built 50% faster",
 		"techs": " - Couriers: Eagle Warriors, Slingers and Kamayuks +1/+2 armor \n - Andean Sling: Skirmishers and Slingers have no minimum range",
-		"units": " - Kamayuk: Infantry with a massive spear \n - Slinger: Anti-infantry archer"
+		"units": " - Kamayuk (Infantry with a massive spear) \n - Slinger (Anti-infantry archer)"
 	},
 	"Indians": {
 		"civType": "Gunpowder and Cavalry Civilization",
 		"civBonus": " - Villagers cost -10% Dark, -15% Feudal, -20% Castle, -25% Imperial \n - Fishermen work 15% faster and carry +15 \n - Camels +1/+1 armor",
 		"teamBonus": " - Camels +5 attack vs. buildings",
 		"techs": " - Sultans: All gold income +10% \n - Shatagni: Hand Cannoneers get +1 Range",
-		"units": " - Elephant Archer: Archer riding an elephant \n - Imperial Camel: Upgrade for Heavy Camel"
+		"units": " - Elephant Archer (Archer riding an elephant) \n - Imperial Camel (Upgrade for Heavy Camel)"
 	},
 	"Italians": {
 		"civType": "Archer and Naval Civilization",
 		"civBonus": " - Advancing to next age costs -15% \n - All dock techs cost -50% \n - Fishing ship cost -15 wood \n - Gunpowder units cost -25%",
 		"teamBonus": " - Condottiero also available in allies' barracks in Imperial Age (once you have built a castle)",
 		"techs": " - Pavise: Foot Archers +1/+1 armor \n - Silk Road: Trade units cost -50%",
-		"units": " - Genoese Crossbowman: Archer with bonus against cavalry \n - Condottiero: Infantry with bonus against gunpowder units"
+		"units": " - Genoese Crossbowman (Archer with bonus against cavalry) \n - Condottiero (Infantry with bonus against gunpowder units)"
 	},
 	"Japanese": {
 		"civType": "Infantry Civilization ",
@@ -123,7 +123,7 @@
 		"civBonus": " - Prereq buildings aren't required to advance to further ages or unlock other buildings (i.e., a castle is not required to advance to the Imp age or a blacksmith is not required to build a siege workshop) \n - Battle Elephants are +15% faster \n - Villagers can garrison in Houses",
 		"teamBonus": " - Scorpions have +1 range",
 		"techs": " - Tusk Swords: Battle Elephants get +3 attack \n - Double Crossbow: Ballista Elephants and Scorpions shoot two projectiles",
-		"units": " - Ballista Elephant: A cavalry siege unit"
+		"units": " - Ballista Elephant (A cavalry siege unit)"
 	},
 	"Koreans": {
 		"civType": "Tower and Naval Civilization ",
@@ -137,28 +137,28 @@
 		"civBonus": " - Start with +150 food \n - Spearman-line and Skirmishers cost no wood \n - Each garrisoned relic gives +1 attack to calvary units (maximun +5)",
 		"teamBonus": " - Monasteries work 20% faster",
 		"techs": " - Hill Forts: Town Center +3 range \n - Tower Shields: Spearman-line and Skirmishers +1P armor",
-		"units": " - Leitis: Calvery that ignores armor"
+		"units": " - Leitis (Calvery that ignores armor)"
 	},
 	"Magyars": {
 		"civType": "Cavalry Infantry Civilization",
 		"civBonus": " - Villagers can kill wolves with 1 strike \n - Forging, Iron Casting, Blast Furnace free \n - Scout Cavalry, Light Cavalry, Hussar cost -15%",
 		"teamBonus": " - Foot Archers +2 LOS",
 		"techs": " - Mercenaries: Magyar Huszar costs no gold \n - Recurve Bow: Cavalry archers get +1 range, +1 attack",
-		"units": " - Magyar Huszar: Cheap Light Cavalry"
+		"units": " - Magyar Huszar (Cheap Light Cavalry)"
 	},
 	"Malay": {
 		"civType": "Naval Civilization",
 		"civBonus": " - Advancing to Ages +80% faster \n - Fish Traps cost -33% \n - Fish Traps provide unlimited food \n - Battle Elephants 25% cheaper",
 		"teamBonus": " - Docks get +100% Line of Sight",
 		"techs": " - Thalassocracy: Docks are upgraded to Harbors that fire arrows \n - Forced Levy: Militia Line costs no gold",
-		"units": " - Karambit Warrior: Cheap, fast infantry"
+		"units": " - Karambit Warrior (Cheap, fast infantry)"
 	},
 	"Malians": {
 		"civType": "Infantry Civilization",
 		"civBonus": " - Buildings cost -15% wood \n - Barracks units +1 pierce armor per age (starting from Feudal Age) \n - Gold mining upgrades free",
 		"teamBonus": " - University researches +80% faster",
 		"techs": " - Tigui: Town Centers fire arrows (they are able to fire without being garrisoned with villagers/archers) \n - Farimba: Cavalry +5 attack",
-		"units": " - Gbeto: Infantry with a ranged attack"
+		"units": " - Gbeto (Infantry with a ranged attack)"
 	},
 	"Mayans": {
 		"civType": "Archer Civilization ",
@@ -179,14 +179,14 @@
 		"civBonus": " - Start Match with +50 Food and +50 Wood \n - Town Center, Docks x2 HP, work rate +10% Feudal, +15% Castle, +20% Imp",
 		"teamBonus": " - Knights have +2 Attack against Archers",
 		"techs": " - Boiling Oil: Gives Castles +9 attack against rams \n - Mahouts: War Elephants move 30% faster",
-		"units": " - War Elephant (Slow yet strong and devastating"
+		"units": " - War Elephant (Slow yet strong and devastating)"
 	},
 	"Portuguese": {
 		"civType": "Naval and Gunpowder Civilization",
 		"civBonus": " - All units cost -15% gold \n - Ships +10% HP \n - Can build Feitoria in Imp Age (The Feitoria is a building that requires 20 pop, 250 stone and gold. An economic building, it generates resources without the need of villagers)",
 		"teamBonus": " - Free cartography from dark age",
 		"techs": " - Carrack: Ships +1/+1 armor \n - Arquebus: Gunpowder units benefit from Ballistics tech",
-		"units": " - Caravel: Warship with 'area of effect' attack \n - Organ Gun: Siege engine with area of effect attack"
+		"units": " - Caravel (Warship with 'area of effect' attack) \n - Organ Gun (Siege engine with area of effect attack)"
 	},
 	"Saracens": {
 		"civType": "Camel and Naval Civilization ",
@@ -200,7 +200,7 @@
 		"civBonus": " - Farmers work 15% faster \n - Siege Weapons 15% cheaper \n - Tracking free",
 		"teamBonus": " - Military buildings provide +5 population",
 		"techs": " - Orthodoxy: Monks extra armor \n - Druzhina: Infantry damage adjacent units",
-		"units": " - Boyar: Heavy Cavalry with High Armor"
+		"units": " - Boyar (Heavy Cavalry with High Armor)"
 	},
 	"Spanish": {
 		"civType": "Gunpowder & Monk Civilization ",
@@ -235,7 +235,7 @@
 		"civBonus": " - Reveals enemy positions at game start \n - Archery Range Units have +10% HP in Feudal Age, +15% in Castle, and +20% in Imperial (does not stack) \n - Free Conscription",
 		"teamBonus": " - Have access to Imperial Skirmisher Upgrade",
 		"techs": " - Chatras: Battle Elephants get +30 HP \n - Paper Money: Tributes 500 gold to each ally",
-		"units": " - Archer with high pierce armor"
+		"units": " - Rattan Archer (Archer with high pierce armor)"
 	},
 	"Vikings": {
 		"civType": "Infantry and Naval Civilization",
