@@ -1,4 +1,4 @@
-	const civs = ["Aztecs", "Berbers", "bulgarians", "britons", "burmese", "byzantines", "celts", "chinese", "cumans", "ethiopians", "franks", "goths", "huns", "incas", "indians", "italians", "japanese", "khmer", "koreans", "lithuanians", "magyars", "malay", "malians", "mayans", "mongols", "persians", "portuguese", "saracens", "slavs", "spanish", "tatars", "teutons", "turks", "vietnamese", "vikings"];
+	const civs = ["Aztecs", "Berbers", "Britons", "Bulgarians", "Burmese", "Byzantines", "Celts", "Chinese", "Cumans", "Ethiopians", "Franks", "Goths", "Huns", "Incas", "Indians", "Italians", "Japanese", "Khmer", "Koreans", "Lithuanians", "Magyars", "Malay", "Malians", "Mayans", "Mongols", "Persians", "Portuguese", "Saracens", "Slavs", "Spanish", "Tatars", "Teutons", "Turks", "Vietnamese", "Vikings"];
 	const civData = require('../civs.json');
 module.exports = message => {
 	
@@ -23,10 +23,19 @@ module.exports = message => {
 	{
 		i++;
 	}
-	if(i == 0 || i == 1)
+	if( i == 35 )
 	{
-		message.channel.send(`${civs[i]}: ${civData[civs[i]].civType} \nCivilization Bonuses \`\`\`${civData[civs[i]].civBonus} \`\`\`Team Bonus \`\`\`${civData[civs[i]].teamBonus} \`\`\`Unique Techs \`\`\`${civData[civs[i]].techs} \`\`\`Unique Units \`\`\`${civData[civs[i]].units}\`\`\``);
+		var text = "Your choices are: ```";
+        while(civs[i])
+        {
+            text = text + civs[i] + ", ";
+			i++;
+        }
+		text += "```"
+        message.reply(text);
+		return;
 	}
+	message.channel.send(`${civs[i]}: ${civData[civs[i]].civType} \nCivilization Bonuses \`\`\`${civData[civs[i]].civBonus} \`\`\`Team Bonus \`\`\`${civData[civs[i]].teamBonus} \`\`\`Unique Techs \`\`\`${civData[civs[i]].techs} \`\`\`Unique Units \`\`\`${civData[civs[i]].units}\`\`\``);
     
     return;
 }
