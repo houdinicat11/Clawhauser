@@ -15,9 +15,10 @@
 		"speed": "0.9",
 		"los": "4",
 		"line": "Militia-Line",
-		"upgrade from": "none",
+		"upgradeFrom": "none",
 		"upgrade": "Man of Arms (100f, 45g, 40sec)",
-		"special notes": "none"
+		"notes": "none",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/MilitiaIcon.jpg/revision/latest?cb=20151202184737"
 	},
 	"Man-At-Arms": {
 		"cost": "60f and 40g",
@@ -36,7 +37,8 @@
 		"line": "Militia-Line",
 		"upgradeFrom": "militia",
 		"upgrade": "Long Swordsman (200f, 65g, 45sec)",
-		"special notes": "none"
+		"notes": "none",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7c/ManAtArmsIcon.jpg/revision/latest?cb=20151202184742"
 	},
 	"Long Swordsman": {
 		"cost": "60f and 40g",
@@ -55,7 +57,8 @@
 		"line": "Militia-Line", 
 		"upgradeFrom": "Man-At-Arms",
 		"upgrade": "Two-Handed Swordsman (300f, 100g, 75sec)",
-		"special notes": "none"
+		"notes": "none",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/LongswordsManIcon.jpg/revision/latest?cb=20151202185246"
 	},
 	"Two-Handed Swordsman": {
 		"cost": "60f and 40g",
@@ -74,7 +77,8 @@
 		"line": "Militia-Line",
 		"upgradeFrom": "Long Swordsman",
 		"upgrade": "Champion (750f, 350g, 100sec)",
-		"special notes": "Unavialiable to: Persians"
+		"notes": "Unavialiable to: Persians",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/2HandedswordsmanIcon.jpg/revision/latest?cb=20151202185935"
 	},
 	"Champion": {
 		"cost": "60f and 40g",
@@ -93,7 +97,8 @@
 		"line": "Militia-Line",
 		"upgradeFrom": "Two-Handed Swordsman",
 		"upgrade": "none",
-		"special notes": "Unavialiable to: Ethiopians, Huns, Khmer, Malay, Mayans, Persians"
+		"notes": "Unavialiable to: Ethiopians, Huns, Khmer, Malay, Mayans, Persians",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/61/ChampionIcon.jpg/revision/latest?cb=20151202190352"
 	},
 		
 	"Spearman": {
@@ -112,10 +117,11 @@
 		"los": "4",
 		"line": "Spearman-line",
 		"upgradeFrom": "none",
-		"upgrade": "Pikemen (215f, 90g, 45sec)",
-		"special notes": "none"
+		"upgrade": "Pikeman (215f, 90g, 45sec)",
+		"notes": "none",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/45/SpearmanIcon.jpg/revision/latest?cb=20151202191252"
 	},
-	"Pikemen": {
+	"Pikeman": {
 		"cost": "35f and 25w",
 		"tt": "22 seconds",
 		"building": "Barracks",
@@ -132,7 +138,8 @@
 		"line": "Spearman-line",
 		"upgradeFrom": "Spearman",
 		"upgrade": "Halberdier (300f, 600g, 50sec)",
-		"special notes": "Unavialiable to: Turks \nPikemen lose to villigers with loom if they have no blacksmith upgrades"
+		"notes": "Unavialiable to: Turks \nPikemen lose to villigers with loom if they have no blacksmith upgrades",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d8/PikemanIcon.jpg/revision/latest?cb=20151202191259"
 	},
 	"Halberdier": {
 		"cost": "35f and 25w",
@@ -149,9 +156,10 @@
 		"speed": "1",
 		"los": "4",
 		"line": "Spearman-line",
-		"upgradeFrom": "Pikemen",
+		"upgradeFrom": "Pikeman",
 		"upgrade": "none",
-		"special notes": "Unavialiable to: Aztecs, Berbers, Italians, Malians, Mongols, Saracens, Turks, Vikings"
+		"notes": "Unavialiable to: Aztecs, Berbers, Italians, Malians, Mongols, Saracens, Turks, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/HalberdierIcon.jpg/revision/latest?cb=20151202191953"
 	},
 		
 	"Eagle Scout": {
@@ -171,7 +179,8 @@
 		"line": "Eagle Scout-line",
 		"upgradeFrom": "none",
 		"upgrade": "Eagle Warrior (200f, 200g, 50s)",
-		"special notes": "Only avialiable to: Aztecs, Mayans, Incas"
+		"notes": "Only avialiable to: Aztecs, Mayans, Incas",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/8c/EagleScoutIcon.jpg/revision/latest?cb=20151208012000"
 	},
 	"Eagle Warrior": {
 		"cost": "20f and 50g",
@@ -190,7 +199,8 @@
 		"line": "Eagle Scout-line",
 		"upgradeFrom": "Eagle Scout",
 		"upgrade": "Elite Eagle Warrior (800f, 500g, 50s)",
-		"special notes": "Only avialiable to: Aztecs, Mayans, Incas"
+		"notes": "Only avialiable to: Aztecs, Mayans, Incas",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/74/EagleWarriorIcon.jpg/revision/latest?cb=20151208012039"
 	},
 	"Elite Eagle Warrior": {
 		"cost": "20f and 50g",
@@ -209,7 +219,8 @@
 		"line": "Eagle Scout-line",
 		"upgradeFrom": "Eagle Warrior",
 		"upgrade": "none",
-		"special notes": "Only avialiable to: Aztecs, Mayans, Incas"
+		"notes": "Only avialiable to: Aztecs, Mayans, Incas",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/da/EliteEagleWarriorIcon.jpg/revision/latest?cb=20151208012548"
 	},
 	
 
@@ -217,7 +228,7 @@
 	"Archer": {
 		"cost": "25w and 45g",
 		"tt": "35 seconds",
-		"building": "Barracks",
+		"building": "Archery Range",
 		"hp": "30",
 		"range": "4",
 		"attack": "4 pierce",
@@ -233,12 +244,13 @@
 		"line": "Archer-line",
 		"upgradeFrom": "none",
 		"upgrade": "Crossbowman (125f 75g, 25sec)",
-		"special notes": "none"
+		"notes": "none",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/89/ArcherIcon.jpg/revision/latest?cb=20151203051052"
 	},
 	"Crossbowman": {
 		"cost": "25w and 45g",
 		"tt": "27 seconds",
-		"building": "Barracks",
+		"building": "Archery Range",
 		"hp": "35",
 		"range": "5",
 		"attack": "5 pierce",
@@ -254,12 +266,13 @@
 		"line": "Archer-line",
 		"upgradeFrom": "Archer",
 		"upgrade": "Arbalest (350f 300g, 50sec)",
-		"special notes": "Unavailable to: Spanish"
+		"notes": "Unavailable to: Spanish",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cd/CrossbowmanIcon.jpg/revision/latest?cb=20151203051100"
 	},
 	"Arbalest": {
 		"cost": "25w and 45g",
 		"tt": "27 seconds",
-		"building": "Barracks",
+		"building": "Archery Range",
 		"hp": "35",
 		"range": "5",
 		"attack": "6 pierce",
@@ -275,6 +288,29 @@
 		"line": "Archer-line",
 		"upgradeFrom": "Crossbowman",
 		"upgrade": "none",
-		"special notes": "Unavailable to: Berbers, Burmese, Celts, Franks, Goths, Huns, Indians, Persians, Slavs, Spanish, Teutons, Turks"
+		"notes": "Unavailable to: Berbers, Burmese, Celts, Franks, Goths, Huns, Indians, Persians, Slavs, Spanish, Teutons, Turks",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/ArbalestIcon.jpg/revision/latest?cb=20151203051411"
+	},
+	"Skirmisher": {
+		"cost": "25f and 35w",
+		"tt": "22 seconds",
+		"building": "Archery Range",
+		"hp": "30",
+		"range": "4, Min: 1",
+		"attack": "2 pierce",
+		"accuracy": "90%",
+		"projSpd": "7",
+		"rof": "3.05",
+		"attackBonus": " - +3 vs. Archer \n - +3 vs. Spearman",
+		"armorClass": "Archer",
+		"meleeArmor": "0",
+		"pierceArmor": "3",
+		"speed": "0.96",
+		"los": "6",
+		"line": "Skirmisher-line",
+		"upgradeFrom": "none",
+		"upgrade": "Elite Skirmisher (200w, 100g, 50sec)",
+		"notes": "Unavailable to: Berbers, Burmese, Celts, Franks, Goths, Huns, Indians, Persians, Slavs, Spanish, Teutons, Turks",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/e5/SkirmisherIcon.jpg/revision/latest?cb=20151203052246"
 	}
 }
