@@ -27,9 +27,12 @@ module.exports = message => {
         message.reply(text);
 		return;
     }
+	// random function of this command
 	if(splitMess[1] == "random")
 	{
+		// random number between 0 and 24
 		var random = Math.floor(Math.random()*34);
+		console.log(`${random}`);
 		outputEmbed(message,random);
 		return;
 	}
