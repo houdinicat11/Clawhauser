@@ -11,7 +11,7 @@
         "civBonus": " - Villagers move +10% faster \n - Stable units cost -20% (starting in castle age) \n - Ships move +10% faster",
         "teamBonus": " - Genitour availible at Archery Range",
         "techs": " - Kasbah: Team castles work +25% faster \n - Maghrabi Camels: Camel troops regenerate",
-        "units": " - Camel Archer (Cavalry Archer with bonus against cavalry archers) \n - Genitour (Mounted Skirmisher)"
+        "units": " - Camel Archer (Cavalry Archer with bonus against Cavalry archers) \n - Genitour (Mounted Skirmisher)"
 	},
 	"Britons": {
 		"civType": "Foot-Archer Civilization",
@@ -21,18 +21,18 @@
 		"units": " - Longbowman (Long-range foot Archer)"
 	},
 	"Bulgarians": {
-		"civType": "Infantry and Calvery Civilization",
+		"civType": "Infantry and Cavalry Civilization",
 		"civBonus": " - Militia-line upgrades free \n - Town Centers const -50% stone \n - Can build Krepost",
 		"teamBonus": " - Blacksmiths work 50% faster",
-		"techs": " - Stirrups: Scout Calvery-line and Konniks attack 25% faster \n - Bagains: Militia-line gain +3 armor",
-		"units": " - Konnik (calvery that fights as infantry when felled)"
+		"techs": " - Stirrups: Scout Cavalry-line and Konniks attack 25% faster \n - Bagains: Militia-line gain +3 armor",
+		"units": " - Konnik (Cavalry that fights as infantry when felled)"
 	},
 	"Burmese": {
 		"civType": "Monk and Elephant Civilization",
 		"civBonus": " - Free Lumber Camp Upgrades \n - Infantry +1 Attack per Age (Starting in Feudal Age) \n - Monastery techs 50% cheaper",
 		"teamBonus": " - Relics are visible on the mini map",
 		"techs": " - Howdah: Battle Elephants get +1/+2 armor \n - Manipur Cavalry: Cavalry and Arambai get +6 attack versus buildings",
-		"units": " - Arambai {A powerful, but inaccurate cavalry archer)"
+		"units": " - Arambai {A powerful, but inaccurate Cavalry archer)"
 	},
 	"Byzantines": {
 		"civType": "Defensive Civilization ",
@@ -56,11 +56,11 @@
 		"units": " - Chu Ko Nu (Rapid-fire Archer)"
 	},
 	"Cumans": {
-		"civType": "Calvery Civilization",
+		"civType": "Cavalry Civilization",
 		"civBonus": " - Additional Town Centers can be built in the Feudal Age \n - Seige Workshop and Battering Ram availiable in the Feudal Age \n - Cavalry 10% faster",
 		"teamBonus": " - Palisade Walls +50% HP",
 		"techs": " - Steppe Husbandry: Scout Calvalry-line trains 80% faster \n - Cuman Mercenaries: team members can create 10 free Eliete Kipchaks in the Castle",
-		"units": " - Kipchak Archer (cavalry archer with rapid-fire attack)"
+		"units": " - Kipchak Archer (Cavalry archer with rapid-fire attack)"
 	},
 	"Ethiopians": {
 		"civType": "Archer Civilization",
@@ -109,7 +109,7 @@
 		"civBonus": " - Advancing to next age costs -15% \n - All dock techs cost -50% \n - Fishing ship cost -15 wood \n - Gunpowder units cost -25%",
 		"teamBonus": " - Condottiero also available in allies' barracks in Imperial Age (once you have built a castle)",
 		"techs": " - Pavise: Foot Archers +1/+1 armor \n - Silk Road: Trade units cost -50%",
-		"units": " - Genoese Crossbowman (Archer with bonus against cavalry) \n - Condottiero (Infantry with bonus against gunpowder units)"
+		"units": " - Genoese Crossbowman (Archer with bonus against Cavalry) \n - Condottiero (Infantry with bonus against gunpowder units)"
 	},
 	"Japanese": {
 		"civType": "Infantry Civilization ",
@@ -123,7 +123,7 @@
 		"civBonus": " - Prereq buildings aren't required to advance to further ages or unlock other buildings (i.e., a castle is not required to advance to the Imp age or a blacksmith is not required to build a siege workshop) \n - Battle Elephants are +15% faster \n - Villagers can garrison in Houses",
 		"teamBonus": " - Scorpions have +1 range",
 		"techs": " - Tusk Swords: Battle Elephants get +3 attack \n - Double Crossbow: Ballista Elephants and Scorpions shoot two projectiles",
-		"units": " - Ballista Elephant (A cavalry siege unit)"
+		"units": " - Ballista Elephant (A Cavalry siege unit)"
 	},
 	"Koreans": {
 		"civType": "Tower and Naval Civilization ",
@@ -133,11 +133,11 @@
 		"units": " - War Wagon (Heavily Armored Cavalry Archer) \n - Turtle Ship (Heavily Armored Warship)"
 	},
 	"Lithuanians": {
-		"civType": "Calvery and Monk Civilization",
+		"civType": "Cavalry and Monk Civilization",
 		"civBonus": " - Start with +150 food \n - Spearman-line and Skirmishers cost no wood \n - Each garrisoned relic gives +1 attack to calvary units (maximun +5)",
 		"teamBonus": " - Monasteries work 20% faster",
 		"techs": " - Hill Forts: Town Center +3 range \n - Tower Shields: Spearman-line and Skirmishers +1P armor",
-		"units": " - Leitis (Calvery that ignores armor)"
+		"units": " - Leitis (Cavalry that ignores armor)"
 	},
 	"Magyars": {
 		"civType": "Cavalry Infantry Civilization",
@@ -214,7 +214,7 @@
 		"civBonus": " - Sheep contain +50% food \n - Units deal +25% damage when fighting from higher elevation \n - Parthian Tatics free",
 		"teamBonus": " - Cavalary Archers +2 LOS",
 		"techs": " - Silk Armor: Scout Cavalry-line and Cavalry Archers recieve +1P armor \n - Timurid Seigecraft: Trebuchets +1 range",
-		"units": " - Keshik (raiding cavalry that generates gold fighting other units)"
+		"units": " - Keshik (raiding Cavalry that generates gold fighting other units)"
 	},
 	"Teutons": {
 		"civType": "Infantry Civilization",
@@ -241,7 +241,7 @@
 		"civType": "Infantry and Naval Civilization",
 		"civBonus": " - Warships cost -15% Feudal Age, -15% Castle Age, -20% Imperial Age \n - Infantry +10% HP Feudal Age, +15% Castle Age, +20% Imperial Age \n - Wheelbarrow, Hand Cart techs free",
 		"teamBonus": " - Docks cost -15%",
-		"techs": " - Chieftains: Gives infantry +5 attack against cavalry and +4 attack against camels \n - Berserkergang: Berserks regenerate faster",
+		"techs": " - Chieftains: Gives infantry +5 attack against Cavalry and +4 attack against camels \n - Berserkergang: Berserks regenerate faster",
 		"units": " - Berserker (Health Regenerating Infantry) \n - Longboat (Warship that fire multiple arrows)"
 	}	
 }	
