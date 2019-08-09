@@ -327,9 +327,9 @@ function castleAOKUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=68;i<94;i++)
+	for(i=68;i<96;i++)
 	{
-		if(i<93)
+		if(i<95)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -344,9 +344,9 @@ function castleCUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=94;i<104;i++)
+	for(i=96;i<106;i++)
 	{
-		if(i<103)
+		if(i<105)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -361,9 +361,9 @@ function castleFUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=104;i<114;i++)
+	for(i=106;i<116;i++)
 	{
-		if(i<113)
+		if(i<115)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -378,9 +378,9 @@ function castleAKUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=114;i<122;i++)
+	for(i=116;i<124;i++)
 	{
-		if(i<121)
+		if(i<123)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -395,9 +395,9 @@ function castleRRUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=122;i<130;i++)
+	for(i=124;i<132;i++)
 	{
-		if(i<129)
+		if(i<131)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -412,7 +412,7 @@ function castleDEUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=130;i<140;i++)
+	for(i=132;i<140;i++)
 	{
 		if(i<139)
 		{
