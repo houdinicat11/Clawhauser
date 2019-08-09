@@ -134,7 +134,7 @@
 	},
 	"Lithuanians": {
 		"civType": "Cavalry and Monk Civilization",
-		"civBonus": " - Start with +150 food \n - Spearman-line and Skirmishers cost no wood \n - Each garrisoned relic gives +1 attack to calvary units (maximun +5)",
+		"civBonus": " - Start with +150 food \n - Spearman-line and Skirmishers cost no wood \n - Each garrisoned relic gives +1 attack to Cavalry units (maximun +5)",
 		"teamBonus": " - Monasteries work 20% faster",
 		"techs": " - Hill Forts: Town Center +3 range \n - Tower Shields: Spearman-line and Skirmishers +1P armor",
 		"units": " - Leitis (Cavalry that ignores armor)"
