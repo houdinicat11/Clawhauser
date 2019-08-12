@@ -11,19 +11,20 @@ const purge = require('../commands/purge');
 const help = require('../commands/help');
 const civ = require('../commands/civ');
 const unit = require('../commands/units');
+const tech = require('../commands/techs');
 
 module.exports = (client, message, prefix) => {
 	
 	// emotes
 	const trebuchet = client.emojis.get("601064767431639040");
 	// people
-	const clawhauser = "<@585483518822449214>";
-	const houdinicat11 = "304765038273495040";
+	const clawhauser = client.user.id;
+	const houdinicat11 = "304765038273495040"; // needs changed to config.ownerID
 	// message but split up
 	var splitMess = message.content.toLowerCase().split(' ');
 	
 	// error checking to advoid infinite loops
-	if(message.author == clawhauser)
+	if(message.author == client.user)
 	{
 		return;
 	}

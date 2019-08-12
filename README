@@ -7,6 +7,11 @@ or anyone officially involved in producing or managing League of Legends. League
 trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
 
 todo/work in progress
+    ~ factor the code so it can be easily deployed in other Discords
+    ~ stats for the age of Empires civs
+    ~ Age of empires Buildings
+    ~ Age of Empires Technologies
+    ~ paged help commands
 	~ music based on search criteria
 	~ obtain the infinity gauntlet
 	~ equal rights for felines
@@ -26,6 +31,8 @@ Current Functionalities:
 	~ log emoji creation/deletion + sends message
 	~ simple message replies
 	~ mass deletes channel messages via the purge command
+    ~ displays Age of Empires units via. the units command
+    ~ displays Age of Empires civs via. the civ command
 
 dependencies:
 	node.js
@@ -37,8 +44,9 @@ dependencies:
 	npm
 
 
-packages: in bot directory
+install commands: in bot directory
 	
+    Download Node.js
 	npm init -y
 	npm install discord.js 
 	npm install nodemon --save-dev 
@@ -48,6 +56,5 @@ packages: in bot directory
 	npm install ffmpeg-binaries
 	npm install ffmpeg-static
 	npm install ffmpeg
-	npm install opusscript 
-	npm install node.js 
+	npm install opusscript
 	

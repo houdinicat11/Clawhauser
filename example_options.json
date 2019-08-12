@@ -1,0 +1,8 @@
+{
+	"token": "<bot_token>",
+	"prefix": "!",
+	"discordID": "xxxxxxxxxxxxxxxxxx",
+	"rolesChannel": "xxxxxxxxxxxxxxxxxx",
+	"ownerID": "xxxxxxxxxxxxxxxxxx",
+	"defaultRole": "xxxxxxxxxxxxxxxxxx"
+}

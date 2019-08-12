@@ -15,93 +15,7 @@ module.exports = message => {
 	
 	if(splitMess[1] == "help" || !splitMess[1])
     {
-		message.channel.send({embed: {
-			color: 0x00AE86,
-			author: {
-			name: `${splitMess[0]} command options`
-			},
-			title: "Barracks",
-			description: (`${barracksUnits()}`),
-			fields: [{
-				name: "Archery Range",
-				value: `${archeryRangeUnits()}`
-			},
-			{
-				name: "Stable",
-				value: `${stableUnits()}`
-			},
-			{
-				name: "Dock",
-				value: `${dockUnits()}`
-			},
-			{
-				name: "Siege Workshop",
-				value: `${seigeWorkshopUnits()}`
-			},
-			{
-				name: "Market",
-				value: `${units[64]}`
-			},
-			{
-				name: "Monastery",
-				value: `${units[65], units[66]}`
-			},
-			{
-				name: "Town Center",
-				value: `${units[67]}`
-			}
-			],
-			timestamp: new Date(),
-			footer: {
-				icon_url: message.guild.client.user.avatarURL,
-				text: `Clawhauser`
-			}
-		}
-		});
-		
-		message.channel.send({embed: {
-			color: 0x00AE86,
-			author: {
-			name: `${splitMess[0]} command options`
-			},
-			title: "Castle - The Age of Kings",
-			description: (`${castleAOKUnits()}`),
-			fields: [{
-				name: "Castle - The Conquerors",
-				value: `${castleCUnits()}`
-			},
-			{
-				name: "Castle - The Forgotten",
-				value: `${castleFUnits()}`
-			},
-			{
-				name: "Castle - The African Kingdoms",
-				value: `${castleAKUnits()}`
-			},
-			{
-				name: "Castle - The Rise of the Rajas",
-				value: `${castleRRUnits()}`
-			},
-			{
-				name: "Castle - Definitive Edition",
-				value: `${castleDEUnits()}`
-			},
-			{
-				name: "Buildings",
-				value: `${buildings()}`
-			},
-			{
-				name: "Other",
-				value: "`Random`, `Help`"
-			}
-			],
-			timestamp: new Date(),
-			footer: {
-				icon_url: message.guild.client.user.avatarURL,
-				text: `Clawhauser`
-			}
-		}
-		});
+		sendHelp(message, splitMess[0]);
 		return;
     }
 	
@@ -121,36 +35,14 @@ module.exports = message => {
 		outputEmbed(message, i);
 		return;
 	}
-		i = 0;
-	// string start off
-        var text = "Your choices are: ```";
-		var text2 = "```";
-		// add all the units
-        while(units[i] && i < (units.length/2))
-        {
-            text = text + units[i] + ", ";
-			i++;
-        }
-		while(units[i])
-        {
-            text2 = text2 + units[i] + ", ";
-			i++;
-        }
-		// remove the last comma
-		i = text.lastIndexOf(',');
-		text = text.slice(0,i);
-		text += "```";
-		i = text2.lastIndexOf(',');
-		text2 = text2.slice(0,i);
-		text2 += "```";
-		// send the message while pinging the person who send it
-        message.reply(text);
-		message.channel.send(text2);
-	
+        sendHelp(message, splitMess[0]);
+		
 		return;
-	//}
+	
 }
 
+
+// checks if there is a blast radius associated with the unit
 function blastCheck(i)
 {
 	if(unitData[units[i]].blast)
@@ -160,6 +52,7 @@ function blastCheck(i)
 	return "";
 }
 
+// checks if the unit is ranged
 function accCheck(i)
 {
 	if(unitData[units[i]].accuracy)
@@ -247,27 +140,31 @@ function checkMessage(message, keyWord)
 		outputEmbed(message,random);
 		return true;
 	}
-	// fixme
+	
+	// finds the right building
 	while(unitBuild.buildings[i].toLowerCase() != keyWord[1] && message.content.toLowerCase().indexOf(unitBuild.buildings[i].toLowerCase()) == -1)
 	{
 		i++;
 	}
 	
+	// checks if the building was found
 	if(i != 9)
 	{
+		// loads upt he picture accosiated with that building
 		const file = new Discord.Attachment(`${unitBuild.imageLoc[i]}`);
 	
+		// creates a message embed 
 		const embed = new Discord.RichEmbed()
 			.setTitle(`${unitBuild.buildings[i]} units`)
 			.setColor(0x00AE86)
 			.setFooter(`Clawhauser`, `${message.guild.client.user.avatarURL}`)
 			.setImage(`attachment://${unitBuild.imageName[i]}`)
 			.setTimestamp()
- 
+		
+		// sends the embed
 		message.channel.send({files: [file], embed});
 		return true;
 	}
-	//end fixme
 	return false;
 }
 
@@ -477,6 +374,98 @@ function buildings()
 	return tmp;
 }
 
+
+function sendHelp(message, prefix)
+{
+	message.channel.send({embed: {
+			color: 0x00AE86,
+			author: {
+			name: `${prefix} command options`
+			},
+			title: "Barracks",
+			description: (`${barracksUnits()}`),
+			fields: [{
+				name: "Archery Range",
+				value: `${archeryRangeUnits()}`
+			},
+			{
+				name: "Stable",
+				value: `${stableUnits()}`
+			},
+			{
+				name: "Dock",
+				value: `${dockUnits()}`
+			},
+			{
+				name: "Siege Workshop",
+				value: `${seigeWorkshopUnits()}`
+			},
+			{
+				name: "Market",
+				value: `${units[64]}`
+			},
+			{
+				name: "Monastery",
+				value: `${units[65], units[66]}`
+			},
+			{
+				name: "Town Center",
+				value: `${units[67]}`
+			}
+			],
+			timestamp: new Date(),
+			footer: {
+				icon_url: message.guild.client.user.avatarURL,
+				text: `Clawhauser`
+			}
+		}
+		});
+		
+		message.channel.send({embed: {
+			color: 0x00AE86,
+			author: {
+			name: `${prefix} command options`
+			},
+			title: "Castle - The Age of Kings",
+			description: (`${castleAOKUnits()}`),
+			fields: [{
+				name: "Castle - The Conquerors",
+				value: `${castleCUnits()}`
+			},
+			{
+				name: "Castle - The Forgotten",
+				value: `${castleFUnits()}`
+			},
+			{
+				name: "Castle - The African Kingdoms",
+				value: `${castleAKUnits()}`
+			},
+			{
+				name: "Castle - The Rise of the Rajas",
+				value: `${castleRRUnits()}`
+			},
+			{
+				name: "Castle - Definitive Edition",
+				value: `${castleDEUnits()}`
+			},
+			{
+				name: "Buildings",
+				value: `${buildings()}`
+			},
+			{
+				name: "Other",
+				value: "`Random`, `Help`"
+			}
+			],
+			timestamp: new Date(),
+			footer: {
+				icon_url: message.guild.client.user.avatarURL,
+				text: `Clawhauser`
+			}
+		}
+		});
+		return;
+}
 
 /*// string start off
 		var tmp;
