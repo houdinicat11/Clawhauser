@@ -12,19 +12,37 @@ module.exports = message => {
     if(splitMess[1] == "help" || !splitMess[1])
     {
 		// string start off
-        var text = "Your choices are: ```";
+        var text = "`";
 		// add all the civs
         while(civs[i])
         {
-            text = text + civs[i] + ", ";
+            text = text + civs[i] + "`, `";
 			i++;
         }
 		// remove the last comma
 		i = text.lastIndexOf(',');
 		text = text.slice(0,i);
-		text += "```"
 		// send the message while pinging the person who send it
-        message.reply(text);
+		
+		
+		message.channel.send({embed: {
+			color: 0x00AE86,
+			title: "Civs",
+			description: (`${text}`),
+			timestamp: new Date(),
+			fields: [
+			{
+				name: "Usage",
+				value: `${splitMess[0]} {civ}`
+			}
+			],
+			footer: {
+				icon_url: message.guild.client.user.avatarURL,
+				text: `Clawhauser`
+			}
+		}
+		});
+        //message.reply(text);
 		return;
     }
 	// random function of this command

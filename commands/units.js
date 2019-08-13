@@ -30,6 +30,11 @@ module.exports = message => {
 	{
 		i++;
 	}
+	if(splitMess[1] == "elite")
+	{
+		i++;
+	}
+	
 	if(i != units.length)
 	{
 		outputEmbed(message, i);
@@ -66,21 +71,24 @@ function outputEmbed(message, i)
 {
 	const Discord = require("discord.js");
 	const file = new Discord.Attachment('../pictures/test.png');
-	/*message.channel.send({files: [file], embed: {
+	message.channel.send({embed: {
 			color: 0x00AE86,
 			author: {
 			name: `${units[i]}`,
-			icon_url: `attachment://test.png`
+			icon_url: `${unitData[units[i]].image}`
 			},
 			title: "General Info",
 			description: (`Building: ${unitData[units[i]].building} \nLine: ${unitData[units[i]].line} \nUpgrade From: ${unitData[units[i]].upgradeFrom} \nUpgrade To: ${unitData[units[i]].upgrade} \nCost: ${unitData[units[i]].cost} \nTraining Time: ${unitData[units[i]].tt} \n HP: ${unitData[units[i]].hp} \nSpeed: ${unitData[units[i]].speed} \nLine of Sight: ${unitData[units[i]].los}`),
 			fields: [{
 				name: "Attack Info",
-				value: `Range: ${unitData[units[i]].range} \nAttack: ${unitData[units[i]].attack} \n${accCheck(i)}${blastCheck(i)}Rate of Fire: ${unitData[units[i]].rof} \nAttack Bonus: \n${unitData[units[i]].attackBonus}`
+				value: `Range: ${unitData[units[i]].range} \nAttack: ${unitData[units[i]].attack} \n${accCheck(i)}${blastCheck(i)}Rate of Fire: ${unitData[units[i]].rof} \nAttack Bonus: \n${unitData[units[i]].attackBonus}`,
+				inline: "true"
 			},
 			{
 				name: "Defense Info",
 				value: `Armor Class: ${unitData[units[i]].armorClass} \nMelee Armor: ${unitData[units[i]].meleeArmor} \nPierce Armor: ${unitData[units[i]].pierceArmor}`
+				,
+				inline: "true"
 			},
 			{
 				name: "Notes",
@@ -93,37 +101,37 @@ function outputEmbed(message, i)
 				text: `Clawhauser`
 			}
 		}
-		});*/
+		});
 		
 		
-		const embed = new Discord.RichEmbed()
+		/*const embed = new Discord.RichEmbed()
 			.setTitle("General Info")
 			.setAuthor(`${units[i]}`)
 			/*
 			* Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
-			*/
+			**
 			.setColor(0x00AE86)
 			.setDescription(`Building: ${unitData[units[i]].building} \nLine: ${unitData[units[i]].line} \nUpgrade From: ${unitData[units[i]].upgradeFrom} \nUpgrade To: ${unitData[units[i]].upgrade} \nCost: ${unitData[units[i]].cost} \nTraining Time: ${unitData[units[i]].tt} \n HP: ${unitData[units[i]].hp} \nSpeed: ${unitData[units[i]].speed} \nLine of Sight: ${unitData[units[i]].los}`)
 			.setFooter(`Clawhauser`, `${message.guild.client.user.avatarURL}`)
 			.setThumbnail(`${unitData[units[i]].image}`)
 			/*
 			* Takes a Date object, defaults to current date.
-			**/
+			**
 			.setTimestamp()
 			.addField("Attack Info",
 			`Range: ${unitData[units[i]].range} \nAttack: ${unitData[units[i]].attack} \n${accCheck(i)}${blastCheck(i)}Rate of Fire: ${unitData[units[i]].rof} \nAttack Bonus: \n${unitData[units[i]].attackBonus}`)
 			/*
 			* Inline fields may not display as inline if the thumbnail and/or image is too big.
-			**/
+			**
 			.addField("Defense Info", 
 			`Armor Class: ${unitData[units[i]].armorClass} \nMelee Armor: ${unitData[units[i]].meleeArmor} \nPierce Armor: ${unitData[units[i]].pierceArmor}`)
 			/*
 			Blank field, useful to create some space.
-			**/
+			**
 			.addField("Notes", 
 			`${unitData[units[i]].notes}`);
  
-		message.channel.send({embed});
+		message.channel.send({embed});*/
 		
 		return;
 }
@@ -142,7 +150,7 @@ function checkMessage(message, keyWord)
 	}
 	
 	// finds the right building
-	while(unitBuild.buildings[i].toLowerCase() != keyWord[1] && message.content.toLowerCase().indexOf(unitBuild.buildings[i].toLowerCase()) == -1)
+	while(i != 9 && (unitBuild.buildings[i].toLowerCase() != keyWord[1] && message.content.toLowerCase().indexOf(unitBuild.buildings[i].toLowerCase()) == -1))
 	{
 		i++;
 	}
