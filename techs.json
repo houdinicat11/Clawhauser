@@ -1,8 +1,443 @@
 {
+    "Town Watch": {
+		"age": "II",
+		"building": "Town Center",
+		"cost": "75f",
+		"effect": "Building LOS +4",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/17/Townwatch.jpg/revision/latest/scale-to-width-down/22?cb=20120621120115"
+	},
+	"Town Patrol": {
+		"age": "III",
+		"building": "Town Center",
+		"cost": "300f and 100g",
+		"effect": "Building LOS +4",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/11/Townpatrol.jpg/revision/latest/scale-to-width-down/22?cb=20120621115934"
+	},
+	"Wheelbarrow": {
+		"age": "II",
+		"building": "Town Center",
+		"cost": "175f and 50w",
+		"effect": "Villager speed +10%, carrying capacity +25%",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/ff/Wheelbarrow.jpg/revision/latest/scale-to-width-down/22?cb=20120627081814"
+	},
+	"Hand Cart": {
+		"age": "III",
+		"building": "Town Center",
+		"cost": "300f and 200w",
+		"effect": "Villager speed +10%, carrying capacity +50%",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b0/Handcart.jpg/revision/latest/scale-to-width-down/22?cb=20120627083123"
+	},
+	"Loom": {
+		"age": "I",
+		"building": "Town Center",
+		"cost": "50g",
+		"effect": "Villager HP +15, armor +1/+2",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f8/Loom.jpg/revision/latest/scale-to-width-down/22?cb=20120627074323"
+	},
+	"Feudal Age": {
+		"age": "I",
+		"building": "Town Center",
+		"cost": "500f",
+		"effect": "Advance to Feudal Age",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/Feudal-age-reseach.jpg/revision/latest/scale-to-width-down/22?cb=20130321170534"
+	},
+	"Castle Age": {
+		"age": "II",
+		"building": "Town Center",
+		"cost": "800f and 200g",
+		"effect": "Advance to Castle Age",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0e/Castle-age-reseach.jpg/revision/latest/scale-to-width-down/22?cb=20151126080042"
+	},
+	"Imperial Age": {
+		"age": "III",
+		"building": "Town Center",
+		"cost": "1000f and 800g",
+		"effect": "Advance to Imperial Age",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/2d/Imperial-age-research.jpg/revision/latest/scale-to-width-down/22?cb=20130321170602"
+	},
+	
+	
+	
+	
+	
+	"Treadmill Crane": {
+		"age": "III",
+		"building": "University",
+		"cost": "300f and 200w",
+		"effect": "Villagers build 20% faster",
+		"notes": "Unavailable to: Britons, Byzantines, Chinese, Ethiopians, Goths, Huns, Indians, Malay, Mongols, Persians, Spanish",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/33/Treadmillcrane.jpg/revision/latest/scale-to-width-down/22?cb=20120621115419"
+	},
+	"Masonry": {
+		"age": "III",
+		"building": "University",
+		"cost": "150f and 175w",
+		"effect": "Buildings +10% HP and +1/+1 armor",
+		"notes": "Unavailable to: Aztecs, Byzantines, Vietnamese",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cb/Masonry.jpg/revision/latest?cb=20120621082524"
+	},
+	"Architecture": {
+		"age": "IV",
+		"building": "University",
+		"cost": "300f and 200w",
+		"effect": "Buildings +10% HP and +1/+1 armor",
+		"notes": "Unavailable to: Aztecs, Berbers, Byzantines, Celts, Huns, Incas, Indians, Japanese, Magyars, Malay, Mongols, Saracens, Slavs, Teutons, Vietnamese",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/12/Architecture.jpg/revision/latest?cb=20120621115708"
+	},
+    "Ballistics": {
+		"age": "III",
+		"building": "University",
+		"cost": "300w and 175g",
+		"effect": "Archers, Cavalry Archers, Galleys, Castles, and Towers fire more accurately at moving targets",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b4/Ballistics.jpg/revision/latest/scale-to-width-down/22?cb=20120621084532"
+	},
+    "Heated Shot": {
+		"age": "III",
+		"building": "University",
+		"cost": "350f and 100g",
+		"effect": "Towers +125% and Castles +25% attack against ships",
+		"notes": "Unavailable to: Byzantines, Franks, Huns, Japanese, Mongols, Saracens, Slavs, Spanish",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/13/Heatedshot.png/revision/latest/scale-to-width-down/22?cb=20120621114125"
+	},
+    "Murder Holes": {
+		"age": "III",
+		"building": "University",
+		"cost": "200f and 100s",
+		"effect": "Eliminates minimum range of all buildings",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/1d/Murderholes.jpg/revision/latest?cb=20120621075334"
+	},
+	"Arrowslits": {
+		"age": "IV",
+		"building": "University",
+		"cost": "250f and 250w",
+		"effect": "Watch Towers/Guard Towers/Keeps +1/+2/+3 attack",
+		"notes": "Unavailable to: Burmese, Ethiopians, Goths, Huns, Indians, Khmer, Magyars, Malay, Malians, Mayans, Mongols, Persians, Portuguese, Slavs",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/76/Arrowlits.jpg/revision/latest/scale-to-width-down/22?cb=20151117195607"
+	},
+	"Chemistry": {
+		"age": "IV",
+		"building": "University",
+		"cost": "300f and 200g",
+		"effect": "Missile units (including siege) +1 attack \nPrerequisite for non-unique gunpowder units",
+		"notes": "Unavailable to: Aztecs, Huns, Incas, Mayans",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/05/Chemistry.jpg/revision/latest/scale-to-width-down/22?cb=20120621114524"
+	},
+	"Siege Engineers": {
+		"age": "IV",
+		"building": "University",
+		"cost": "500f and 600w",
+		"effect": "Siege weapons +1 range (except Rams) and +20% attack vs buildings (Petards +40%)",
+		"notes": "Unavailable to: Byzantines, Chinese, Goths, Huns, Italians, Malians, Mayans, Persians, Spanish, Turks",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c2/Siegeengineers.jpg/revision/latest/scale-to-width-down/22?cb=20120621122837"
+	},
+	
     
-    "fixme": "fixme"
-    
-    
-    
-    
+	
+	
+	
+	"Hoardings": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "400f and 400w",
+		"effect": "Castle HP +21%",
+		"notes": "Unavailable to: Aztecs, Burmese, Chinese, Ethiopians, Goths, Huns, Japanese, Koreans, Malay, Portuguese",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/64/Hoardings.jpg/revision/latest/scale-to-width-down/22?cb=20120621115549"
+	},
+	"Conscription": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "150f and 150g",
+		"effect": "Working rate of Barracks, Archery Ranges, Stables, and Castles +33%",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/13/Conscription.jpg/revision/latest/scale-to-width-down/22?cb=20120703141130"
+	},
+	"Sappers": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "400f and 200g",
+		"effect": "Villagers +15 attack vs buildings",
+		"notes": "Unavailable to: Berbers, Burmese, Byzantines, Franks, Indians, Italians, Japanese, Koreans, Saracens",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f9/Sappers.jpg/revision/latest/scale-to-width-down/22?cb=20120703152823"
+	},
+	"Spies": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "200g per enemy villager, Max: 30,000",
+		"effect": "See enemy LOS",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bf/Spiestreason.jpg/revision/latest/scale-to-width-down/22?cb=20120703141842"
+	},
+	"Treason": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "400g",
+		"effect": "See enemy Kings for a short time ",
+		"notes": "Regicide only",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bf/Spiestreason.jpg/revision/latest/scale-to-width-down/22?cb=20120703141842"
+	},
+	
+	
+	
+	
+	"Double-Bit Axe": {
+		"age": "II",
+		"building": "Lumber Camp",
+		"cost": "100f and 50w",
+		"effect": "Villagers chop wood 20% faster",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a4/Doublebitaxe.jpg/revision/latest/scale-to-width-down/22?cb=20120701092337"
+	},
+	"Bow Saw": {
+		"age": "III",
+		"building": "Lumber Camp",
+		"cost": "150f and 100w",
+		"effect": "Villagers chop wood 20% faster",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/76/BowSaw.png/revision/latest/scale-to-width-down/22?cb=20170401205354"
+	},
+	"Two-Man Saw": {
+		"age": "IV",
+		"building": "Lumber Camp",
+		"cost": "300f and 200w",
+		"effect": "Villagers chop wood 10% faster",
+		"notes": "Unavailable to: Aztecs, Berbers, Celts, Franks, Incas, Khmer, Malay, Malians, Mongols",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4d/Twomansaw.jpg/revision/latest/scale-to-width-down/22?cb=20120701095625"
+	},
+	
+	
+	
+	"Horse Collar": {
+		"age": "II",
+		"building": "Mill",
+		"cost": "75f and 75w",
+		"effect": "Farms +75 food",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5a/Horsecollar.jpg/revision/latest/scale-to-width-down/22?cb=20120702085619"
+	},
+	"Heavy Plow": {
+		"age": "III",
+		"building": "Mill",
+		"cost": "125f and 125w",
+		"effect": "Farms +125 food, Villagers +1 food carry capacity",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b0/Heavyplow.jpg/revision/latest/scale-to-width-down/22?cb=20120703074443"
+	},
+	"Crop Rotation": {
+		"age": "IV",
+		"building": "Mill",
+		"cost": "250f and 250w",
+		"effect": "Farms +175 food",
+		"notes": "Unavailable to: Aztecs, Celts, Chinese, Ethiopians, Huns, Indians, Japanese, Koreans, Mongols, Saracens, Spanish, Turks",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/21/Croprotation.jpg/revision/latest/scale-to-width-down/22?cb=20120703111821"
+	},
+	
+	
+	
+	
+	"Gold Mining": {
+		"age": "II",
+		"building": "Mining Camp",
+		"cost": "100f and 75w",
+		"effect": "Villagers mine gold 15% faster",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/21/Goldmining.jpg/revision/latest/scale-to-width-down/22?cb=20120629111849"
+	},
+	"Gold Shaft Mining": {
+		"age": "III",
+		"building": "Mining Camp",
+		"cost": "200f and 150w",
+		"effect": "Villagers mine gold 15% faster",
+		"notes": "Unavailable to: Goths, Italians, Mayans, Portuguese, Spanish, Teutons, Vietnamese",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/14/Goldshaftmining.jpg/revision/latest/scale-to-width-down/22?cb=20120629112536"
+	},
+	"Stone Mining": {
+		"age": "II",
+		"building": "Mining Camp",
+		"cost": "100f and 75w",
+		"effect": "Villagers mine stone 15% faster",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/00/Stonemining.jpg/revision/latest/scale-to-width-down/22?cb=20120701082424"
+	},
+	"Stone Shaft Mining": {
+		"age": "III",
+		"building": "Mining Camp",
+		"cost": "200f and 150w",
+		"effect": "Villagers mine stone 15% faster",
+		"notes": "Unavailable to: Britons, Burmese, Franks, Huns, Japanese, Magyars, Saracens, Slavs, Turks, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f9/Stone_Shaft_Mining.jpg/revision/latest/scale-to-width-down/22?cb=20151126142035"
+	},
+	
+	
+	
+	
+	"Cartography": {
+		"age": "II",
+		"building": "Market",
+		"cost": "free",
+		"effect": "See allies' LOS",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6c/Cartography.jpg/revision/latest/scale-to-width-down/22?cb=20120625165326"
+	},
+	"Caravan": {
+		"age": "III",
+		"building": "Market",
+		"cost": "200f and 200g",
+		"effect": "Trade Carts and Trade Cogs move 50% faster",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/41/CaravanII.png/revision/latest/scale-to-width-down/22?cb=20170104073941"
+	},
+	"Coinage": {
+		"age": "III",
+		"building": "Market",
+		"cost": "200f and 100g",
+		"effect": "Tribute fee 20%",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/64/Coinage.jpg/revision/latest/scale-to-width-down/22?cb=20120626065944"
+	},
+	"Banking": {
+		"age": "IV",
+		"building": "Market",
+		"cost": "300f and 200g",
+		"effect": "Tribute fee 0%",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d2/Banking.jpg/revision/latest/scale-to-width-down/22?cb=20120626071654"
+	},
+	"Guilds": {
+		"age": "IV",
+		"building": "Market",
+		"cost": "300f and 200g",
+		"effect": "Trading fee 15%",
+		"notes": "Unavailable to: Aztecs, Chinese, Franks, Japanese, Khmer, Magyars, Mongols, Saracens, Slavs, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/02/Guilds.jpg/revision/latest/scale-to-width-down/22?cb=20120703135054"
+	},
+	
+	
+	
+	
+	"Gillnets": {
+		"age": "III",
+		"building": "Dock",
+		"cost": "150f and 200g",
+		"effect": "Fishing Ships work 25% faster",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/Gillnetsicon.jpg/revision/latest/scale-to-width-down/22?cb=20170109131148"
+	},
+	"Careening": {
+		"age": "III",
+		"building": "Dock",
+		"cost": "250f and 150g",
+		"effect": "Ship armor +1, Transport Ship capacity +5",
+		"notes": "",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/dc/Careening.jpg/revision/latest/scale-to-width-down/22?cb=20120703154526"
+	},
+	"Dry Dock": {
+		"age": "IV",
+		"building": "Dock",
+		"cost": "600f and 400g",
+		"effect": "Ship speed +15%, Transport Ship capacity +10",
+		"notes": "Unavailable to: Goths, Mongols, Teutons",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ae/Drydock.jpg/revision/latest/scale-to-width-down/22?cb=20120703153324"
+	},
+	"Shipwright": {
+		"age": "IV",
+		"building": "Dock",
+		"cost": "1000f and 300g",
+		"effect": "Ships wood cost -20% and creation speed -35%",
+		"notes": "Unavailable to: Berbers, Burmese, Franks, Huns, Indians, Malians, Persians, Portuguese, Saracens, Slavs, Teutons, Vietnamese, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4f/Shipwright.jpg/revision/latest/scale-to-width-down/22?cb=20120703155437"
+	},
+	
+	
+	
+	
+	"Redemption": {
+		"age": "III",
+		"building": "Monastery",
+		"cost": "475g",
+		"effect": "Monks can convert most buildings and siege units",
+		"notes": "Unavailable to: Britons, Celts, Ethiopians, Franks, Goths, Huns, Koreans, Magyars, Mayans, Mongols, Persians, Vietnamese, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/83/Redemption.jpg/revision/latest/scale-to-width-down/22?cb=20120621124626"
+	},
+	"Atonement": {
+		"age": "III",
+		"building": "Monastery",
+		"cost": "325g",
+		"effect": "Monks can convert other Monks",
+		"notes": "Unavailable to: Britons, Celts, Franks, Goths, Incas, Indians, Khmer, Koreans, Magyars, Persians",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/3f/Atonement.jpg/revision/latest/scale-to-width-down/22?cb=20120621123632"
+	},
+	"Herbal Medicine": {
+		"age": "III",
+		"building": "Monastery",
+		"cost": "350g",
+		"effect": "Garrisoned units heal 4x faster",
+		"notes": "Unavailable to: Byzantines, Huns, Teutons, Turks, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/05/Herbalmedicine.png/revision/latest/scale-to-width-down/22?cb=20161223173034"
+	},
+	"Heresy": {
+		"age": "III",
+		"building": "Monastery",
+		"cost": "1000g",
+		"effect": "Units converted by enemy Monks die instead of joining them",
+		"notes": "Unavailable to: Britons, Burmese, Chinese, Goths, Indians, Italians, Japanese, Khmer, Koreans, Persians, Slavs, Vietnamese",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7c/Heresy.png/revision/latest/scale-to-width-down/22?cb=20161223171652"
+	},
+	"Sanctity": {
+		"age": "III",
+		"building": "Monastery",
+		"cost": "120g",
+		"effect": "Monks +15 HP",
+		"notes": "Unavailable to: Berbers, Monastery, Persians, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/68/Sanctity.jpg/revision/latest/scale-to-width-down/22?cb=20120621124337"
+	},
+	"Fervor": {
+		"age": "III",
+		"building": "Monastery",
+		"cost": "140g",
+		"effect": "Monk speed +15%",
+		"notes": "Unavailable to: Incas, Malay, Vietnamese",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/Fervor.jpg/revision/latest/scale-to-width-down/22?cb=20120621124050"
+	},
+	"Faith": {
+		"age": "IV",
+		"building": "Monastery",
+		"cost": "750f and 1000g",
+		"effect": "Units are harder for enemy Monks to convert",
+		"notes": "Unavailable to: Khmer, Magyars, Slavs",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/8b/Faith.jpg/revision/latest/scale-to-width-down/22?cb=20120622095506"
+	},
+	"Illumination": {
+		"age": "IV",
+		"building": "Monastery",
+		"cost": "120g",
+		"effect": "Monk rejuvenation speed +50%",
+		"notes": "Unavailable to: Celts, Koreans, Malians, Mayans, Mongols, Persians, Portuguese, Turks, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/64/Illumination.jpg/revision/latest/scale-to-width-down/22?cb=20120622094058"
+	},
+	"Block Printing": {
+		"age": "IV",
+		"building": "Monastery",
+		"cost": "200g",
+		"effect": "Monk conversion range +3",
+		"notes": "Unavailable to: Berbers, Celts, Chinese, Ethiopians, Goths, Huns, Khmer, Mongols, Turks",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/69/Blockprinting.jpg/revision/latest/scale-to-width-down/22?cb=20120622093707"
+	},
+	"Theocracy": {
+		"age": "IV",
+		"building": "Monastery",
+		"cost": "200g",
+		"effect": "Only one Monk in a group must rest after a conversion",
+		"notes": "Unavailable to: Celts, Huns, Malay, Mongols, Vikings",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/25/Theocracy.png/revision/latest/scale-to-width-down/22?cb=20161223172736"
+	}
 }
