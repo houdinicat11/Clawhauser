@@ -1406,7 +1406,7 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "none",
-		"notes": "Used to generate gold",
+		"notes": "Trade Cart gold=0.46×d×(d/(map size)+0.3)=0.46/(map size)d^2+0.138d \nd=max{0.1,√(max{0,|Δx|−5})^2+(max{0,|Δy|−5})^2}",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/73/TradeCartIcon.jpg/revision/latest?cb=20151208025152"
 	},
 	"Monk": {
