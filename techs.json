@@ -1194,8 +1194,73 @@
 		"effect": "Berserks regenerate faster",
 		"notes": "Vikings Imperial Age Unique Tech",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cf/Unique-tech.jpg/revision/latest?cb=20130317061529"
+	},
+	
+	"Stirrups": {
+		"age": "III",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Scout Cavalry line and Konniks attack 25% faster",
+		"notes": "Bulgarians Castle Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a6/CastleAgeUnique.png/revision/latest?cb=20131117122036"
+	},
+	"Bagians": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Militia line gain +3 armor",
+		"notes": "Bulgarians Imperial Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cf/Unique-tech.jpg/revision/latest?cb=20130317061529"
+	},
+	
+	"Steppe Husbandry": {
+		"age": "III",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Scout Cavalry line trains 80% faster",
+		"notes": "Cumans Castle Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a6/CastleAgeUnique.png/revision/latest?cb=20131117122036"
+	},
+	"Cuman Mercenaries": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Team Members can create 10 free Elite Kipchaks in the Castle",
+		"notes": "Cumans Imperial Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cf/Unique-tech.jpg/revision/latest?cb=20130317061529"
+	},
+	
+	"Hill Forts": {
+		"age": "III",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Town Center +3 range",
+		"notes": "Lithuanian Castle Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a6/CastleAgeUnique.png/revision/latest?cb=20131117122036"
+	},
+	"Tower Shields": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Spearman and Skirmisher lines +1P armor",
+		"notes": "Lithuanian Imperial Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cf/Unique-tech.jpg/revision/latest?cb=20130317061529"
+	},
+	
+	"Silk Armor": {
+		"age": "III",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Scout Cavalry and Cavalry Archer Lines +1P armor",
+		"notes": "Tatars Castle Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a6/CastleAgeUnique.png/revision/latest?cb=20131117122036"
+	},
+	"Timurid Siegecraft": {
+		"age": "IV",
+		"building": "Castle",
+		"cost": "????",
+		"effect": "Trebuchets +1 range",
+		"notes": "Tatars Imperial Age Unique Tech",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cf/Unique-tech.jpg/revision/latest?cb=20130317061529"
 	}
-	
-	
-	
 }

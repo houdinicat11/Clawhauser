@@ -184,7 +184,7 @@ function barracksUnits()
 	{
 		if(i<10)
 		{
-			tmp = tmp + units[i] + ", ";
+			tmp = tmp + units[i] + "`, `";
 		}
 		else
 		{
@@ -202,7 +202,7 @@ function archeryRangeUnits()
 	{
 		if(i<33)
 		{
-			tmp = tmp + units[i] + ", ";
+			tmp = tmp + units[i] + "`, `";
 		}
 		else
 		{
@@ -219,7 +219,7 @@ function stableUnits()
 	{
 		if(i<21)
 		{
-			tmp = tmp + units[i] + ", ";
+			tmp = tmp + units[i] + "`, `";
 		}
 		else
 		{

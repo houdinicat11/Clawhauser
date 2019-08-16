@@ -76,6 +76,11 @@ module.exports = (client, message, prefix) => {
 	{
 		return unit(message);
 	}
+	
+	if(message.content.startsWith(`${prefix}tech`))
+	{
+		return tech(message);
+	}
   
 	// ban a member
 	if(message.content.startsWith(`${prefix}ban`)) 
