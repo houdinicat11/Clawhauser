@@ -1,7 +1,7 @@
 const units = ["Militia", "Man-At-Arms", "Long Swordsman", "Two-Handed Swordsman", "Champion", "Spearman", "Pikeman", "Halberdier", "Eagle Scout", "Eagle Warrior", "Elite Eagle Warrior", "Scout Cavalry", "Light Cavalry", "Hussar", "Knight", "Cavalier", "Paladin", "Camel", "Heavy Camel", "Imperial Camel", "Battle Elephant", "Elite Battle Elephant", "Archer", "Crossbowman", "Arbalest", "Skirmisher", "Elite Skirmisher", "Imperial Skirmisher", "Cavalry Archer", "Heavy Cavalry Archer", "Hand Cannoneer", "Slinger", "Genitour", "Genitour", "Battering Ram", "Capped Ram", "Seige Ram", "Mangonel", "Onager", "Seige Onager", "Scorpion", "Heavy Scorpion", "Bombard Cannon", "Seige Tower", "Fishing Ship", "Transport Ship", "Fire Galley", "Fire Ship", "Fast Fire Ship", "Demolition Raft", "Demolition Ship", "Heavy Demolition Ship", "Galley", "War Galley", "Galleon", "Cannon Galleon", "Elite Cannon Galleon", "Turtle Ship", "Elite Turtle Ship", "Longboat", "Elite Longboat", "Caravel", "Elite Caravel", "Trade Cog", "Trade Cart", "Monk", "Missionary", "Villager", "Petard", "Trebuchet", "Longbowman", "Elite Longbowman", "Cataphract", "Elite Cataphract", "Woad Raider", "Elite Woad Raider", "Chu Ko Nu", "Elite Chu Ko Nu", "Throwing Axeman", "Elite Throwing Axeman", "Huskarl", "Elite Huskarl", "Samurai", "Elite Samurai", "Mangudai", "Elite Mangudai", "War Elephant", "Elite War Elephant", "Mameluke", "Elite Mameluke", "Teutonic Knight", "Elite Teutonic Knight", "Janissary", "Elite Janissary", "Berserk", "Elite Berserk", "Jaguar Warrior", "Elite Jaguar Warrior", "Tarkan", "Elite Tarkan", "War Wagon", "Elite War Wagon", "Plumed Archer", "Elite Plumed Archer", "Conquistador", "Elite Conquistador", "Kamayuk", "Elite Kamayuk", "Elephant Archer", "Elite Elephant Archer", "Genoese Crossbowman", "Elite Genoese Crossbowman", "Magyar Huszar", "Elite Magyar Huszar", "Boyar", "Elite Boyar", "Camel Archer", "Elite Camel Archer", "Shotel Warrior", "Elite Shotel Warrior", "Gbeto", "Elite Gbeto", "Organ Gun", "Elite Organ Gun", "Arambai", "Elite Arambai", "Ballista Elephant", "Elite Ballista Elephant", "Karambit Warrior", "Elite Karambit Warrior", "Rattan Archer", "Elite Rattan Archer", "Konnik", "Elite Konnik", "Kipchak Archer", "Elite Kipchak Archer", "Leitis", "Elite Leitis", "Keshik", "Elite Keshik"];
 const unitBuild = {
 	buildings: ["Barracks", "Archery Range", "Stable", "Seige Workshop", "Dock", "Monastery", "Town Center", "Castle", "Market"],
-	imageLoc: ["../pictures/barracks.png", "../pictures/archery_range.png", "../pictures/stable.png", "../pictures/siege_workshop.png", "../pictures/dock.png", "../pictures/monastery.png", "../pictures/town_center.png", "../pictures/castle.png", "../pictures/market.png"],
+	imageLoc: ["../pictures/buildings/barracks.png", "../pictures/buildings/archery_range.png", "../pictures/buildings/stable.png", "../pictures/buildings/siege_workshop.png", "../pictures/buildings/dock.png", "../pictures/buildings/monastery.png", "../pictures/buildings/town_center.png", "../pictures/buildings/castle.png", "../pictures/buildings/market.png"],
 	imageName: ["barracks.png", "archery_range.png", "stable.png", "siege_workshop.png", "dock.png", "monastery.png", "town_center.png", "castle.png", "market.png"]
 };
 const unitData = require('../units.json');
@@ -38,10 +38,11 @@ module.exports = message => {
 	if(i != units.length)
 	{
 		outputEmbed(message, i);
-		return;
 	}
+	else
+	{
         sendHelp(message, splitMess[0]);
-		
+	}	
 		return;
 	
 }
@@ -69,8 +70,8 @@ function accCheck(i)
 
 function outputEmbed(message, i)
 {
-	const Discord = require("discord.js");
-	const file = new Discord.Attachment('../pictures/test.png');
+	//const Discord = require("discord.js");
+	//const file = new Discord.Attachment('../pictures/test.png');
 	message.channel.send({embed: {
 			color: 0x00AE86,
 			author: {

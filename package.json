@@ -7,17 +7,20 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": ["Age of Empires", "bot", "Discord", "Music", "fun"],
   "author": "Peyton Krahulik",
   "license": "ISC",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "dotenv": "^7.0.0",
+    "discord.js-musicbot-addon": "^13.7.0",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^2.5.0",
     "node-opus": "^0.3.2",
+    "node.js": "0.0.0",
     "opusscript": "0.0.6",
-    "ytdl-core": "^0.29.2"
+    "ytdl-core": "^0.29.5"
   },
   "devDependencies": {
-    "nodemon": "^1.18.11"
+    "nodemon": "^1.19.1"
   }
 }
