@@ -7,12 +7,12 @@ or anyone officially involved in producing or managing League of Legends. League
 trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc.
 
 todo/work in progress
-    ~ make and I quote "tiddy bot"
-    ~ factor the code so it can be easily deployed in other Discord servers
-    ~ stats for the age of Empires civs
-    ~ Age of Empires Buildings
-    ~ Age of Empires Technologies
-    ~ paged help commands
+    	~ factor the code so it can be easily deployed in other Discord servers
+    	~ stats for the age of Empires civs // has not emailed me back yet
+    	~ Age of Empires Buildings
+	~ Age of Empires Techs per building
+	~ Clean up code line // it's really really bad XD
+    	~ paged help commands
 	~ music based on search criteria
 	~ obtain the infinity gauntlet
 	~ equal rights for felines
@@ -32,8 +32,9 @@ Current Functionalities:
 	~ log emoji creation/deletion + sends message
 	~ simple message replies
 	~ mass deletes channel messages via the purge command
-    ~ displays Age of Empires units via. the units command
-    ~ displays Age of Empires civs via. the civ command
+    	~ displays Age of Empires units via. the units command
+    	~ displays Age of Empires civs via. the civ command
+	~ displays AGe of EMpires techs via. the tech command
 
 dependencies:
 	node.js
@@ -47,7 +48,7 @@ dependencies:
 
 install commands: in bot directory
 	
-    Download Node.js
+    	Download Node.js
 	npm init -y
 	npm install discord.js 
 	npm install nodemon --save-dev 

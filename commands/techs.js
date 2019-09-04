@@ -20,7 +20,7 @@ module.exports = message => {
 		return;
     }
 	
-	f(splitMess[1] == "random")
+	if(splitMess[1] == "random")
 	{
 		
 		var random = Math.floor(Math.random()*techs.length);
@@ -31,13 +31,13 @@ module.exports = message => {
 	
 	
 	
-	while(i != units.length && message.content.toLowerCase().indexOf(units[i].toLowerCase()) == -1)
+	while(i != techs.length && message.content.toLowerCase().indexOf(techs[i].toLowerCase()) == -1)
 	{
 		i++;
 	}
 	
 	
-	if(i != units.length)
+	if(i != techs.length)
 	{
 		outputEmbed(message, i);
 	}
@@ -131,8 +131,9 @@ function outputEmbed(message, i)
 {
 	//fixme
 	const Discord = require("discord.js");
-	
-	const embed = new Discord.RichEmbed()
+	if(techData[techs[i]].notes != "")
+	{
+		const embed = new Discord.RichEmbed()
 			.setTitle(`${techs[i]}`)
 			/*
 			* Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
@@ -148,7 +149,27 @@ function outputEmbed(message, i)
 			.addField("Notes", 
 			`${techData[techs[i]].notes}`);
  
-		message.channel.send({embed});	
+		message.channel.send({embed});
+	}
+	else
+	{
+		const embed = new Discord.RichEmbed()
+                        .setTitle(`${techs[i]}`)
+                        /*
+                        * Alternatively, use "#00AE86", [0, 174, 134] or an integer number.
+                        **/
+                        .setColor(0x00AE86)
+                        .setDescription(`Age: ${techData[techs[i]].age} \nBuilding: ${techData[techs[i]].building} \nCost: ${techData[techs[i]].cost} \nEffect: ${techData[techs[i]].effect}`)
+                        .setFooter(`Clawhauser`, `${message.guild.client.user.avatarURL}`)
+                        .setThumbnail(`${techData[techs[i]].image}`)
+                        /*
+                        * Takes a Date object, defaults to current date.
+                        */
+                        .setTimestamp()
+
+                message.channel.send({embed});
+
+	}
 		
 		return;
 }

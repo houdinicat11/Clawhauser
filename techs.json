@@ -1,5 +1,5 @@
 {
-    "Town Watch": {
+    	"Town Watch": {
 		"age": "II",
 		"building": "Town Center",
 		"cost": "75f",
@@ -92,7 +92,7 @@
 		"notes": "Unavailable to: Aztecs, Berbers, Byzantines, Celts, Huns, Incas, Indians, Japanese, Magyars, Malay, Mongols, Saracens, Slavs, Teutons, Vietnamese",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/12/Architecture.jpg/revision/latest?cb=20120621115708"
 	},
-    "Ballistics": {
+    	"Ballistics": {
 		"age": "III",
 		"building": "University",
 		"cost": "300w and 175g",
@@ -100,7 +100,7 @@
 		"notes": "",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b4/Ballistics.jpg/revision/latest/scale-to-width-down/22?cb=20120621084532"
 	},
-    "Heated Shot": {
+    	"Heated Shot": {
 		"age": "III",
 		"building": "University",
 		"cost": "350f and 100g",
@@ -108,7 +108,7 @@
 		"notes": "Unavailable to: Byzantines, Franks, Huns, Japanese, Mongols, Saracens, Slavs, Spanish",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/13/Heatedshot.png/revision/latest/scale-to-width-down/22?cb=20120621114125"
 	},
-    "Murder Holes": {
+    	"Murder Holes": {
 		"age": "III",
 		"building": "University",
 		"cost": "200f and 100s",

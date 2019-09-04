@@ -420,6 +420,38 @@ function sendHelp(message, prefix)
 			{
 				name: "Town Center",
 				value: `${units[67]}`
+			},
+			{
+				name: "Castle - The Age of Kings",
+				value: `${castleAOKUnits()}`
+			},
+			{
+				name: "Castle - The Conquerors",
+				value: `${castleCUnits()}`
+			},
+			{
+				name: "Castle - The Forgotten",
+				value: `${castleFUnits()}`
+			},
+			{
+				name: "Castle - The African Kingdoms",
+				value: `${castleAKUnits()}`
+			},
+			{
+				name: "Castle - The Rise of the Rajas",
+				value: `${castleRRUnits()}`
+			},
+			{
+				name: "Castle - Definitive Edition",
+				value: `${castleDEUnits()}`
+			},
+			{
+				name: "Buildings",
+				value: `${buildings()}`
+			},
+			{
+				name: "Other",
+				value: "`Random`, `Help`"
 			}
 			],
 			timestamp: new Date(),
@@ -430,7 +462,7 @@ function sendHelp(message, prefix)
 		}
 		});
 		
-		message.channel.send({embed: {
+		/*message.channel.send({embed: {
 			color: 0x00AE86,
 			author: {
 			name: `${prefix} command options`
@@ -472,7 +504,7 @@ function sendHelp(message, prefix)
 				text: `Clawhauser`
 			}
 		}
-		});
+		});*/
 		return;
 }
 
