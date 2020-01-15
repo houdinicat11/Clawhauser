@@ -1,6 +1,6 @@
 {
 	"Militia": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "40",
@@ -20,7 +20,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/MilitiaIcon.jpg/revision/latest?cb=20151202184737"
 	},
 	"Man-At-Arms": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "45",
@@ -40,7 +40,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7c/ManAtArmsIcon.jpg/revision/latest?cb=20151202184742"
 	},
 	"Long Swordsman": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "60",
@@ -60,7 +60,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/LongswordsManIcon.jpg/revision/latest?cb=20151202185246"
 	},
 	"Two-Handed Swordsman": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "60",
@@ -80,7 +80,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/2HandedswordsmanIcon.jpg/revision/latest?cb=20151202185935"
 	},
 	"Champion": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "70",
@@ -96,7 +96,7 @@
 		"line": "Militia-Line",
 		"upgradeFrom": "Two-Handed Swordsman",
 		"upgrade": "none",
-		"notes": "Unavialiable to: Ethiopians, Huns, Khmer, Malay, Mayans, Persians",
+		"notes": "Unavialiable to: Bulgarians, Ethiopians, Huns, Khmer, Malay, Mayans, Persians, Tatars",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/61/ChampionIcon.jpg/revision/latest?cb=20151202190352"
 	},
 		
@@ -108,7 +108,7 @@
 		"range": "melee",
 		"attack": "3",
 		"rof": "3.05",
-		"attackBonus": " - +15 vs. Cavalary \n - +15 vs. War Elephant \n - +12 vs. Camel \n - +9 vs. Ship \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
+		"attackBonus": " - +15 vs. Cavalary \n - +15 vs. War Elephant \n - +12 vs. Camel \n - +9 vs. Ship \n +9 vs. Fishing Ship \n - +4 vs. Marmeluke \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
 		"armorClass": "Infantry, Spearman",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -128,7 +128,7 @@
 		"range": "melee",
 		"attack": "4",
 		"rof": "3.05",
-		"attackBonus": " - +22 vs. Cavalary \n - +25 vs. War Elephant \n - +18 vs. Camel \n - +16 vs. Ship \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
+		"attackBonus": " - +25 vs. War Elephant /n - +22 vs. Cavalary \n - +18 vs. Camel \n - +16 vs. Ship \n - +16 vs. Fishing Ship \n - +11 vs. Marmeluke \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
 		"armorClass": "Infantry, Spearman",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -137,7 +137,7 @@
 		"line": "Spearman-line",
 		"upgradeFrom": "Spearman",
 		"upgrade": "Halberdier (300f, 600g, 50sec)",
-		"notes": "Unavialiable to: Turks \nPikemen lose to villigers with loom if they have no blacksmith upgrades",
+		"notes": "Unavialiable to: Turks \n Pikemen lose to villigers with loom if they have no blacksmith upgrades",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d8/PikemanIcon.jpg/revision/latest?cb=20151202191259"
 	},
 	"Halberdier": {
@@ -148,7 +148,7 @@
 		"range": "melee",
 		"attack": "6",
 		"rof": "3.05",
-		"attackBonus": " - +32 vs. Cavalary \n - +28 vs. War Elephant \n - +26 vs. Camel \n - +17 vs. Ship \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
+		"attackBonus": " - +32 vs. Cavalary \n - +28 vs. War Elephant \n - +26 vs. Camel \n - +17 vs. Ship \n - +17 vs. Fishing Ship \n - +11 vs. Marmeluke \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
 		"armorClass": "Infantry, Spearman",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -157,7 +157,7 @@
 		"line": "Spearman-line",
 		"upgradeFrom": "Pikeman",
 		"upgrade": "none",
-		"notes": "Unavialiable to: Aztecs, Berbers, Italians, Malians, Mongols, Saracens, Turks, Vikings",
+		"notes": "Unavialiable to: Aztecs, Berbers, Italians, Malians, Mongols, Saracens, Tatars, Turks, Vikings",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/HalberdierIcon.jpg/revision/latest?cb=20151202191953"
 	},
 		
@@ -174,7 +174,7 @@
 		"meleeArmor": "0",
 		"pierceArmor": "2",
 		"speed": "1.1",
-		"los": "6",
+		"los": "5",
 		"line": "Eagle Scout-line",
 		"upgradeFrom": "none",
 		"upgrade": "Eagle Warrior (200f, 200g, 50s)",
@@ -189,7 +189,7 @@
 		"range": "melee",
 		"attack": "7",
 		"rof": "2.03",
-		"attackBonus": " - +8 vs. Monk \n - +3 vs. Seige \n - +3 vs. Cavalary \n +2 vs. Camel \n - +1 vs. Ship",
+		"attackBonus": " - +8 vs. Monk \n - +3 vs. Seige \n - +3 vs. Cavalary \n +2 vs. Camel \n - +1 vs. Ship \n - +1 vs. Fishing Ship",
 		"armorClass": "Infantry, Eagle Warrior",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
@@ -203,13 +203,13 @@
 	},
 	"Elite Eagle Warrior": {
 		"cost": "20f and 50g",
-		"tt": "35 seconds",
+		"tt": "20 seconds",
 		"building": "Barracks",
 		"hp": "60",
 		"range": "melee",
 		"attack": "9",
 		"rof": "2.03",
-		"attackBonus": " - +10 vs. Monk \n - +5 vs. Seige \n - +4 vs. Cavalary \n +3 vs. Camel \n - +2 vs. Ship",
+		"attackBonus": " - +10 vs. Monk \n - +5 vs. Seige \n - +4 vs. Cavalary \n +3 vs. Camel \n - +2 vs. Ship \n - +2 vs. Fishing Ship",
 		"armorClass": "Infantry, Eagle Warrior",
 		"meleeArmor": "0",
 		"pierceArmor": "4",
@@ -229,7 +229,7 @@
 		"range": "melee",
 		"attack": "9",
 		"rof": "1.93",
-		"attackBonus": " - +10 vs. Monk \n - +5 vs. Seige \n - +4 vs. Cavalary \n +3 vs. Camel \n - +2 vs. Ship",
+		"attackBonus": " - +10 vs. Gunpowder Unit \n +2 vs. Standard Building",
 		"armorClass": "Infantry(+10), Unique Unit, Condottiero",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -262,7 +262,7 @@
 		"los": "6",
 		"line": "Archer-line",
 		"upgradeFrom": "none",
-		"upgrade": "Crossbowman (125f 75g, 25sec)",
+		"upgrade": "Crossbowman (125f 75g, 35sec)",
 		"notes": "none",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/89/ArcherIcon.jpg/revision/latest?cb=20151203051052"
 	},
@@ -285,14 +285,14 @@
 		"line": "Archer-line",
 		"upgradeFrom": "Archer",
 		"upgrade": "Arbalest (350f 300g, 50sec)",
-		"notes": "Unavailable to: Spanish",
+		"notes": "Unavailable to: Bulgarians, Spanish",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cd/CrossbowmanIcon.jpg/revision/latest?cb=20151203051100"
 	},
 	"Arbalest": {
 		"cost": "25w and 45g",
 		"tt": "27 seconds",
 		"building": "Archery Range",
-		"hp": "35",
+		"hp": "40",
 		"range": "5",
 		"attack": "6 pierce",
 		"accuracy": "90%",
@@ -307,7 +307,7 @@
 		"line": "Archer-line",
 		"upgradeFrom": "Crossbowman",
 		"upgrade": "none",
-		"notes": "Unavailable to: Berbers, Burmese, Celts, Franks, Goths, Huns, Indians, Persians, Slavs, Spanish, Teutons, Turks",
+		"notes": "Unavailable to: Berbers, Bulgarians, Burmese, Celts, Cumans, Franks, Goths, Huns, Indians, Lithuanians, Persians, Slavs, Spanish, Tatars, Teutons, Turks",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/ArbalestIcon.jpg/revision/latest?cb=20151203051411"
 	},
 	"Skirmisher": {
@@ -361,7 +361,7 @@
 		"hp": "35",
 		"range": "5, Min: 1",
 		"attack": "4 pierce",
-		"accuracy": "90%",
+		"accuracy": "95%",
 		"projSpd": "7",
 		"rof": "3.05",
 		"attackBonus": " - +5 vs. Archer \n - +3 vs. Spearman \n - +3 vs. Calvery Archer",
@@ -429,7 +429,7 @@
 		"attack": "17 pierce",
 		"accuracy": "65%",
 		"projSpd": "5.5",
-		"rof": "3.49",
+		"rof": "3.45",
 		"attackBonus": " - +10 vs. Infantry \n - +2 vs. Ram \n - +1 vs. Spearman",
 		"armorClass": "Archer, Gunpowder unit",
 		"meleeArmor": "1",
@@ -439,7 +439,7 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "none",
-		"notes": "Unavailable to: Aztecs, Britons, Burmese, Celts, Chinese, Ethiopians, Huns, Incas, Magyars, Maylay, Mayans, Mongols, Slavs, Vietnamese, Vikings \nRequires Chemestry to be researched",
+		"notes": "Unavailable to: Aztecs, Britons, Burmese, Celts, Cumans, Chinese, Ethiopians, Huns, Incas, Magyars, Maylay, Mayans, Mongols, Slavs, Vietnamese, Vikings \nRequires Chemestry to be researched",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fe/HandCannoneerIcon.jpg/revision/latest?cb=20151203064030"
 	},
 	"Slinger": {
@@ -447,8 +447,8 @@
 		"tt": "25 seconds",
 		"building": "Archery Range",
 		"hp": "40",
-		"range": "5",
-		"attack": "5 pierce",
+		"range": "5, Min: 1",
+		"attack": "4 pierce",
 		"accuracy": "90%",
 		"projSpd": "5.5",
 		"rof": "2.03",
@@ -469,13 +469,13 @@
 		"tt": "25 seconds",
 		"building": "Archery Range",
 		"hp": "50",
-		"range": "4",
+		"range": "4, Min: 1",
 		"attack": "3 pierce",
 		"accuracy": "90%",
 		"projSpd": "7",
 		"rof": "3.05",
-		"attackBonus": " - +4 vs. Archer",
-		"armorClass": "Archer, Cavalry Archer, Cavalry, Unique Unit",
+		"attackBonus": " - +4 vs. Archer \n - +2 vs. Spearman",
+		"armorClass": "Archer, Cavalry Archer(+1), Cavalry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
 		"speed": "1.35",
@@ -483,10 +483,10 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "Elite Genitour (500f, 450w, 60sec)",
-		"notes": "Only avialiable to: Berbers",
+		"notes": "Only avialiable through Berber team bonus",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6f/GenitourIcon.jpg/revision/latest?cb=20151203040213"
 	},
-	"Genitour": {
+	"Elite Genitour": {
 		"cost": "50f and 35w",
 		"tt": "25 seconds",
 		"building": "Archery Range",
@@ -496,8 +496,8 @@
 		"accuracy": "90%",
 		"projSpd": "7",
 		"rof": "3.05",
-		"attackBonus": " - +5 vs. Archer \n - +2 vs. Cavalry Archer",
-		"armorClass": "Archer, Cavalry Archer, Cavalry, Unique Unit",
+		"attackBonus": " - +5 vs. Archer \n - +2 vs. Spearman \n - +2 vs. Cavalry Archer",
+		"armorClass": "Archer, Cavalry Archer(+1), Cavalry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "4",
 		"speed": "1.35",
@@ -524,11 +524,11 @@
 		"meleeArmor": "0",
 		"pierceArmor": "2",
 		"speed": "1.2, 1.55 in the Feudal Age",
-		"los": "4 in the Dark Age, 6 in the Feudal Age, 8 in the Castle Age, 10 in the Imperial Age",
+		"los": "4/6/8/10 in the Dark/Feudal/Castle/Imperial Age",
 		"line": "Scout Cavalry-line",
 		"upgradeFrom": "none",
 		"upgrade": "Light Cavlary (150f, 50g, 45sec)",
-		"notes": "Unavailable to: Aztecs, Incas, Mayans, Teutons",
+		"notes": "Unavailable to: Aztecs, Incas, Mayans",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/72/ScoutCavalryIcon.jpg/revision/latest?cb=20151203065724"
 	},
 	"Light Cavalry": {
@@ -547,8 +547,8 @@
 		"los": "8 in the Castle Age, 10 in the Imperial Age",
 		"line": "Scout Cavalry-line",
 		"upgradeFrom": "Scout Cavalry",
-		"upgrade": "Hussar (150f, 50g, 45sec)",
-		"notes": "Unavailable to: Aztecs, Incas, Mayans",
+		"upgrade": "Hussar (500f, 600g, 50sec)",
+		"notes": "Unavailable to: Aztecs, Incas, Mayans, Teutons",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ed/LightCavalryIcon.jpg/revision/latest?cb=20151203065718"
 	},
 	"Hussar": {
@@ -558,7 +558,7 @@
 		"hp": "75",
 		"range": "melee",
 		"attack": "7",
-		"rof": "2.03",
+		"rof": "1.93",
 		"attackBonus": " - +12 vs. Monk",
 		"armorClass": "Cavalry",
 		"meleeArmor": "0",
@@ -568,7 +568,7 @@
 		"line": "Scout Cavalry-line",
 		"upgradeFrom": "Light Cavalry",
 		"upgrade": "none",
-		"notes": "Unavailable to: Aztecs, Britons, Chinese, Franks, Incas, Japanese, Khmer, Malay, Malians, Mayans, Portugese, Tuetons, Vikings, Vietnamese",
+		"notes": "Unavailable to: Aztecs, Britons, Chinese, Franks, Incas, Japanese, Malay, Malians, Mayans, Portugese, Tuetons, Vikings, Vietnamese",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/28/HussarIcon.jpg/revision/latest?cb=20151203070311"
 	},
 	"Knight": {
@@ -628,7 +628,7 @@
 		"line": "Knight-line",
 		"upgradeFrom": "Cavalier",
 		"upgrade": "none",
-		"notes": "Only avialiable to: Byzantines, Celts, Franks, Huns, Magyars, Persians, Spanish, Teutons",
+		"notes": "Only avialiable to: Bulgarians, Byzantines, Celts, Cumans, Franks, Huns, Lithuanians, Magyars, Persians, Spanish, Teutons",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/75/PaladinIcon.jpg/revision/latest?cb=20151203104938"
 	},
 	"Camel": {
@@ -639,7 +639,7 @@
 		"range": "melee",
 		"attack": "6",
 		"rof": "2.03",
-		"attackBonus": " - +9 vs. Cavalry \n - +5 vs. Camel \n - +5 vs. Ship",
+		"attackBonus": " - +9 vs. Cavalry \n - +5 vs. Camel \n - +5 vs. Ship \n - +5 vs. Fishing Ship",
 		"armorClass": "Camel",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -648,7 +648,7 @@
 		"line": "Camel-line",
 		"upgradeFrom": "none",
 		"upgrade": "Heavy Camel (325f, 365g, 105sec)",
-		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Turks",
+		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Cumans, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Tatars, Turks",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0d/CamelIcon.jpg/revision/latest?cb=20151203105850"
 	},
 	"Heavy Camel": {
@@ -659,7 +659,7 @@
 		"range": "melee",
 		"attack": "7",
 		"rof": "2.03",
-		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship",
+		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship \n - +9 vs. Fishing Ship \n - +7 vs. Marmeluke",
 		"armorClass": "Camel",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -668,7 +668,7 @@
 		"line": "Camel-line",
 		"upgradeFrom": "Camel",
 		"upgrade": "Imperial Camel (1200f, 600g, 125sec)",
-		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Turks",
+		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Tatars, Turks",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/11/HeavyCamelIcon.jpg/revision/latest?cb=20151203105930"
 	},
 	"Imperial Camel": {
@@ -679,7 +679,7 @@
 		"range": "melee",
 		"attack": "9",
 		"rof": "2.03",
-		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship \n - +6 vs. Building",
+		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship \n - +9 vs. Fishing Ship \n - +7 vs. Marmeluke \n - +6 vs. Building",
 		"armorClass": "Camel",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -718,13 +718,13 @@
 		"building": "Stable",
 		"hp": "300",
 		"range": "melee",
-		"attack": "16",
+		"attack": "14",
 		"blast": "0.4",
 		"rof": "2.03",
 		"attackBonus": " - +10 vs. Building \n - +10 vs. Stone Defense",
 		"armorClass": "Cavalry, War Elephant",
 		"meleeArmor": "1",
-		"pierceArmor": "2",
+		"pierceArmor": "3",
 		"speed": "0.85",
 		"los": "5",
 		"line": "Battle Elephant-line",
@@ -733,7 +733,46 @@
 		"notes": "Only avialiable to: Burmese, Khmer, Malay, Vietnamese",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/41/Elitebattleelephanticon.png/revision/latest?cb=20161223153738"
 	},
-	
+	"Steppe Lancer": {
+		"cost": "70f and 45g",
+		"tt": "24 seconds",
+		"building": "Stable",
+		"hp": "60",
+		"range": "1",
+		"attack": "8",
+		"rof": "2.3",
+		"attackBonus": "none",
+		"armorClass": "Cavalry",
+		"meleeArmor": "0",
+		"pierceArmor": "1",
+		"speed": "1.45",
+		"los": "5",
+		"line": "Steppe Lancer-line",
+		"upgradeFrom": "none",
+		"upgrade": "Elite Steppe Lancer (900f, 550g, ??sec)",
+		"notes": "Only avialiable to: Cumans, Tatars",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/Steppelancericon.png/revision/latest?cb=20191110161839"
+	},
+	"Elite Steppe Lancer": {
+		"cost": "70f and 45g",
+		"tt": "20 seconds",
+		"building": "Stable",
+		"hp": "80",
+		"range": "1",
+		"attack": "10",
+		"rof": "2.3",
+		"attackBonus": "none",
+		"armorClass": "Cavalry",
+		"meleeArmor": "0",
+		"pierceArmor": "1",
+		"speed": "1.45",
+		"los": "5",
+		"line": "Steppe Lancer-line",
+		"upgradeFrom": "Steppe Lancer",
+		"upgrade": "None",
+		"notes": "Only avialiable to: Cumans, Tatars",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/Steppelancericon.png/revision/latest?cb=20191110161839"
+	},
 	
 	
 	
@@ -767,7 +806,7 @@
 		"blast": "1.5",
 		"rof": "5",
 		"attackBonus": " - +150 vs. Building \n - +50 vs. Seige Weapon",
-		"armorClass": "Seige Weapon, Ram",
+		"armorClass": "Seige Weapon, Ram(+1)",
 		"meleeArmor": "-3",
 		"pierceArmor": "190",
 		"speed": "0.5 +0.05 for every garrisoned infantry",
@@ -788,15 +827,15 @@
 		"blast": "2",
 		"rof": "5",
 		"attackBonus": " - +200 vs. Building \n - +65 vs. Seige Weapon",
-		"armorClass": "Seige Weapon, Ram",
+		"armorClass": "Seige Weapon, Ram(+2)",
 		"meleeArmor": "-3",
-		"pierceArmor": "190",
+		"pierceArmor": "195",
 		"speed": "0.6 +0.05 for every garrisoned infantry",
 		"los": "3",
 		"line": "Ram-line",
 		"upgradeFrom": "Capped Ram",
 		"upgrade": "none",
-		"notes": "Unavailable to: Berbers, Britians, Burmese, Franks, Goths, Indians, Italians, Japanese, Koreans, Magyars, Malay, Malians, Portuguese, Teutons, Vietnamese\nCan Garrison 6 troops \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Unavailable to: Berbers, Britians, Burmese, Franks, Goths, Indians, Italians, Japanese, Koreans, Lithuanian, Magyars, Malay, Malians, Portuguese, Teutons, Vietnamese\nCan Garrison 6 troops \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/04/SiegeRamIcon.jpg/revision/latest?cb=20151204004619"
 	},
 	"Mangonel": {
@@ -865,7 +904,7 @@
 		"line": "Catipult-line",
 		"upgradeFrom": "Onager",
 		"upgrade": "none",
-		"notes": "Can attack ground and destroy trees \nWill Damage friendly units \nOnly avialiable to: Aztecs, Celts, Etheopians, Koreans, Malians, Mongols, Saracens, Slavs, Teutons \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Can attack ground and destroy trees \nWill Damage friendly units \nOnly avialiable to: Aztecs, Bulgarians, Celts, Cumans, Etheopians, Koreans, Malians, Mongols, Saracens, Slavs, Teutons \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f1/SiegeOnagerIcon.jpg/revision/latest?cb=20151204005813"
 	},
 	"Scorpion": {
@@ -909,7 +948,7 @@
 		"line": "Scorpion-line",
 		"upgradeFrom": "Scorpion",
 		"upgrade": "none",
-		"notes": "Due to Scorpion's having 0 melee attack, Rams take extra damage from them due to their -3 melee armor \nProjectile Damages all units in a line \nUnavailable to: Aztecs, Byzantines, Huns, Indians, Italians, Koreans, Malians, Portuguese, Saracens, Spanish, Vietnamese \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Due to Scorpion's having 0 melee attack, Rams take extra damage from them due to their -3 melee armor \nProjectile Damages all units in a line \nUnavailable to: Aztecs, Byzantines, Cumans, Huns, Indians, Italians, Koreans, Lithuanians, Malians, Portuguese, Saracens, Spanish, Vietnamese \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/HeavyScorpionIcon.jpg/revision/latest?cb=20151204010454"
 	},
 	"Bombard Cannon": {
@@ -923,7 +962,7 @@
 		"projSpd": "4",
 		"blast": "0.5",
 		"rof": "6.5",
-		"attackBonus": " - +200 vs. Building \n - +40 vs. Ship \n - +40 vs. Stone Defense, +20 vs. Seige Weapon",
+		"attackBonus": " - +200 vs. Building \n - +40 vs. Ship \n - +40 vs. Fishing Ship \n - +40 vs. Stone Defense, +20 vs. Seige Weapon",
 		"armorClass": "Seige Weapon, Gunpowder Unit",
 		"meleeArmor": "2",
 		"pierceArmor": "5",
@@ -932,7 +971,7 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "none",
-		"notes": "Can attack ground and destroy trees \nRequires Chemistry \nWill damage friendly units \nUnavailable to: Aztecs, Britons, Celts, Chinese, Huns, Incas, Japanese, Magyars, Mayans, Mongols, Slavs, Vikings \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Can attack ground and destroy trees \nRequires Chemistry \nWill damage friendly units \nUnavailable to: Aztecs, Britons, Bulgarians, Celts, Chinese, Huns, Incas, Japanese, Magyars, Mayans, Mongols, Slavs, Tatars, Vikings \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4b/BombardCannonIcon.jpg/revision/latest?cb=20151204085129"
 	},
 	"Seige Tower": {
@@ -943,7 +982,7 @@
 		"range": "N/A",
 		"attack": "none",
 		"rof": "N/A",
-		"attackBonus": " - +200 vs. Building \n - +40 vs. Ship \n - +40 vs. Stone Defense, +20 vs. Seige Weapon",
+		"attackBonus": "none",
 		"armorClass": "Seige Weapon, Ram",
 		"meleeArmor": "-2",
 		"pierceArmor": "100",
