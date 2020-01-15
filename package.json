@@ -7,7 +7,13 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "keywords": ["Age of Empires", "bot", "Discord", "Music", "fun"],
+  "keywords": [
+    "Age of Empires",
+    "bot",
+    "Discord",
+    "Music",
+    "fun"
+  ],
   "author": "Peyton Krahulik",
   "license": "ISC",
   "dependencies": {
@@ -21,6 +27,14 @@
     "ytdl-core": "^0.29.5"
   },
   "devDependencies": {
-    "nodemon": "^1.19.1"
-  }
+    "nodemon": "^1.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/houdinicat11/Clawhauser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/houdinicat11/Clawhauser/issues"
+  },
+  "homepage": "https://github.com/houdinicat11/Clawhauser#readme"
 }
