@@ -1,4 +1,4 @@
-const units = ["Militia", "Man-At-Arms", "Long Swordsman", "Two-Handed Swordsman", "Champion", "Spearman", "Pikeman", "Halberdier", "Eagle Scout", "Eagle Warrior", "Elite Eagle Warrior", "Scout Cavalry", "Light Cavalry", "Hussar", "Knight", "Cavalier", "Paladin", "Camel", "Heavy Camel", "Imperial Camel", "Battle Elephant", "Elite Battle Elephant", "Steppe Lancer", "Elite Steppe Lancer","Archer", "Crossbowman", "Arbalest", "Skirmisher", "Elite Skirmisher", "Imperial Skirmisher", "Cavalry Archer", "Heavy Cavalry Archer", "Hand Cannoneer", "Slinger", "Genitour", "Genitour", "Battering Ram", "Capped Ram", "Seige Ram", "Mangonel", "Onager", "Seige Onager", "Scorpion", "Heavy Scorpion", "Bombard Cannon", "Seige Tower", "Fishing Ship", "Transport Ship", "Fire Galley", "Fire Ship", "Fast Fire Ship", "Demolition Raft", "Demolition Ship", "Heavy Demolition Ship", "Galley", "War Galley", "Galleon", "Cannon Galleon", "Elite Cannon Galleon", "Turtle Ship", "Elite Turtle Ship", "Longboat", "Elite Longboat", "Caravel", "Elite Caravel", "Trade Cog", "Trade Cart", "Monk", "Missionary", "Villager", "Petard", "Trebuchet", "Longbowman", "Elite Longbowman", "Cataphract", "Elite Cataphract", "Woad Raider", "Elite Woad Raider", "Chu Ko Nu", "Elite Chu Ko Nu", "Throwing Axeman", "Elite Throwing Axeman", "Huskarl", "Elite Huskarl", "Samurai", "Elite Samurai", "Mangudai", "Elite Mangudai", "War Elephant", "Elite War Elephant", "Mameluke", "Elite Mameluke", "Teutonic Knight", "Elite Teutonic Knight", "Janissary", "Elite Janissary", "Berserk", "Elite Berserk", "Jaguar Warrior", "Elite Jaguar Warrior", "Tarkan", "Elite Tarkan", "War Wagon", "Elite War Wagon", "Plumed Archer", "Elite Plumed Archer", "Conquistador", "Elite Conquistador", "Kamayuk", "Elite Kamayuk", "Elephant Archer", "Elite Elephant Archer", "Genoese Crossbowman", "Elite Genoese Crossbowman", "Magyar Huszar", "Elite Magyar Huszar", "Boyar", "Elite Boyar", "Camel Archer", "Elite Camel Archer", "Shotel Warrior", "Elite Shotel Warrior", "Gbeto", "Elite Gbeto", "Organ Gun", "Elite Organ Gun", "Arambai", "Elite Arambai", "Ballista Elephant", "Elite Ballista Elephant", "Karambit Warrior", "Elite Karambit Warrior", "Rattan Archer", "Elite Rattan Archer", "Konnik", "Elite Konnik", "Kipchak Archer", "Elite Kipchak Archer", "Leitis", "Elite Leitis", "Keshik", "Elite Keshik", "King"];
+const units = ["Militia", "Man-At-Arms", "Long Swordsman", "Two-Handed Swordsman", "Champion", "Spearman", "Pikeman", "Halberdier", "Eagle Scout", "Eagle Warrior", "Elite Eagle Warrior", "Scout Cavalry", "Light Cavalry", "Hussar", "Knight", "Cavalier", "Paladin", "Camel", "Heavy Camel", "Imperial Camel", "Battle Elephant", "Elite Battle Elephant", "Steppe Lancer", "Elite Steppe Lancer","Archer", "Crossbowman", "Arbalest", "Skirmisher", "Elite Skirmisher", "Imperial Skirmisher", "Cavalry Archer", "Heavy Cavalry Archer", "Hand Cannoneer", "Slinger", "Genitour", "Elite Genitour", "Battering Ram", "Capped Ram", "Seige Ram", "Mangonel", "Onager", "Seige Onager", "Scorpion", "Heavy Scorpion", "Bombard Cannon", "Seige Tower", "Fishing Ship", "Transport Ship", "Fire Galley", "Fire Ship", "Fast Fire Ship", "Demolition Raft", "Demolition Ship", "Heavy Demolition Ship", "Galley", "War Galley", "Galleon", "Cannon Galleon", "Elite Cannon Galleon", "Turtle Ship", "Elite Turtle Ship", "Longboat", "Elite Longboat", "Caravel", "Elite Caravel", "Trade Cog", "Trade Cart", "Monk", "Missionary", "Villager", "Petard", "Trebuchet", "Longbowman", "Elite Longbowman", "Cataphract", "Elite Cataphract", "Woad Raider", "Elite Woad Raider", "Chu Ko Nu", "Elite Chu Ko Nu", "Throwing Axeman", "Elite Throwing Axeman", "Huskarl", "Elite Huskarl", "Samurai", "Elite Samurai", "Mangudai", "Elite Mangudai", "War Elephant", "Elite War Elephant", "Mameluke", "Elite Mameluke", "Teutonic Knight", "Elite Teutonic Knight", "Janissary", "Elite Janissary", "Berserk", "Elite Berserk", "Jaguar Warrior", "Elite Jaguar Warrior", "Tarkan", "Elite Tarkan", "War Wagon", "Elite War Wagon", "Plumed Archer", "Elite Plumed Archer", "Conquistador", "Elite Conquistador", "Kamayuk", "Elite Kamayuk", "Elephant Archer", "Elite Elephant Archer", "Genoese Crossbowman", "Elite Genoese Crossbowman", "Magyar Huszar", "Elite Magyar Huszar", "Boyar", "Elite Boyar", "Camel Archer", "Elite Camel Archer", "Shotel Warrior", "Elite Shotel Warrior", "Gbeto", "Elite Gbeto", "Organ Gun", "Elite Organ Gun", "Arambai", "Elite Arambai", "Ballista Elephant", "Elite Ballista Elephant", "Karambit Warrior", "Elite Karambit Warrior", "Rattan Archer", "Elite Rattan Archer", "Konnik", "Elite Konnik", "Kipchak Archer", "Elite Kipchak Archer", "Leitis", "Elite Leitis", "Keshik", "Elite Keshik", "King"];
 const unitBuild = {
 	buildings: ["Barracks", "Archery Range", "Stable", "Seige Workshop", "Dock", "Monastery", "Town Center", "Castle", "Market"],
 	imageLoc: ["../pictures/buildings/barracks.png", "../pictures/buildings/archery_range.png", "../pictures/buildings/stable.png", "../pictures/buildings/siege_workshop.png", "../pictures/buildings/dock.png", "../pictures/buildings/monastery.png", "../pictures/buildings/town_center.png", "../pictures/buildings/castle.png", "../pictures/buildings/market.png"],
@@ -199,9 +199,9 @@ function archeryRangeUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=22;i<34;i++)
+	for(i=24;i<36;i++)
 	{
-		if(i<33)
+		if(i<35)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -216,9 +216,9 @@ function stableUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=11;i<22;i++)
+	for(i=13;i<24;i++)
 	{
-		if(i<21)
+		if(i<23)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -233,9 +233,9 @@ function castleAOKUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=68;i<96;i++)
+	for(i=70;i<98;i++)
 	{
-		if(i<95)
+		if(i<97)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -250,9 +250,9 @@ function castleCUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=96;i<106;i++)
+	for(i=98;i<108;i++)
 	{
-		if(i<105)
+		if(i<107)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -267,9 +267,9 @@ function castleFUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=106;i<116;i++)
+	for(i=108;i<118;i++)
 	{
-		if(i<115)
+		if(i<117)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -284,9 +284,9 @@ function castleAKUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=116;i<124;i++)
+	for(i=118;i<126;i++)
 	{
-		if(i<123)
+		if(i<125)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -301,9 +301,9 @@ function castleRRUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=124;i<132;i++)
+	for(i=126;i<134;i++)
 	{
-		if(i<131)
+		if(i<133)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -318,9 +318,9 @@ function castleDEUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=132;i<140;i++)
+	for(i=134;i<142;i++)
 	{
-		if(i<139)
+		if(i<141)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -335,9 +335,9 @@ function dockUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=44;i<64;i++)
+	for(i=46;i<66;i++)
 	{
-		if(i<63)
+		if(i<65)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -352,9 +352,9 @@ function seigeWorkshopUnits()
 {
 	var tmp = "`";
 	var i;
-	for(i=34;i<44;i++)
+	for(i=36;i<46;i++)
 	{
-		if(i<43)
+		if(i<45)
 		{
 			tmp = tmp + units[i] + "`, `";
 		}
@@ -411,15 +411,15 @@ function sendHelp(message, prefix)
 			},
 			{
 				name: "Market",
-				value: `${units[64]}`
+				value: `\`${units[66]}\``
 			},
 			{
 				name: "Monastery",
-				value: `${units[65], units[66]}`
+				value: `\`${units[67]}\`, \`${units[68]}\``
 			},
 			{
 				name: "Town Center",
-				value: `${units[67]}`
+				value: `\`${units[69]}\``
 			},
 			{
 				name: "Castle - The Age of Kings",
@@ -451,7 +451,7 @@ function sendHelp(message, prefix)
 			},
 			{
 				name: "Other",
-				value: "`Random`, `Help`"
+				value: "`Random`, `Help`, `King`"
 			}
 			],
 			timestamp: new Date(),
