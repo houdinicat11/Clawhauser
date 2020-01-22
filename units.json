@@ -2116,7 +2116,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Jaguar Warrior (1000f, 500g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a7/JaguarWarriorIcon.jpg/revision/latest?cb=20151203033334"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/JaguarWarriorIcon-DE.png/revision/latest?cb=20191230143816"
 	},
 	"Elite Jaguar Warrior": {
 		"cost": "60f and 30g",
@@ -2136,7 +2136,7 @@
 		"upgradeFrom": "Jaguar Warrior",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a7/JaguarWarriorIcon.jpg/revision/latest?cb=20151203033334"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/JaguarWarriorIcon-DE.png/revision/latest?cb=20191230143816"
 	},
 	"Tarkan": {
 		"cost": "60f and 60g",
@@ -2156,7 +2156,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Tarkan (1000f, 500g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/TarkanIcon.jpg/revision/latest?cb=20151203033824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/TarkanIcon-DE.png/revision/latest?cb=20191230143626"
 	},
 	"Elite Tarkan": {
 		"cost": "60f and 60g",
@@ -2176,10 +2176,10 @@
 		"upgradeFrom": "Tarkan",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/TarkanIcon.jpg/revision/latest?cb=20151203033824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/TarkanIcon-DE.png/revision/latest?cb=20191230143626"
 	},
 	"War Wagon": {
-		"cost": "110w and 60g",
+		"cost": "94w and 60g",
 		"tt": "21 seconds",
 		"building": "Castle",
 		"hp": "150",
@@ -2198,10 +2198,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite War Wagon (1000w, 800g, 75sec)",
 		"notes": "Strongest ranged unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/10/WarWagonIcon.jpg/revision/latest?cb=20151203032632"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4b/WarWagonIcon-DE.png/revision/latest?cb=20191230144646"
 	},
 	"Elite War Wagon": {
-		"cost": "110w and 60g",
+		"cost": "94w and 60g",
 		"tt": "21 seconds",
 		"building": "Castle",
 		"hp": "200",
@@ -2220,10 +2220,10 @@
 		"upgradeFrom": "War Wagon",
 		"upgrade": "none",
 		"notes": "Strongest ranged unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/10/WarWagonIcon.jpg/revision/latest?cb=20151203032632"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4b/WarWagonIcon-DE.png/revision/latest?cb=20191230144646"
 	},
 	"Plumed Archer": {
-		"cost": "40w and 40g in Castle Age, 35w and 35g in Imperial Age",
+		"cost": "40w and 40g in Castle Age, 40w and 40g in Imperial Age",
 		"tt": "16 seconds",
 		"building": "Castle",
 		"hp": "50",
@@ -2242,10 +2242,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Plumed Archer (700f, 1000w, 75sec)",
 		"notes": "Castle unit with lowest attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/40/PlumedArcherIcon.jpg/revision/latest?cb=20151203035428"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fd/PlumedArcherIcon-DE.png/revision/latest?cb=20191230144107"
 	},
 	"Elite Plumed Archer": {
-		"cost": "35w and 35g",
+		"cost": "40w and 40g",
 		"tt": "16 seconds",
 		"building": "Castle",
 		"hp": "65",
@@ -2264,7 +2264,7 @@
 		"upgradeFrom": "Plumed Archer",
 		"upgrade": "none",
 		"notes": "Castle unit with lowest attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/40/PlumedArcherIcon.jpg/revision/latest?cb=20151203035428"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fd/PlumedArcherIcon-DE.png/revision/latest?cb=20191230144107"
 	},
 	"Conquistador": {
 		"cost": "60f and 70g",
@@ -2277,7 +2277,7 @@
 		"projSpd": "5.5",
 		"rof": "2.93",
 		"attackBonus": " - +4 vs. Ram",
-		"armorClass": "Archer, Cavalry, Gunpowder Unit, Unique Unit",
+		"armorClass": "Archer, Cavalry, Cavalary Archer, Gunpowder Unit, Unique Unit",
 		"meleeArmor": "2",
 		"pierceArmor": "2",
 		"speed": "1.3",
@@ -2286,7 +2286,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Conquistador (1200f, 600g, 60sec)",
 		"notes": "Don't benefit from range increases",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fe/ConquistadorIcon.jpg/revision/latest?cb=20151203034712"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/ConquistadorIcon-DE.png/revision/latest?cb=20191230144302"
 	},
 	"Elite Conquistador": {
 		"cost": "60f and 70g",
@@ -2308,7 +2308,7 @@
 		"upgradeFrom": "Conquistador",
 		"upgrade": "none",
 		"notes": "Don't benefit from range increases",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fe/ConquistadorIcon.jpg/revision/latest?cb=20151203034712"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/ConquistadorIcon-DE.png/revision/latest?cb=20191230144302"
 	},
 	"Kamayuk": {
 		"cost": "60f and 30g",
@@ -2318,7 +2318,7 @@
 		"range": "1",
 		"attack": "7 melee",
 		"rof": "2.03",
-		"attackBonus": " - +20 vs. War Elephant \n - +8 vs. Cavalry \n - +6 vs. Camel",
+		"attackBonus": " - +20 vs. War Elephant \n - +8 vs. Cavalry \n - +6 vs. Camel \n - +1 vs. Marmeluke",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -2328,7 +2328,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Kamayuk (900f, 500g, 45sec)",
 		"notes": "Anti-Cavalry with a long spear",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/19/Kamayukicon.png/revision/latest?cb=20170222130354"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/85/KamayukIcon-DE.png/revision/latest?cb=20191230141856"
 	},
 	"Elite Kamayuk": {
 		"cost": "60f and 30g",
@@ -2338,7 +2338,7 @@
 		"range": "1",
 		"attack": "8 melee",
 		"rof": "2.03",
-		"attackBonus": " - +20 vs. War Elephant \n - +12 vs. Cavalry \n - +10 vs. Camel",
+		"attackBonus": " - +20 vs. War Elephant \n - +12 vs. Cavalry \n - +10 vs. Camel \n - +1 vs. Marmeluke",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -2348,10 +2348,10 @@
 		"upgradeFrom": "Kamayuk",
 		"upgrade": "none",
 		"notes": "Anti-Cavalry with a long spear",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/19/Kamayukicon.png/revision/latest?cb=20170222130354"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/85/KamayukIcon-DE.png/revision/latest?cb=20191230141856"
 	},
 	"Elephant Archer": {
-		"cost": "100f and 60g",
+		"cost": "100f and 80g",
 		"tt": "25 seconds",
 		"building": "Castle",
 		"hp": "280",
@@ -2370,10 +2370,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Elephant Archer (1000f, 800g, 60sec)",
 		"notes": "Has the most weaknesses of any unit in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c9/ElephantArcherIcon.jpg/revision/latest?cb=20151203035655"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fc/ElephantArcherIcon-DE.png/revision/latest?cb=20191230142830"
 	},
 	"Elite Elephant Archer": {
-		"cost": "100f and 60g",
+		"cost": "100f and 80g",
 		"tt": "25 seconds",
 		"building": "Castle",
 		"hp": "330",
@@ -2392,11 +2392,11 @@
 		"upgradeFrom": "Elephant Archer",
 		"upgrade": "none",
 		"notes": "Has the most weaknesses of any unit in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c9/ElephantArcherIcon.jpg/revision/latest?cb=20151203035655"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fc/ElephantArcherIcon-DE.png/revision/latest?cb=20191230142830"
 	},
 	"Genoese Crossbowman": {
 		"cost": "45w and 45g",
-		"tt": "22 seconds",
+		"tt": "14 seconds",
 		"building": "Castle",
 		"hp": "45",
 		"range": "4",
@@ -2404,7 +2404,7 @@
 		"accuracy": "100%",
 		"projSpd": "7",
 		"rof": "3.05",
-		"attackBonus": " - +5 vs. Cavalry \n - +5 vs. War Elephant \n - +4 vs. Camel \n - +4 vs. Ship",
+		"attackBonus": " - +5 vs. Cavalry \n - +5 vs. War Elephant \n - +4 vs. Camel \n - +4 vs. Ship \n - +4 vs. Fishing Ship",
 		"armorClass": "Archer, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -2414,11 +2414,11 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Genoese Crossbowman (900f, 750g, 60sec)",
 		"notes": "Genoese Crossbowman's bonus damage against cavalry probably refers to the weapon's ban by the Pope in 1096. The ban was applied because a mounted knight who spent years in military training could be killed easily by a peasant with little to no training who used a crossbow. As a result, the crossbow was considered as a threat against ruling elites and they lobbied the Roman Catholic Church to ban the weapon.",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/20/New_Genoese_Crossbowman.png/revision/latest?cb=20140117095719"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ea/GenoeseCrossbowmanIcon-DE.png/revision/latest?cb=20191230141637"
 	},
 	"Elite Genoese Crossbowman": {
 		"cost": "45w and 45g",
-		"tt": "19 seconds",
+		"tt": "11 seconds",
 		"building": "Castle",
 		"hp": "50",
 		"range": "4",
@@ -2426,7 +2426,7 @@
 		"accuracy": "100%",
 		"projSpd": "7",
 		"rof": "2.03",
-		"attackBonus": " - +7 vs. Cavalry \n - +7 vs. War Elephant \n - +6 vs. Camel \n - +5 vs. Ship",
+		"attackBonus": " - +7 vs. Cavalry \n - +7 vs. War Elephant \n - +6 vs. Camel \n - +5 vs. Ship \n - +5 vs. Fishing Ship",
 		"armorClass": "Archer, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -2436,7 +2436,7 @@
 		"upgradeFrom": "Genoese Crossbowman",
 		"upgrade": "none",
 		"notes": "Genoese Crossbowman's bonus damage against cavalry probably refers to the weapon's ban by the Pope in 1096. The ban was applied because a mounted knight who spent years in military training could be killed easily by a peasant with little to no training who used a crossbow. As a result, the crossbow was considered as a threat against ruling elites and they lobbied the Roman Catholic Church to ban the weapon.",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/20/New_Genoese_Crossbowman.png/revision/latest?cb=20140117095719"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ea/GenoeseCrossbowmanIcon-DE.png/revision/latest?cb=20191230141637"
 	},
 	"Magyar Huszar": {
 		"cost": "80f and 10g",
@@ -2456,7 +2456,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Magyar Huszar (800f, 600g, 60sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c0/Magyar_Huszar_icon.jpg/revision/latest?cb=20140115082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5b/MagyarHuszarIcon-DE.png/revision/latest?cb=20191230140432"
 	},
 	"Elite Magyar Huszar": {
 		"cost": "80f and 10g",
@@ -2476,11 +2476,11 @@
 		"upgradeFrom": "Magyar Huszar",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c0/Magyar_Huszar_icon.jpg/revision/latest?cb=20140115082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5b/MagyarHuszarIcon-DE.png/revision/latest?cb=20191230140432"
 	},
 	"Boyar": {
 		"cost": "50f and 80g",
-		"tt": "23 seconds",
+		"tt": "15 seconds",
 		"building": "Castle",
 		"hp": "100",
 		"range": "melee",
@@ -2496,27 +2496,27 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Boyar (1000f, 600g, 60sec)",
 		"notes": "Kind of weak against archer fire",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/57/New_Boyar.png/revision/latest?cb=20140117095913"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bf/BoyarIcon-DE.png/revision/latest?cb=20191230135130"
 	},
 	"Elite Boyar": {
 		"cost": "50f and 80g",
-		"tt": "23 seconds",
+		"tt": "15 seconds",
 		"building": "Castle",
-		"hp": "100",
+		"hp": "130",
 		"range": "melee",
-		"attack": "12",
+		"attack": "14",
 		"rof": "1.93",
 		"attackBonus": "none",
 		"armorClass": "Cavalry, Unique Unit",
-		"meleeArmor": "4",
-		"pierceArmor": "1",
+		"meleeArmor": "6",
+		"pierceArmor": "2",
 		"speed": "1.4",
 		"los": "5",
 		"line": "Slav UU",
 		"upgradeFrom": "Boyar",
 		"upgrade": "none",
 		"notes": "Kind of weak against archer fire",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/57/New_Boyar.png/revision/latest?cb=20140117095913"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bf/BoyarIcon-DE.png/revision/latest?cb=20191230135130"
 	},
 	"Camel Archer": {
 		"cost": "50f and 60g",
@@ -2538,7 +2538,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Camel Archer (1000w, 500g, 45sec)",
 		"notes": "Anti Cavalry Archer",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/29/CamelArcherIcon.jpg/revision/latest?cb=20151203035031"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f4/CamelArcherIcon-DE.png/revision/latest?cb=20191230142121"
 	},
 	"Elite Camel Archer": {
 		"cost": "50f and 60g",
@@ -2560,7 +2560,7 @@
 		"upgradeFrom": "Camel Archer",
 		"upgrade": "none",
 		"notes": "Anti Cavalry Archer",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/29/CamelArcherIcon.jpg/revision/latest?cb=20151203035031"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f4/CamelArcherIcon-DE.png/revision/latest?cb=20191230142121"
 	},
 	"Shotel Warrior": {
 		"cost": "50f and 35g",
@@ -2580,7 +2580,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Shotel Warrior (1200f, 550g, 45sec)",
 		"notes": "Second highest unranged attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/97/ShotelIcon.png/revision/latest?cb=20151111153831"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/03/Shotelwarrioricon-DE.png/revision/latest?cb=20191210075606"
 	},
 	"Elite Shotel Warrior": {
 		"cost": "50f and 35g",
@@ -2600,7 +2600,7 @@
 		"upgradeFrom": "Shotel Warrior",
 		"upgrade": "none",
 		"notes": "Second highest unranged attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/97/ShotelIcon.png/revision/latest?cb=20151111153831"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/03/Shotelwarrioricon-DE.png/revision/latest?cb=20191210075606"
 	},
 	"Gbeto": {
 		"cost": "50f and 40g",
@@ -2622,7 +2622,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Gbeto (900f, 600g, 45sec)",
 		"notes": "Attacks count as melee so archer upgrades don't benefit this unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/76/GbetoIcon.png/revision/latest?cb=20151111072409"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/GbetoIcon-DE.png/revision/latest?cb=20191230140137"
 	},
 	"Elite Gbeto": {
 		"cost": "50f and 40g",
@@ -2644,7 +2644,7 @@
 		"upgradeFrom": "Gbeto",
 		"upgrade": "none",
 		"notes": "Attacks count as melee so archer upgrades don't benefit this unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/76/GbetoIcon.png/revision/latest?cb=20151111072409"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/GbetoIcon-DE.png/revision/latest?cb=20191230140137"
 	},
 	"Organ Gun": {
 		"cost": "80w and 60g",
@@ -2652,7 +2652,7 @@
 		"building": "Castle",
 		"hp": "60",
 		"range": "7, Min: 1",
-		"attack": "16 melee",
+		"attack": "16",
 		"accuracy": "50%",
 		"projSpd": "5.5",
 		"rof": "3.45",
@@ -2666,7 +2666,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Organ Gun (1200f, 500g, 45sec)",
 		"notes": "Fires a volley of 5 bullets",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/OrganGunIcon.jpg/revision/latest?cb=20151203041000"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c3/OrganGunIcon-DE.png/revision/latest?cb=20191230141217"
 	},
 	"Elite Organ Gun": {
 		"cost": "80w and 60g",
@@ -2674,7 +2674,7 @@
 		"building": "Castle",
 		"hp": "70",
 		"range": "7, Min: 1",
-		"attack": "20 melee",
+		"attack": "20",
 		"accuracy": "50%",
 		"projSpd": "5.5",
 		"rof": "3.45",
@@ -2688,7 +2688,7 @@
 		"upgradeFrom": "Organ Gun",
 		"upgrade": "none",
 		"notes": "Fires a volley of 5 bullets",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/OrganGunIcon.jpg/revision/latest?cb=20151203041000"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c3/OrganGunIcon-DE.png/revision/latest?cb=20191230141217"
 	},
 	"Arambai": {
 		"cost": "80w and 60g",
@@ -2710,7 +2710,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Arambai (1100w, 675g, 65sec)",
 		"notes": "Worst Accuracy in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/Arambaiicon.png/revision/latest?cb=20161221155048"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6c/Arambaiicon-DE.png/revision/latest?cb=20191203073241"
 	},
 	"Elite Arambai": {
 		"cost": "80w and 60g",
@@ -2732,7 +2732,7 @@
 		"upgradeFrom": "Arambai",
 		"upgrade": "none",
 		"notes": "Worst Accuracy in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/Arambaiicon.png/revision/latest?cb=20161221155048"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6c/Arambaiicon-DE.png/revision/latest?cb=20191203073241"
 	},
 	"Ballista Elephant": {
 		"cost": "100f and 80g",
@@ -2745,7 +2745,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "2.5",
-		"attackBonus": " - +8 vs Ship \n - +3 vs Stone defense \n - +3 vs Standard building \n - +2 vs Building",
+		"attackBonus": " - +8 vs Ship \n - +8 vs Fishing Ship \n - +3 vs Stone defense \n - +3 vs Standard building \n - +2 vs Building",
 		"armorClass": "Cavalry(-2), War Elephant(-2), Seige Weapon(-2), Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
@@ -2755,7 +2755,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Ballista Elephant (1000f, 500g, 70sec)",
 		"notes": "Can cut down trees",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/09/Ballistaelephanticon.png/revision/latest?cb=20161226023839"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7e/Ballistaelephanticon-DE.png/revision/latest?cb=20191125051236"
 	},
 	"Elite Ballista Elephant": {
 		"cost": "100f and 80g",
@@ -2768,7 +2768,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "2.5",
-		"attackBonus": " - +8 vs Ship \n - +4 vs Stone defense \n - +4 vs Standard building \n - +4 vs Building",
+		"attackBonus": " - +8 vs Ship \n - +8 vs Fishing Ship \n - +4 vs Stone defense \n - +4 vs Standard building \n - +4 vs Building",
 		"armorClass": "Cavalry(-2), War Elephant(-2), Seige Weapon(-2), Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
@@ -2778,13 +2778,13 @@
 		"upgradeFrom": "Ballista Elephant",
 		"upgrade": "none",
 		"notes": "Can cut down trees",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/09/Ballistaelephanticon.png/revision/latest?cb=20161226023839"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7e/Ballistaelephanticon-DE.png/revision/latest?cb=20191125051236"
 	},
 	"Karambit Warrior": {
 		"cost": "30f and 15g",
 		"tt": "6 seconds",
 		"building": "Castle",
-		"hp": "35",
+		"hp": "30",
 		"range": "melee",
 		"attack": "6",
 		"rof": "2.03",
@@ -2798,7 +2798,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Karambit Warrior (900f, 600g, 40sec)",
 		"notes": "1 unit counts as half a population space",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b3/Karambitwarrioricon.png/revision/latest?cb=20161221162043"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/75/Karambitwarrioricon-DE.png/revision/latest?cb=20191117115320"
 	},
 	"Elite Karambit Warrior": {
 		"cost": "30f and 15g",
@@ -2818,7 +2818,7 @@
 		"upgradeFrom": "Karambit Warrior",
 		"upgrade": "none",
 		"notes": "1 unit counts as half a population space",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b3/Karambitwarrioricon.png/revision/latest?cb=20161221162043"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/75/Karambitwarrioricon-DE.png/revision/latest?cb=20191117115320"
 	},
 	"Rattan Archer": {
 		"cost": "50w and 45g",
@@ -2840,7 +2840,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Rattan Archer (1100f, 750g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/35/Rattanarchericon.png/revision/latest?cb=20161221164325"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c4/Rattanarchericon-DE.png/revision/latest?cb=20191120073108"
 	},
 	"Elite Rattan Archer": {
 		"cost": "50w and 45g",

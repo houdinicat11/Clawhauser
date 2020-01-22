@@ -171,36 +171,42 @@ function messageParse(splitMess, message)
 {
 	var i = 0;
 	
+	
 	// loop throught the message
 	while(splitMess[i])
 	{
 		// check and react to key words
 		if(splitMess[i] == "artillery")
 		{
+			message.delete(5000);
 			message.channel.send("*Mortars rain down from the sky*");
 			return true;
 		}
 		else if(splitMess[i] == "trebuchet")
 		{
 			// reacts with trebuchet emoji
+			
 			message.react("601064767431639040");
 			message.channel.send("*Launches 90kg stones 300 meters*");
 			return true;
 		}
 		else if(splitMess[i] == "side" && splitMess[i+1] == "chest")
 		{
+			message.delete(5000);
 			// dumbbell nan kilo gif
 			message.channel.send("https://tenor.com/view/muscles-popping-body-building-dumbbell-nan-kilo-moteru-anime-gif-14489924");
 			return true;
 		}
 		else if(splitMess[i] == "cherry" || splitMess[i] == "letoleto")
 		{
+			message.delete(5000);
 			// cherry tongue gif
 			message.channel.send("https://cdn.weeb.sh/images/HJq3TuQw-.gif");
 			return true;
 		}
 		else if(splitMess[i] == "dodge" || splitMess[i] == "dodged")
 		{
+			message.delete(5000);
 			// dodge gif
 			message.channel.send("https://tenor.com/view/dodge-anime-gif-9449699");
 			return true;
@@ -212,6 +218,7 @@ function messageParse(splitMess, message)
 		}
 		else if(splitMess[i] == "weeb")
 		{
+			message.delete(5000);
 			message.channel.send("https://tenor.com/view/japan-anime-kawaii-sugoi-gif-4761309");
 			return true;
 		}

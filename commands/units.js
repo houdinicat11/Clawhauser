@@ -7,7 +7,7 @@ const unitBuild = {
 const unitData = require('../units.json');
 module.exports = message => {
 	
-	//message.delete(5000);
+	message.delete(5000);
 	const Discord = require("discord.js");
 	const file = new Discord.Attachment('../pictures/test.png');
 	var splitMess = message.content.toLowerCase().split(' ');
