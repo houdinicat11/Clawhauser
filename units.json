@@ -1572,7 +1572,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Longbowman (850f, 850g, 60sec)",
 		"notes": "Fully upgrades longbowman will have 12 range allowing them to out range castles and towers",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/LongbowmanIcon.jpg/revision/latest?cb=20151203024824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/8c/LongbowmanIcon-DE.png/revision/latest?cb=20191116052143"
 	},
 	"Elite Longbowman": {
 		"cost": "35w and 40g",
@@ -1594,10 +1594,10 @@
 		"upgradeFrom": "Longbowman",
 		"upgrade": "none",
 		"notes": "Fully upgrades longbowman will have 12 range allowing them to out range castles and towers",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/LongbowmanIcon.jpg/revision/latest?cb=20151203024824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/8c/LongbowmanIcon-DE.png/revision/latest?cb=20191116052143"
 	},
 	"Cataphract": {
-		"cost": "75f and 70g",
+		"cost": "70f and 75g",
 		"tt": "20 seconds",
 		"building": "Castle",
 		"hp": "110",
@@ -1614,10 +1614,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Cataphract (1600f, 800g, 50sec)",
 		"notes": "Deals trample damage",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a3/CataphractIcon.jpg/revision/latest?cb=20151203025314"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bd/CataphractIcon-DE.png/revision/latest?cb=20191230134704"
 	},
 	"Elite Cataphract": {
-		"cost": "75f and 70g",
+		"cost": "70f and 75g",
 		"tt": "20 seconds",
 		"building": "Castle",
 		"hp": "150",
@@ -1634,7 +1634,7 @@
 		"upgradeFrom": "Cataphract",
 		"upgrade": "none",
 		"notes": "Deals trample damage",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a3/CataphractIcon.jpg/revision/latest?cb=20151203025314"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bd/CataphractIcon-DE.png/revision/latest?cb=20191230134704"
 	},
 	"Woad Raider": {
 		"cost": "65f and 25g",
@@ -1654,7 +1654,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Woad Raider (1000f, 800g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/WBRSK.jpg/revision/latest?cb=20141203024809"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/55/WoadRaiderIcon-DE.png/revision/latest?cb=20191230150759"
 	},
 	"Elite Woad Raider": {
 		"cost": "65f and 25g",
@@ -1674,7 +1674,7 @@
 		"upgradeFrom": "Woad Raider",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/WBRSK.jpg/revision/latest?cb=20141203024809"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/55/WoadRaiderIcon-DE.png/revision/latest?cb=20191230150759"
 	},
 	"Chu Ko Nu": {
 		"cost": "40w and 35g",
@@ -1682,7 +1682,7 @@
 		"building": "Castle",
 		"hp": "45",
 		"range": "4",
-		"attack": "8 pierce and 0 melee",
+		"attack": "8 pierce(first arrow) 3 pierce and 0 melee(additional arrows)",
 		"accuracy": "85%",
 		"projSpd": "7",
 		"rof": "3.65",
@@ -1696,7 +1696,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Chu Ko Nu (760f, 760g, 50sec)",
 		"notes": "great against Rams due to their 0 melee attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4d/ChuKoNuIcon.jpg/revision/latest?cb=20151203025830"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/77/ChukoNuIcon-DE.png/revision/latest?cb=20191230145351"
 	},
 	"Elite Chu Ko Nu": {
 		"cost": "40w and 35g",
@@ -1718,7 +1718,7 @@
 		"upgradeFrom": "Chu Ko Nu",
 		"upgrade": "none",
 		"notes": "great against Rams due to their 0 melee attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4d/ChuKoNuIcon.jpg/revision/latest?cb=20151203025830"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/77/ChukoNuIcon-DE.png/revision/latest?cb=20191230145351"
 	},
 	"Throwing Axeman": {
 		"cost": "55f and 25g",
@@ -1740,7 +1740,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Throwing Axeman (1000f, 750g, 45sec)",
 		"notes": "Because of thier high frame delay it is not wise to try and kite with them",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/39/TAXEM.jpg/revision/latest?cb=20141203025327"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d3/ThrowingAxemanIcon-DE.png/revision/latest?cb=20191231100343"
 	},
 	"Elite Throwing Axeman": {
 		"cost": "55f and 25g",
@@ -1762,7 +1762,7 @@
 		"upgradeFrom": "Throwing Axeman",
 		"upgrade": "none",
 		"notes": "Because of thier high frame delay it is not wise to try and kite with them",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/39/TAXEM.jpg/revision/latest?cb=20141203025327"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d3/ThrowingAxemanIcon-DE.png/revision/latest?cb=20191231100343"
 	},
 	"Huskarl": {
 		"cost": "52f and 26g",
@@ -1772,7 +1772,7 @@
 		"range": "melee",
 		"attack": "10",
 		"rof": "2.03",
-		"attackBonus": " - +6 vs. Archer \n - +2 vs. Eagle Warrior \n - +2 vs. Standard Building",
+		"attackBonus": " - +6 vs. Archer \n - +2 vs. Eagle Warrior \n - +3 vs. Standard Building",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
@@ -1782,7 +1782,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Huskarl (1200f, 550g, 40sec)",
 		"notes": "Can be trained in the barracks once Anarchy is researched",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6b/HuskarlIcon.jpg/revision/latest?cb=20151203030212"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/79/HuskarlIcon-DE.png/revision/latest?cb=20191230145804"
 	},
 	"Elite Huskarl": {
 		"cost": "52f and 26g",
@@ -1792,7 +1792,7 @@
 		"range": "melee",
 		"attack": "12",
 		"rof": "2.03",
-		"attackBonus": " - +10 vs. Archer \n - +3 vs. Eagle Warrior \n - +3 vs. Standard Building",
+		"attackBonus": " - +10 vs. Archer \n - +3 vs. Eagle Warrior \n - +4 vs. Standard Building",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1802,7 +1802,7 @@
 		"upgradeFrom": "Huskarl",
 		"upgrade": "none",
 		"notes": "Can be trained in the barracks once Anarchy is researched",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6b/HuskarlIcon.jpg/revision/latest?cb=20151203030212"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/79/HuskarlIcon-DE.png/revision/latest?cb=20191230145804"
 	},
 	"Samurai": {
 		"cost": "60f and 30g",
@@ -1822,7 +1822,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Samurai (950f, 875g, 60sec)",
 		"notes": "Their base rate of fire is actually 1.93",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/e2/SMURI.jpg/revision/latest?cb=20141203023705"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/17/SamuraiIcon-DE.png/revision/latest?cb=20191230150219"
 	},
 	"Elite Samurai": {
 		"cost": "60f and 30g",
@@ -1842,7 +1842,7 @@
 		"upgradeFrom": "Samurai",
 		"upgrade": "none",
 		"notes": "Their base rate of fire is actually 1.93",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/e2/SMURI.jpg/revision/latest?cb=20141203023705"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/17/SamuraiIcon-DE.png/revision/latest?cb=20191230150219"
 	},
 	"Mangudai": {
 		"cost": "55w and 65g",
@@ -1864,7 +1864,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Mangudai (1100f, 675g, 50sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/73/MangudaiIcon.jpg/revision/latest?cb=20151203031421"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/3c/MangudaiIcon-DE.png/revision/latest?cb=20191230140744"
 	},
 	"Elite Mangudai": {
 		"cost": "55w and 65g",
@@ -1886,7 +1886,7 @@
 		"upgradeFrom": "Mangudai",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/73/MangudaiIcon.jpg/revision/latest?cb=20151203031421"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/3c/MangudaiIcon-DE.png/revision/latest?cb=20191230140744"
 	},
 	"War Elephant": {
 		"cost": "200f and 75g",
@@ -1907,7 +1907,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite War Elephant (1600f, 1200g, 75sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a4/WarElephantIcon.jpg/revision/latest?cb=20151203030539"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/WarElephantIcon-DE.png/revision/latest?cb=20191230145604"
 	},
 	"Elite War Elephant": {
 		"cost": "200f and 75g",
@@ -1928,7 +1928,7 @@
 		"upgradeFrom": "War Elephant",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a4/WarElephantIcon.jpg/revision/latest?cb=20151203030539"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/WarElephantIcon-DE.png/revision/latest?cb=20191230145604"
 	},
 	"Mameluke": {
 		"cost": "55f and 85g",
@@ -1941,7 +1941,7 @@
 		"projSpd": "7",
 		"rof": "2.03",
 		"attackBonus": " - +9 vs. Cavalry",
-		"armorClass": "Archer, Cavalry(+11), Camel, Unique Unit",
+		"armorClass": "Archer, Marmeluke, Camel, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
 		"speed": "1.4",
@@ -1950,7 +1950,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Mameluke (600f, 500g, 50sec)",
 		"notes": "Benefits from melee attack and armor upgrades instead of ranged ones",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/Saracenmamluk_icon.png/revision/latest?cb=20130201163734"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/MamelukeIcon-DE.png/revision/latest?cb=20191230150616"
 	},
 	"Elite Mameluke": {
 		"cost": "55f and 85g",
@@ -1962,8 +1962,8 @@
 		"accuracy": "100%",
 		"projSpd": "7",
 		"rof": "2.03",
-		"attackBonus": " - +12 vs. Cavalry",
-		"armorClass": "Archer, Cavalry(+11), Camel, Unique Unit",
+		"attackBonus": " - +12 vs. Cavalry \n - +1 vs. Marmeluke",
+		"armorClass": "Archer, Marmeluke, Camel, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
 		"speed": "1.4",
@@ -1972,7 +1972,7 @@
 		"upgradeFrom": "Mameluke",
 		"upgrade": "none",
 		"notes": "Benefits from melee attack and armor upgrades instead of ranged ones",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/Saracenmamluk_icon.png/revision/latest?cb=20130201163734"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/MamelukeIcon-DE.png/revision/latest?cb=20191230150616"
 	},
 	"Teutonic Knight": {
 		"cost": "85f and 40g",
@@ -1992,7 +1992,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Teutonic Knight (1200f, 600g, 50sec)",
 		"notes": "Most powerful infantry unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/87/Crusade_avatar.png/revision/latest?cb=20140120144805"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/95/TeutonicKnightIcon-DE.png/revision/latest?cb=20191230145959"
 	},
 	"Elite Teutonic Knight": {
 		"cost": "85f and 40g",
@@ -2012,7 +2012,7 @@
 		"upgradeFrom": "Teutonic Knight",
 		"upgrade": "none",
 		"notes": "Most powerful infantry unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/87/Crusade_avatar.png/revision/latest?cb=20140120144805"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/95/TeutonicKnightIcon-DE.png/revision/latest?cb=20191230145959"
 	},
 	"Janissary": {
 		"cost": "60f and 55g",
@@ -2034,7 +2034,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Janissary (850f, 750g, 55sec)",
 		"notes": "Base HP is actually 35",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/26/JanissaryIcon.jpg/revision/latest?cb=20151203031046"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ed/JanissaryIcon-DE.png/revision/latest?cb=20191230145056"
 	},
 	"Elite Janissary": {
 		"cost": "60f and 55g",
@@ -2056,7 +2056,7 @@
 		"upgradeFrom": "Janissary",
 		"upgrade": "none",
 		"notes": "Base HP is actually 40 \nFrame delay is reduced to 0 as elite janissary",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/26/JanissaryIcon.jpg/revision/latest?cb=20151203031046"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ed/JanissaryIcon-DE.png/revision/latest?cb=20191230145056"
 	},
 	"Berserk": {
 		"cost": "65f and 25g",
@@ -2076,7 +2076,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Berserk (1300f, 550g, 45sec)",
 		"notes": "Regens HP - 20/min x2 with Beserkergang",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/06/VBRSK.jpg/revision/latest?cb=20170424082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0d/BerserkIcon-DE.png/revision/latest?cb=20191230150427"
 	},
 	"Elite Berserk": {
 		"cost": "65f and 25g",
@@ -2096,7 +2096,7 @@
 		"upgradeFrom": "Berserk",
 		"upgrade": "none",
 		"notes": "Regens HP - 20/min x2 with Beserkergang",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/06/VBRSK.jpg/revision/latest?cb=20170424082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0d/BerserkIcon-DE.png/revision/latest?cb=20191230150427"
 	},
 	"Jaguar Warrior": {
 		"cost": "60f and 30g",
