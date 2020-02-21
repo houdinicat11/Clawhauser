@@ -1,7 +1,7 @@
 {
     "Aztecs": {
       	"civType": "Infantry & Monk Civilization",
-        "civBonus": " - Villagers carry capacity +5 \n - All Military Units are created 18% faster \n - Monks gain 5 HP for every tech researched at the Monastery \n - Start with +50 \n - No Gunpowder or Cavalry Units \n - Scout Cavalry is replaced by Eagle Scout",
+        "civBonus": " - Villagers carry capacity +5 \n - All Military Units are created 18% faster \n - Monks gain 5 HP for every tech researched at the Monastery \n - Start with +50g \n - No Gunpowder or Cavalry Units \n - Scout Cavalry is replaced by Eagle Scout",
         "teamBonus": " - Relics generate +33% Gold",
  	    "techs": " - Atlatl: Gives Skirmishers +1 attack and range \n - Garland Wars: Increases Infantry attack by +4",
         "units": " - Jaguar Warrior (Anti-Infantry Unit)"

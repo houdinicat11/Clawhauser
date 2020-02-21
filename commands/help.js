@@ -18,6 +18,10 @@ module.exports = (message, prefix) => {
 			{
 				name: "Age of Empires Commands",
 				value: `:small_blue_diamond: ${prefix}civ {civ|help}(optional) - Displays the civilization and all it's bonuses \n :small_blue_diamond: ${prefix}unit {Unit Name|Building|Unit LIne} \n:small_blue_diamond: ${prefix}techs {Tech|random}`
+			},
+			{
+				name: "Other",
+				value: (`:small_blue_diamond: ${prefix}credits - displays a thank you messages`)
 			}
 		],
 		timestamp: new Date(),
