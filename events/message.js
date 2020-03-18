@@ -12,6 +12,7 @@ const help = require('../commands/help');
 const civ = require('../commands/civ');
 const unit = require('../commands/units');
 const tech = require('../commands/techs');
+const credits = require('../commands/credits');
 
 module.exports = (client, message, prefix) => {
 	
@@ -52,7 +53,7 @@ module.exports = (client, message, prefix) => {
 		}
 		else
 		{
-			message.reply("Is this the pussy you're looking for??");
+			message.reply("Is this the cat you're looking for??");
 		}
 		return;
 	}
@@ -80,6 +81,11 @@ module.exports = (client, message, prefix) => {
 	if(message.content.startsWith(`${prefix}tech`))
 	{
 		return tech(message);
+	}
+	
+	if(message.content.startsWith(`${prefix}credits`))
+	{
+		return credits(message);
 	}
   
 	// ban a member
@@ -211,6 +217,24 @@ function messageParse(splitMess, message)
 			message.channel.send("https://tenor.com/view/dodge-anime-gif-9449699");
 			return true;
 		}
+		else if(splitMess[i] == "booty")
+		{
+			message.delete(5000);
+			// dodge gif
+			message.channel.send("https://tenor.com/view/jlo-jennifer-lopez-shakira-super-bowl-gif-16215754");
+			return true;
+		}
+		else if(splitMess[i] == "titty")
+		{
+			message.delete(5000);
+			// dodge gif
+			message.channel.send("https://tenor.com/view/boobs-funny-gif-14839672");
+			return true;
+		}
+		
+		
+		
+		
 		else if(splitMess[i] == "here" && splitMess[i+1] == "kitty")
 		{
 			message.reply('Meow, I am here now Prrrrrr...')
