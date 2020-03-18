@@ -1,6 +1,6 @@
 {
 	"Militia": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "40",
@@ -20,7 +20,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/MilitiaIcon.jpg/revision/latest?cb=20151202184737"
 	},
 	"Man-At-Arms": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "45",
@@ -40,7 +40,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7c/ManAtArmsIcon.jpg/revision/latest?cb=20151202184742"
 	},
 	"Long Swordsman": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "60",
@@ -60,7 +60,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/LongswordsManIcon.jpg/revision/latest?cb=20151202185246"
 	},
 	"Two-Handed Swordsman": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "60",
@@ -80,7 +80,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/2HandedswordsmanIcon.jpg/revision/latest?cb=20151202185935"
 	},
 	"Champion": {
-		"cost": "60f and 40g",
+		"cost": "60f and 20g",
 		"tt": "21 seconds",
 		"building": "Barracks",
 		"hp": "70",
@@ -96,7 +96,7 @@
 		"line": "Militia-Line",
 		"upgradeFrom": "Two-Handed Swordsman",
 		"upgrade": "none",
-		"notes": "Unavialiable to: Ethiopians, Huns, Khmer, Malay, Mayans, Persians",
+		"notes": "Unavialiable to: Bulgarians, Ethiopians, Huns, Khmer, Malay, Mayans, Persians, Tatars",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/61/ChampionIcon.jpg/revision/latest?cb=20151202190352"
 	},
 		
@@ -108,7 +108,7 @@
 		"range": "melee",
 		"attack": "3",
 		"rof": "3.05",
-		"attackBonus": " - +15 vs. Cavalary \n - +15 vs. War Elephant \n - +12 vs. Camel \n - +9 vs. Ship \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
+		"attackBonus": " - +15 vs. Cavalary \n - +15 vs. War Elephant \n - +12 vs. Camel \n - +9 vs. Ship \n +9 vs. Fishing Ship \n - +4 vs. Marmeluke \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
 		"armorClass": "Infantry, Spearman",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -128,7 +128,7 @@
 		"range": "melee",
 		"attack": "4",
 		"rof": "3.05",
-		"attackBonus": " - +22 vs. Cavalary \n - +25 vs. War Elephant \n - +18 vs. Camel \n - +16 vs. Ship \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
+		"attackBonus": " - +25 vs. War Elephant /n - +22 vs. Cavalary \n - +18 vs. Camel \n - +16 vs. Ship \n - +16 vs. Fishing Ship \n - +11 vs. Marmeluke \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
 		"armorClass": "Infantry, Spearman",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -137,7 +137,7 @@
 		"line": "Spearman-line",
 		"upgradeFrom": "Spearman",
 		"upgrade": "Halberdier (300f, 600g, 50sec)",
-		"notes": "Unavialiable to: Turks \nPikemen lose to villigers with loom if they have no blacksmith upgrades",
+		"notes": "Unavialiable to: Turks \n Pikemen lose to villigers with loom if they have no blacksmith upgrades",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d8/PikemanIcon.jpg/revision/latest?cb=20151202191259"
 	},
 	"Halberdier": {
@@ -148,7 +148,7 @@
 		"range": "melee",
 		"attack": "6",
 		"rof": "3.05",
-		"attackBonus": " - +32 vs. Cavalary \n - +28 vs. War Elephant \n - +26 vs. Camel \n - +17 vs. Ship \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
+		"attackBonus": " - +32 vs. Cavalary \n - +28 vs. War Elephant \n - +26 vs. Camel \n - +17 vs. Ship \n - +17 vs. Fishing Ship \n - +11 vs. Marmeluke \n - +1 vs. Eagle Warrior \n - +1 vs. Standard Building ",
 		"armorClass": "Infantry, Spearman",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -157,7 +157,7 @@
 		"line": "Spearman-line",
 		"upgradeFrom": "Pikeman",
 		"upgrade": "none",
-		"notes": "Unavialiable to: Aztecs, Berbers, Italians, Malians, Mongols, Saracens, Turks, Vikings",
+		"notes": "Unavialiable to: Aztecs, Berbers, Italians, Malians, Mongols, Saracens, Tatars, Turks, Vikings",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/HalberdierIcon.jpg/revision/latest?cb=20151202191953"
 	},
 		
@@ -174,7 +174,7 @@
 		"meleeArmor": "0",
 		"pierceArmor": "2",
 		"speed": "1.1",
-		"los": "6",
+		"los": "5",
 		"line": "Eagle Scout-line",
 		"upgradeFrom": "none",
 		"upgrade": "Eagle Warrior (200f, 200g, 50s)",
@@ -189,7 +189,7 @@
 		"range": "melee",
 		"attack": "7",
 		"rof": "2.03",
-		"attackBonus": " - +8 vs. Monk \n - +3 vs. Seige \n - +3 vs. Cavalary \n +2 vs. Camel \n - +1 vs. Ship",
+		"attackBonus": " - +8 vs. Monk \n - +3 vs. Seige \n - +3 vs. Cavalary \n +2 vs. Camel \n - +1 vs. Ship \n - +1 vs. Fishing Ship",
 		"armorClass": "Infantry, Eagle Warrior",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
@@ -203,13 +203,13 @@
 	},
 	"Elite Eagle Warrior": {
 		"cost": "20f and 50g",
-		"tt": "35 seconds",
+		"tt": "20 seconds",
 		"building": "Barracks",
 		"hp": "60",
 		"range": "melee",
 		"attack": "9",
 		"rof": "2.03",
-		"attackBonus": " - +10 vs. Monk \n - +5 vs. Seige \n - +4 vs. Cavalary \n +3 vs. Camel \n - +2 vs. Ship",
+		"attackBonus": " - +10 vs. Monk \n - +5 vs. Seige \n - +4 vs. Cavalary \n +3 vs. Camel \n - +2 vs. Ship \n - +2 vs. Fishing Ship",
 		"armorClass": "Infantry, Eagle Warrior",
 		"meleeArmor": "0",
 		"pierceArmor": "4",
@@ -229,7 +229,7 @@
 		"range": "melee",
 		"attack": "9",
 		"rof": "1.93",
-		"attackBonus": " - +10 vs. Monk \n - +5 vs. Seige \n - +4 vs. Cavalary \n +3 vs. Camel \n - +2 vs. Ship",
+		"attackBonus": " - +10 vs. Gunpowder Unit \n +2 vs. Standard Building",
 		"armorClass": "Infantry(+10), Unique Unit, Condottiero",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -262,7 +262,7 @@
 		"los": "6",
 		"line": "Archer-line",
 		"upgradeFrom": "none",
-		"upgrade": "Crossbowman (125f 75g, 25sec)",
+		"upgrade": "Crossbowman (125f 75g, 35sec)",
 		"notes": "none",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/89/ArcherIcon.jpg/revision/latest?cb=20151203051052"
 	},
@@ -285,14 +285,14 @@
 		"line": "Archer-line",
 		"upgradeFrom": "Archer",
 		"upgrade": "Arbalest (350f 300g, 50sec)",
-		"notes": "Unavailable to: Spanish",
+		"notes": "Unavailable to: Bulgarians, Spanish",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/cd/CrossbowmanIcon.jpg/revision/latest?cb=20151203051100"
 	},
 	"Arbalest": {
 		"cost": "25w and 45g",
 		"tt": "27 seconds",
 		"building": "Archery Range",
-		"hp": "35",
+		"hp": "40",
 		"range": "5",
 		"attack": "6 pierce",
 		"accuracy": "90%",
@@ -307,7 +307,7 @@
 		"line": "Archer-line",
 		"upgradeFrom": "Crossbowman",
 		"upgrade": "none",
-		"notes": "Unavailable to: Berbers, Burmese, Celts, Franks, Goths, Huns, Indians, Persians, Slavs, Spanish, Teutons, Turks",
+		"notes": "Unavailable to: Berbers, Bulgarians, Burmese, Celts, Cumans, Franks, Goths, Huns, Indians, Lithuanians, Persians, Slavs, Spanish, Tatars, Teutons, Turks",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/ArbalestIcon.jpg/revision/latest?cb=20151203051411"
 	},
 	"Skirmisher": {
@@ -361,7 +361,7 @@
 		"hp": "35",
 		"range": "5, Min: 1",
 		"attack": "4 pierce",
-		"accuracy": "90%",
+		"accuracy": "95%",
 		"projSpd": "7",
 		"rof": "3.05",
 		"attackBonus": " - +5 vs. Archer \n - +3 vs. Spearman \n - +3 vs. Calvery Archer",
@@ -429,7 +429,7 @@
 		"attack": "17 pierce",
 		"accuracy": "65%",
 		"projSpd": "5.5",
-		"rof": "3.49",
+		"rof": "3.45",
 		"attackBonus": " - +10 vs. Infantry \n - +2 vs. Ram \n - +1 vs. Spearman",
 		"armorClass": "Archer, Gunpowder unit",
 		"meleeArmor": "1",
@@ -439,7 +439,7 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "none",
-		"notes": "Unavailable to: Aztecs, Britons, Burmese, Celts, Chinese, Ethiopians, Huns, Incas, Magyars, Maylay, Mayans, Mongols, Slavs, Vietnamese, Vikings \nRequires Chemestry to be researched",
+		"notes": "Unavailable to: Aztecs, Britons, Burmese, Celts, Cumans, Chinese, Ethiopians, Huns, Incas, Magyars, Maylay, Mayans, Mongols, Slavs, Vietnamese, Vikings \nRequires Chemestry to be researched",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fe/HandCannoneerIcon.jpg/revision/latest?cb=20151203064030"
 	},
 	"Slinger": {
@@ -447,8 +447,8 @@
 		"tt": "25 seconds",
 		"building": "Archery Range",
 		"hp": "40",
-		"range": "5",
-		"attack": "5 pierce",
+		"range": "5, Min: 1",
+		"attack": "4 pierce",
 		"accuracy": "90%",
 		"projSpd": "5.5",
 		"rof": "2.03",
@@ -469,13 +469,13 @@
 		"tt": "25 seconds",
 		"building": "Archery Range",
 		"hp": "50",
-		"range": "4",
+		"range": "4, Min: 1",
 		"attack": "3 pierce",
 		"accuracy": "90%",
 		"projSpd": "7",
 		"rof": "3.05",
-		"attackBonus": " - +4 vs. Archer",
-		"armorClass": "Archer, Cavalry Archer, Cavalry, Unique Unit",
+		"attackBonus": " - +4 vs. Archer \n - +2 vs. Spearman",
+		"armorClass": "Archer, Cavalry Archer(+1), Cavalry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
 		"speed": "1.35",
@@ -483,10 +483,10 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "Elite Genitour (500f, 450w, 60sec)",
-		"notes": "Only avialiable to: Berbers",
+		"notes": "Only avialiable through Berber team bonus",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6f/GenitourIcon.jpg/revision/latest?cb=20151203040213"
 	},
-	"Genitour": {
+	"Elite Genitour": {
 		"cost": "50f and 35w",
 		"tt": "25 seconds",
 		"building": "Archery Range",
@@ -496,8 +496,8 @@
 		"accuracy": "90%",
 		"projSpd": "7",
 		"rof": "3.05",
-		"attackBonus": " - +5 vs. Archer \n - +2 vs. Cavalry Archer",
-		"armorClass": "Archer, Cavalry Archer, Cavalry, Unique Unit",
+		"attackBonus": " - +5 vs. Archer \n - +2 vs. Spearman \n - +2 vs. Cavalry Archer",
+		"armorClass": "Archer, Cavalry Archer(+1), Cavalry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "4",
 		"speed": "1.35",
@@ -524,11 +524,11 @@
 		"meleeArmor": "0",
 		"pierceArmor": "2",
 		"speed": "1.2, 1.55 in the Feudal Age",
-		"los": "4 in the Dark Age, 6 in the Feudal Age, 8 in the Castle Age, 10 in the Imperial Age",
+		"los": "4/6/8/10 in the Dark/Feudal/Castle/Imperial Age",
 		"line": "Scout Cavalry-line",
 		"upgradeFrom": "none",
 		"upgrade": "Light Cavlary (150f, 50g, 45sec)",
-		"notes": "Unavailable to: Aztecs, Incas, Mayans, Teutons",
+		"notes": "Unavailable to: Aztecs, Incas, Mayans",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/72/ScoutCavalryIcon.jpg/revision/latest?cb=20151203065724"
 	},
 	"Light Cavalry": {
@@ -547,8 +547,8 @@
 		"los": "8 in the Castle Age, 10 in the Imperial Age",
 		"line": "Scout Cavalry-line",
 		"upgradeFrom": "Scout Cavalry",
-		"upgrade": "Hussar (150f, 50g, 45sec)",
-		"notes": "Unavailable to: Aztecs, Incas, Mayans",
+		"upgrade": "Hussar (500f, 600g, 50sec)",
+		"notes": "Unavailable to: Aztecs, Incas, Mayans, Teutons",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ed/LightCavalryIcon.jpg/revision/latest?cb=20151203065718"
 	},
 	"Hussar": {
@@ -558,7 +558,7 @@
 		"hp": "75",
 		"range": "melee",
 		"attack": "7",
-		"rof": "2.03",
+		"rof": "1.93",
 		"attackBonus": " - +12 vs. Monk",
 		"armorClass": "Cavalry",
 		"meleeArmor": "0",
@@ -568,7 +568,7 @@
 		"line": "Scout Cavalry-line",
 		"upgradeFrom": "Light Cavalry",
 		"upgrade": "none",
-		"notes": "Unavailable to: Aztecs, Britons, Chinese, Franks, Incas, Japanese, Khmer, Malay, Malians, Mayans, Portugese, Tuetons, Vikings, Vietnamese",
+		"notes": "Unavailable to: Aztecs, Britons, Chinese, Franks, Incas, Japanese, Malay, Malians, Mayans, Portugese, Tuetons, Vikings, Vietnamese",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/28/HussarIcon.jpg/revision/latest?cb=20151203070311"
 	},
 	"Knight": {
@@ -628,7 +628,7 @@
 		"line": "Knight-line",
 		"upgradeFrom": "Cavalier",
 		"upgrade": "none",
-		"notes": "Only avialiable to: Byzantines, Celts, Franks, Huns, Magyars, Persians, Spanish, Teutons",
+		"notes": "Only avialiable to: Bulgarians, Byzantines, Celts, Cumans, Franks, Huns, Lithuanians, Magyars, Persians, Spanish, Teutons",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/75/PaladinIcon.jpg/revision/latest?cb=20151203104938"
 	},
 	"Camel": {
@@ -639,7 +639,7 @@
 		"range": "melee",
 		"attack": "6",
 		"rof": "2.03",
-		"attackBonus": " - +9 vs. Cavalry \n - +5 vs. Camel \n - +5 vs. Ship",
+		"attackBonus": " - +9 vs. Cavalry \n - +5 vs. Camel \n - +5 vs. Ship \n - +5 vs. Fishing Ship",
 		"armorClass": "Camel",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -648,7 +648,7 @@
 		"line": "Camel-line",
 		"upgradeFrom": "none",
 		"upgrade": "Heavy Camel (325f, 365g, 105sec)",
-		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Turks",
+		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Cumans, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Tatars, Turks",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0d/CamelIcon.jpg/revision/latest?cb=20151203105850"
 	},
 	"Heavy Camel": {
@@ -659,7 +659,7 @@
 		"range": "melee",
 		"attack": "7",
 		"rof": "2.03",
-		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship",
+		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship \n - +9 vs. Fishing Ship \n - +7 vs. Marmeluke",
 		"armorClass": "Camel",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -668,7 +668,7 @@
 		"line": "Camel-line",
 		"upgradeFrom": "Camel",
 		"upgrade": "Imperial Camel (1200f, 600g, 125sec)",
-		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Turks",
+		"notes": "Only avialiable to: Berbers, Byzantines, Chinese, Ethiopians, Indians, Malians, Mongols, Persians, Saracens, Tatars, Turks",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/11/HeavyCamelIcon.jpg/revision/latest?cb=20151203105930"
 	},
 	"Imperial Camel": {
@@ -679,7 +679,7 @@
 		"range": "melee",
 		"attack": "9",
 		"rof": "2.03",
-		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship \n - +6 vs. Building",
+		"attackBonus": " - +18 vs. Cavalry \n - +9 vs. Camel \n - +9 vs. Ship \n - +9 vs. Fishing Ship \n - +7 vs. Marmeluke \n - +6 vs. Building",
 		"armorClass": "Camel",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -718,13 +718,13 @@
 		"building": "Stable",
 		"hp": "300",
 		"range": "melee",
-		"attack": "16",
+		"attack": "14",
 		"blast": "0.4",
 		"rof": "2.03",
 		"attackBonus": " - +10 vs. Building \n - +10 vs. Stone Defense",
 		"armorClass": "Cavalry, War Elephant",
 		"meleeArmor": "1",
-		"pierceArmor": "2",
+		"pierceArmor": "3",
 		"speed": "0.85",
 		"los": "5",
 		"line": "Battle Elephant-line",
@@ -733,7 +733,46 @@
 		"notes": "Only avialiable to: Burmese, Khmer, Malay, Vietnamese",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/41/Elitebattleelephanticon.png/revision/latest?cb=20161223153738"
 	},
-	
+	"Steppe Lancer": {
+		"cost": "70f and 45g",
+		"tt": "24 seconds",
+		"building": "Stable",
+		"hp": "60",
+		"range": "1",
+		"attack": "8",
+		"rof": "2.3",
+		"attackBonus": "none",
+		"armorClass": "Cavalry",
+		"meleeArmor": "0",
+		"pierceArmor": "1",
+		"speed": "1.45",
+		"los": "5",
+		"line": "Steppe Lancer-line",
+		"upgradeFrom": "none",
+		"upgrade": "Elite Steppe Lancer (900f, 550g, ??sec)",
+		"notes": "Only avialiable to: Cumans, Tatars",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/Steppelancericon.png/revision/latest?cb=20191110161839"
+	},
+	"Elite Steppe Lancer": {
+		"cost": "70f and 45g",
+		"tt": "20 seconds",
+		"building": "Stable",
+		"hp": "80",
+		"range": "1",
+		"attack": "10",
+		"rof": "2.3",
+		"attackBonus": "none",
+		"armorClass": "Cavalry",
+		"meleeArmor": "0",
+		"pierceArmor": "1",
+		"speed": "1.45",
+		"los": "5",
+		"line": "Steppe Lancer-line",
+		"upgradeFrom": "Steppe Lancer",
+		"upgrade": "None",
+		"notes": "Only avialiable to: Cumans, Tatars",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/Steppelancericon.png/revision/latest?cb=20191110161839"
+	},
 	
 	
 	
@@ -767,7 +806,7 @@
 		"blast": "1.5",
 		"rof": "5",
 		"attackBonus": " - +150 vs. Building \n - +50 vs. Seige Weapon",
-		"armorClass": "Seige Weapon, Ram",
+		"armorClass": "Seige Weapon, Ram(+1)",
 		"meleeArmor": "-3",
 		"pierceArmor": "190",
 		"speed": "0.5 +0.05 for every garrisoned infantry",
@@ -788,15 +827,15 @@
 		"blast": "2",
 		"rof": "5",
 		"attackBonus": " - +200 vs. Building \n - +65 vs. Seige Weapon",
-		"armorClass": "Seige Weapon, Ram",
+		"armorClass": "Seige Weapon, Ram(+2)",
 		"meleeArmor": "-3",
-		"pierceArmor": "190",
+		"pierceArmor": "195",
 		"speed": "0.6 +0.05 for every garrisoned infantry",
 		"los": "3",
 		"line": "Ram-line",
 		"upgradeFrom": "Capped Ram",
 		"upgrade": "none",
-		"notes": "Unavailable to: Berbers, Britians, Burmese, Franks, Goths, Indians, Italians, Japanese, Koreans, Magyars, Malay, Malians, Portuguese, Teutons, Vietnamese\nCan Garrison 6 troops \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Unavailable to: Berbers, Britians, Burmese, Franks, Goths, Indians, Italians, Japanese, Koreans, Lithuanian, Magyars, Malay, Malians, Portuguese, Teutons, Vietnamese\nCan Garrison 6 troops \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/04/SiegeRamIcon.jpg/revision/latest?cb=20151204004619"
 	},
 	"Mangonel": {
@@ -865,7 +904,7 @@
 		"line": "Catipult-line",
 		"upgradeFrom": "Onager",
 		"upgrade": "none",
-		"notes": "Can attack ground and destroy trees \nWill Damage friendly units \nOnly avialiable to: Aztecs, Celts, Etheopians, Koreans, Malians, Mongols, Saracens, Slavs, Teutons \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Can attack ground and destroy trees \nWill Damage friendly units \nOnly avialiable to: Aztecs, Bulgarians, Celts, Cumans, Etheopians, Koreans, Malians, Mongols, Saracens, Slavs, Teutons \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f1/SiegeOnagerIcon.jpg/revision/latest?cb=20151204005813"
 	},
 	"Scorpion": {
@@ -909,7 +948,7 @@
 		"line": "Scorpion-line",
 		"upgradeFrom": "Scorpion",
 		"upgrade": "none",
-		"notes": "Due to Scorpion's having 0 melee attack, Rams take extra damage from them due to their -3 melee armor \nProjectile Damages all units in a line \nUnavailable to: Aztecs, Byzantines, Huns, Indians, Italians, Koreans, Malians, Portuguese, Saracens, Spanish, Vietnamese \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Due to Scorpion's having 0 melee attack, Rams take extra damage from them due to their -3 melee armor \nProjectile Damages all units in a line \nUnavailable to: Aztecs, Byzantines, Cumans, Huns, Indians, Italians, Koreans, Lithuanians, Malians, Portuguese, Saracens, Spanish, Vietnamese \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/HeavyScorpionIcon.jpg/revision/latest?cb=20151204010454"
 	},
 	"Bombard Cannon": {
@@ -923,7 +962,7 @@
 		"projSpd": "4",
 		"blast": "0.5",
 		"rof": "6.5",
-		"attackBonus": " - +200 vs. Building \n - +40 vs. Ship \n - +40 vs. Stone Defense, +20 vs. Seige Weapon",
+		"attackBonus": " - +200 vs. Building \n - +40 vs. Ship \n - +40 vs. Fishing Ship \n - +40 vs. Stone Defense, +20 vs. Seige Weapon",
 		"armorClass": "Seige Weapon, Gunpowder Unit",
 		"meleeArmor": "2",
 		"pierceArmor": "5",
@@ -932,7 +971,7 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "none",
-		"notes": "Can attack ground and destroy trees \nRequires Chemistry \nWill damage friendly units \nUnavailable to: Aztecs, Britons, Celts, Chinese, Huns, Incas, Japanese, Magyars, Mayans, Mongols, Slavs, Vikings \nCan't be healed by monk, but can be repaired by villigers with gold",
+		"notes": "Can attack ground and destroy trees \nRequires Chemistry \nWill damage friendly units \nUnavailable to: Aztecs, Britons, Bulgarians, Celts, Chinese, Huns, Incas, Japanese, Magyars, Mayans, Mongols, Slavs, Tatars, Vikings \nCan't be healed by monk, but can be repaired by villigers with gold",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4b/BombardCannonIcon.jpg/revision/latest?cb=20151204085129"
 	},
 	"Seige Tower": {
@@ -943,7 +982,7 @@
 		"range": "N/A",
 		"attack": "none",
 		"rof": "N/A",
-		"attackBonus": " - +200 vs. Building \n - +40 vs. Ship \n - +40 vs. Stone Defense, +20 vs. Seige Weapon",
+		"attackBonus": "none",
 		"armorClass": "Seige Weapon, Ram",
 		"meleeArmor": "-2",
 		"pierceArmor": "100",
@@ -969,7 +1008,7 @@
 		"attack": "none",
 		"rof": "N/A",
 		"attackBonus": "N/A",
-		"armorClass": "Ship",
+		"armorClass": "Fishing Ship",
 		"meleeArmor": "0",
 		"pierceArmor": "4",
 		"speed": "1.26",
@@ -1009,8 +1048,8 @@
 		"attack": "1 pierce, 0 melee",
 		"projSpd": "3",
 		"rof": "0.25",
-		"attackBonus": " - +3 vs. Ship \n - +1 vs. Turtle Ship \n - +1 vs. Building",
-		"armorClass": "Ship",
+		"attackBonus": " - +3 vs. Ship \n - +1 vs. Turtle Ship \n - +1 vs. Building \n - +1 vs. Fishing Ship",
+		"armorClass": "Ship(+6)",
 		"meleeArmor": "0",
 		"pierceArmor": "4",
 		"speed": "1.3",
@@ -1018,7 +1057,7 @@
 		"line": "Fire Galley-line",
 		"upgradeFrom": "none",
 		"upgrade": "Fire Ship (230f, 100g, 50sec)",
-		"notes": "none",
+		"notes": "Unavailable to: Vikings",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/82/FireGalleyIcon.jpg/revision/latest?cb=20151206182826"
 	},
 	"Fire Ship": {
@@ -1030,8 +1069,8 @@
 		"attack": "2 pierce, 1 melee",
 		"projSpd": "3",
 		"rof": "0.25",
-		"attackBonus": " - +3 vs. Ship \n - +2 vs. Turtle Ship \n - +2 vs. Building",
-		"armorClass": "Ship",
+		"attackBonus": " - +3 vs. Ship \n - +3 vs. Fishing Ship \n - +2 vs. Turtle Ship \n - +2 vs. Building",
+		"armorClass": "Ship(+6)",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
 		"speed": "1.35",
@@ -1051,8 +1090,8 @@
 		"attack": "3 pierce, 1 melee",
 		"projSpd": "3",
 		"rof": "0.25",
-		"attackBonus": " - +4 vs. Ship \n - +3 vs. Turtle Ship \n - +3 vs. Building",
-		"armorClass": "Ship",
+		"attackBonus": " - +4 vs. Ship \n - +4 vs. Fishing Ship \n - +3 vs. Turtle Ship \n - +3 vs. Building",
+		"armorClass": "Ship(+9)",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
 		"speed": "1.43",
@@ -1060,7 +1099,7 @@
 		"line": "Fire Galley-line",
 		"upgradeFrom": "Fire Ship",
 		"upgrade": "none",
-		"notes": "Unavailable to: Burmese, Celts, Chinese, Etheopians, Huns, Indians, Malians, Portugese, Saracens, Turks, Vietnamese, Vikings",
+		"notes": "Unavailable to: Bulgarians, Burmese, Celts, Chinese, Etheopians, Huns, Indians, Portugese, Saracens, Turks, Vietnamese, Vikings",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/00/FastFireShipIcon.jpg/revision/latest?cb=20151206183341"
 	},
 	"Demolition Raft": {
@@ -1073,7 +1112,7 @@
 		"blast": "2.5",
 		"rof": "N/A",
 		"attackBonus": " - +180 vs. Building",
-		"armorClass": "Ship",
+		"armorClass": "Ship(+1)",
 		"meleeArmor": "0",
 		"pierceArmor": "2",
 		"speed": "1.5",
@@ -1094,7 +1133,7 @@
 		"blast": "3",
 		"rof": "N/A",
 		"attackBonus": " - +220 vs. Building",
-		"armorClass": "Ship",
+		"armorClass": "Ship(+3)",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
 		"speed": "1.6",
@@ -1112,10 +1151,10 @@
 		"hp": "70",
 		"range": "melee",
 		"attack": "140",
-		"blast": "3",
+		"blast": "3.5",
 		"rof": "N/A",
 		"attackBonus": " - +280 vs. Building",
-		"armorClass": "Ship",
+		"armorClass": "Ship(+5)",
 		"meleeArmor": "0",
 		"pierceArmor": "5",
 		"speed": "1.6",
@@ -1136,7 +1175,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.05",
-		"attackBonus": " - +8 vs. Ship \n - +6 vs. Building \n - +3 vs. Ram",
+		"attackBonus": " - +8 vs. Ship \n - +8 vs. Fishing Ship \n - +6 vs. Building \n - +3 vs. Ram",
 		"armorClass": "Ship",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
@@ -1158,7 +1197,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.05",
-		"attackBonus": " - +9 vs. Ship \n - +7 vs. Building \n - +4 vs. Ram",
+		"attackBonus": " - +9 vs. Ship \n - +9 vs. Fishing Ship \n - +7 vs. Building \n - +4 vs. Ram",
 		"armorClass": "Ship",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
@@ -1180,7 +1219,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.05",
-		"attackBonus": " - +11 vs. Ship \n - +8 vs. Building \n - +4 vs. Ram",
+		"attackBonus": " - +11 vs. Ship \n - +11 vs. Fishing Ship \n - +8 vs. Building \n - +4 vs. Ram",
 		"armorClass": "Ship",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1189,7 +1228,7 @@
 		"line": "Galley-line",
 		"upgradeFrom": "War Galley",
 		"upgrade": "none",
-		"notes": "Unavailable to: Aztecs",
+		"notes": "Unavailable to: Aztecs, Malians",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/20/GalleonAoE2.jpg/revision/latest?cb=20151202183804"
 	},
 	"Cannon Galleon": {
@@ -1202,7 +1241,7 @@
 		"accuracy": "50%",
 		"projSpd": "1.95",
 		"rof": "10",
-		"attackBonus": " - +200 vs. Building \n - +40 vs. Seige Weapon \n - +15 vs. Infantry \n - +15 vs. Archer \n - +15 vs. Cavalry",
+		"attackBonus": " - +200 vs. Building \n - +40 vs. Seige Weapon \n - +15 vs. Infantry \n - +15 vs. Archer \n - +15 vs. Cavalry \n - +4 vs. Marmeluke",
 		"armorClass": "Ship, Gunpowder Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
@@ -1211,7 +1250,7 @@
 		"line": "Cannon Galleon-line",
 		"upgradeFrom": "none",
 		"upgrade": "Elite Cannon Galleon (525w, 500g, 30sec)",
-		"notes": "Requires Chemistry and Cannon Galleon \nUnavailable to: Aztecs, Huns, Incas, Mayans",
+		"notes": "Requires Chemistry and Cannon Galleon \nUnavailable to: Aztecs, Cumans, Huns, Incas, Mayans",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/35/CannonGalleonIcon.jpg/revision/latest?cb=20151207140756"
 	},
 	"Elite Cannon Galleon": {
@@ -1224,7 +1263,7 @@
 		"accuracy": "50%",
 		"projSpd": "1.95",
 		"rof": "10",
-		"attackBonus": " - +275 vs. Building \n - +40 vs. Seige Weapon \n - +15 vs. Infantry \n - +15 vs. Archer \n - +15 vs. Cavalry",
+		"attackBonus": " - +275 vs. Building \n - +40 vs. Seige Weapon \n - +15 vs. Infantry \n - +15 vs. Archer \n - +15 vs. Cavalry \n - +4 vs. Marmeluke",
 		"armorClass": "Ship, Gunpowder Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1233,16 +1272,17 @@
 		"line": "Cannon Galleon-line",
 		"upgradeFrom": "Cannon Galleon",
 		"upgrade": "none",
-		"notes": "Unavailable to: Aztecs, Britons, Celts, Chinese, Etheopians, Franks, Goths, Huns, Incas, Koreans, Magyars, Malians, Mayans, Mongols, Slavs, Teutons",
+		"notes": "Unavailable to: Aztecs, Britons, Bulgarians, Celts, Chinese, Cumans, Etheopians, Franks, Goths, Huns, Incas, Koreans, Magyars, Malians, Mayans, Mongols, Slavs, Teutons",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/35/CannonGalleonIcon.jpg/revision/latest?cb=20151207140756"
 	},
 	"Turtle Ship": {
-		"cost": "180w and 180g",
+		"cost": "153w and 180g",
 		"tt": "50 seconds",
 		"building": "Dock",
 		"hp": "200",
 		"range": "6",
 		"attack": "50 melee",
+		"blast": "0.5",
 		"accuracy": "100%",
 		"projSpd": "7.8",
 		"rof": "10",
@@ -1259,7 +1299,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4f/TurtleShipIcon.jpg/revision/latest?cb=20151203032931"
 	},
 	"Elite Turtle Ship": {
-		"cost": "180w and 180g",
+		"cost": "153w and 180g",
 		"tt": "50 seconds",
 		"building": "Dock",
 		"hp": "300",
@@ -1291,7 +1331,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.34",
-		"attackBonus": " - +9 vs. Ship \n - +7 vs. Building \n - +4 vs. Ram",
+		"attackBonus": " - +9 vs. Ship \n - +9 vs. Fishing Ship \n - +7 vs. Building \n - +4 vs. Ram",
 		"armorClass": "Ship, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
@@ -1309,11 +1349,11 @@
 		"building": "Dock",
 		"hp": "160",
 		"range": "7",
-		"attack": "7 pierce",
+		"attack": "8 pierce",
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.34",
-		"attackBonus": " - +11 vs. Ship \n - +8 vs. Building \n - +4 vs. Ram",
+		"attackBonus": " - +11 vs. Ship \n - +11 vs. Fishing Ship \n - +8 vs. Building \n - +4 vs. Ram",
 		"armorClass": "Ship, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1335,7 +1375,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.05",
-		"attackBonus": " - +6 vs. Ship \n - +8 vs. Building \n - +4 vs. Ram",
+		"attackBonus": " - +8 vs. Building \n - +6 vs. Ship \n - +6 vs. Fishing Ship \n - +4 vs. Ram",
 		"armorClass": "Ship, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1357,7 +1397,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "3.05",
-		"attackBonus": " - +7 vs. Ship \n - +9 vs. Building \n - +4 vs. Ram",
+		"attackBonus": " - +9 vs. Building  \n - +7 vs. Ship \n - +7 vs. Fishing Ship \n - +4 vs. Ram",
 		"armorClass": "Ship, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1406,7 +1446,7 @@
 		"line": "none",
 		"upgradeFrom": "none",
 		"upgrade": "none",
-		"notes": "Used to generate gold",
+		"notes": "Trade Cart gold=0.46×d×(d/(map size)+0.3)=0.46/(map size)d^2+0.138d \nd=max{0.1,√(max{0,|Δx|−5})^2+(max{0,|Δy|−5})^2}",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/73/TradeCartIcon.jpg/revision/latest?cb=20151208025152"
 	},
 	"Monk": {
@@ -1414,7 +1454,7 @@
 		"tt": "51 seconds",
 		"building": "Monastery",
 		"hp": "30",
-		"range": " \n - 9 vs. units \n - 0 vs. Trebuchets, Rams, Buildings \n - 4 for healing",
+		"range": " - 9 vs. units \n - 0 vs. Trebuchets, Rams, Buildings \n - 4 for healing",
 		"attack": "none",
 		"rof": "62",
 		"attackBonus": "N/A",
@@ -1434,7 +1474,7 @@
 		"tt": "51 seconds",
 		"building": "Monastery",
 		"hp": "30",
-		"range": "\n - 7 vs. units \n - 0 vs. Trebuchets, Rams, Buildings \n - 4 for healing",
+		"range": " - 7 vs. units \n - 0 vs. Trebuchets, Rams, Buildings \n - 4 for healing",
 		"attack": "none",
 		"rof": "62",
 		"attackBonus": "N/A",
@@ -1479,7 +1519,7 @@
 		"blast": "0.5",
 		"rof": "N/A",
 		"attackBonus": " - +900 vs. Wall and Gate \n - +500 vs. Building \n - +100 vs. Castle \n - +60 vs. Seige Weapon",
-		"armorClass": "Ship",
+		"armorClass": "none",
 		"meleeArmor": "0",
 		"pierceArmor": "2",
 		"speed": "0.8",
@@ -1495,7 +1535,7 @@
 		"tt": "50 seconds",
 		"building": "Castle",
 		"hp": "150",
-		"range": "16",
+		"range": "16 Min: 4",
 		"attack": "200 pierce",
 		"accuracy": "80% vs. Buildings, 15% vs. units",
 		"projSpd": "3.5",
@@ -1532,7 +1572,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Longbowman (850f, 850g, 60sec)",
 		"notes": "Fully upgrades longbowman will have 12 range allowing them to out range castles and towers",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/LongbowmanIcon.jpg/revision/latest?cb=20151203024824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/8c/LongbowmanIcon-DE.png/revision/latest?cb=20191116052143"
 	},
 	"Elite Longbowman": {
 		"cost": "35w and 40g",
@@ -1554,10 +1594,10 @@
 		"upgradeFrom": "Longbowman",
 		"upgrade": "none",
 		"notes": "Fully upgrades longbowman will have 12 range allowing them to out range castles and towers",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/LongbowmanIcon.jpg/revision/latest?cb=20151203024824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/8c/LongbowmanIcon-DE.png/revision/latest?cb=20191116052143"
 	},
 	"Cataphract": {
-		"cost": "75f and 70g",
+		"cost": "70f and 75g",
 		"tt": "20 seconds",
 		"building": "Castle",
 		"hp": "110",
@@ -1574,10 +1614,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Cataphract (1600f, 800g, 50sec)",
 		"notes": "Deals trample damage",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a3/CataphractIcon.jpg/revision/latest?cb=20151203025314"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bd/CataphractIcon-DE.png/revision/latest?cb=20191230134704"
 	},
 	"Elite Cataphract": {
-		"cost": "75f and 70g",
+		"cost": "70f and 75g",
 		"tt": "20 seconds",
 		"building": "Castle",
 		"hp": "150",
@@ -1594,7 +1634,7 @@
 		"upgradeFrom": "Cataphract",
 		"upgrade": "none",
 		"notes": "Deals trample damage",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a3/CataphractIcon.jpg/revision/latest?cb=20151203025314"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bd/CataphractIcon-DE.png/revision/latest?cb=20191230134704"
 	},
 	"Woad Raider": {
 		"cost": "65f and 25g",
@@ -1614,7 +1654,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Woad Raider (1000f, 800g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/WBRSK.jpg/revision/latest?cb=20141203024809"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/55/WoadRaiderIcon-DE.png/revision/latest?cb=20191230150759"
 	},
 	"Elite Woad Raider": {
 		"cost": "65f and 25g",
@@ -1634,7 +1674,7 @@
 		"upgradeFrom": "Woad Raider",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0c/WBRSK.jpg/revision/latest?cb=20141203024809"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/55/WoadRaiderIcon-DE.png/revision/latest?cb=20191230150759"
 	},
 	"Chu Ko Nu": {
 		"cost": "40w and 35g",
@@ -1642,7 +1682,7 @@
 		"building": "Castle",
 		"hp": "45",
 		"range": "4",
-		"attack": "8 pierce and 0 melee",
+		"attack": "8 pierce(first arrow) 3 pierce and 0 melee(additional arrows)",
 		"accuracy": "85%",
 		"projSpd": "7",
 		"rof": "3.65",
@@ -1656,7 +1696,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Chu Ko Nu (760f, 760g, 50sec)",
 		"notes": "great against Rams due to their 0 melee attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4d/ChuKoNuIcon.jpg/revision/latest?cb=20151203025830"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/77/ChukoNuIcon-DE.png/revision/latest?cb=20191230145351"
 	},
 	"Elite Chu Ko Nu": {
 		"cost": "40w and 35g",
@@ -1678,7 +1718,7 @@
 		"upgradeFrom": "Chu Ko Nu",
 		"upgrade": "none",
 		"notes": "great against Rams due to their 0 melee attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4d/ChuKoNuIcon.jpg/revision/latest?cb=20151203025830"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/77/ChukoNuIcon-DE.png/revision/latest?cb=20191230145351"
 	},
 	"Throwing Axeman": {
 		"cost": "55f and 25g",
@@ -1700,7 +1740,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Throwing Axeman (1000f, 750g, 45sec)",
 		"notes": "Because of thier high frame delay it is not wise to try and kite with them",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/39/TAXEM.jpg/revision/latest?cb=20141203025327"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d3/ThrowingAxemanIcon-DE.png/revision/latest?cb=20191231100343"
 	},
 	"Elite Throwing Axeman": {
 		"cost": "55f and 25g",
@@ -1722,7 +1762,7 @@
 		"upgradeFrom": "Throwing Axeman",
 		"upgrade": "none",
 		"notes": "Because of thier high frame delay it is not wise to try and kite with them",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/39/TAXEM.jpg/revision/latest?cb=20141203025327"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/d/d3/ThrowingAxemanIcon-DE.png/revision/latest?cb=20191231100343"
 	},
 	"Huskarl": {
 		"cost": "52f and 26g",
@@ -1732,7 +1772,7 @@
 		"range": "melee",
 		"attack": "10",
 		"rof": "2.03",
-		"attackBonus": " - +6 vs. Archer \n - +2 vs. Eagle Warrior \n - +2 vs. Standard Building",
+		"attackBonus": " - +6 vs. Archer \n - +2 vs. Eagle Warrior \n - +3 vs. Standard Building",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "6",
@@ -1742,7 +1782,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Huskarl (1200f, 550g, 40sec)",
 		"notes": "Can be trained in the barracks once Anarchy is researched",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6b/HuskarlIcon.jpg/revision/latest?cb=20151203030212"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/79/HuskarlIcon-DE.png/revision/latest?cb=20191230145804"
 	},
 	"Elite Huskarl": {
 		"cost": "52f and 26g",
@@ -1752,7 +1792,7 @@
 		"range": "melee",
 		"attack": "12",
 		"rof": "2.03",
-		"attackBonus": " - +10 vs. Archer \n - +3 vs. Eagle Warrior \n - +3 vs. Standard Building",
+		"attackBonus": " - +10 vs. Archer \n - +3 vs. Eagle Warrior \n - +4 vs. Standard Building",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "8",
@@ -1762,7 +1802,7 @@
 		"upgradeFrom": "Huskarl",
 		"upgrade": "none",
 		"notes": "Can be trained in the barracks once Anarchy is researched",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6b/HuskarlIcon.jpg/revision/latest?cb=20151203030212"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/79/HuskarlIcon-DE.png/revision/latest?cb=20191230145804"
 	},
 	"Samurai": {
 		"cost": "60f and 30g",
@@ -1782,7 +1822,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Samurai (950f, 875g, 60sec)",
 		"notes": "Their base rate of fire is actually 1.93",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/e2/SMURI.jpg/revision/latest?cb=20141203023705"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/17/SamuraiIcon-DE.png/revision/latest?cb=20191230150219"
 	},
 	"Elite Samurai": {
 		"cost": "60f and 30g",
@@ -1802,7 +1842,7 @@
 		"upgradeFrom": "Samurai",
 		"upgrade": "none",
 		"notes": "Their base rate of fire is actually 1.93",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/e2/SMURI.jpg/revision/latest?cb=20141203023705"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/17/SamuraiIcon-DE.png/revision/latest?cb=20191230150219"
 	},
 	"Mangudai": {
 		"cost": "55w and 65g",
@@ -1824,7 +1864,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Mangudai (1100f, 675g, 50sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/73/MangudaiIcon.jpg/revision/latest?cb=20151203031421"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/3c/MangudaiIcon-DE.png/revision/latest?cb=20191230140744"
 	},
 	"Elite Mangudai": {
 		"cost": "55w and 65g",
@@ -1846,7 +1886,7 @@
 		"upgradeFrom": "Mangudai",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/73/MangudaiIcon.jpg/revision/latest?cb=20151203031421"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/3c/MangudaiIcon-DE.png/revision/latest?cb=20191230140744"
 	},
 	"War Elephant": {
 		"cost": "200f and 75g",
@@ -1867,7 +1907,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite War Elephant (1600f, 1200g, 75sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a4/WarElephantIcon.jpg/revision/latest?cb=20151203030539"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/WarElephantIcon-DE.png/revision/latest?cb=20191230145604"
 	},
 	"Elite War Elephant": {
 		"cost": "200f and 75g",
@@ -1888,7 +1928,7 @@
 		"upgradeFrom": "War Elephant",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a4/WarElephantIcon.jpg/revision/latest?cb=20151203030539"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/WarElephantIcon-DE.png/revision/latest?cb=20191230145604"
 	},
 	"Mameluke": {
 		"cost": "55f and 85g",
@@ -1901,7 +1941,7 @@
 		"projSpd": "7",
 		"rof": "2.03",
 		"attackBonus": " - +9 vs. Cavalry",
-		"armorClass": "Archer, Cavalry(+11), Camel, Unique Unit",
+		"armorClass": "Archer, Marmeluke, Camel, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
 		"speed": "1.4",
@@ -1910,7 +1950,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Mameluke (600f, 500g, 50sec)",
 		"notes": "Benefits from melee attack and armor upgrades instead of ranged ones",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/Saracenmamluk_icon.png/revision/latest?cb=20130201163734"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/MamelukeIcon-DE.png/revision/latest?cb=20191230150616"
 	},
 	"Elite Mameluke": {
 		"cost": "55f and 85g",
@@ -1922,8 +1962,8 @@
 		"accuracy": "100%",
 		"projSpd": "7",
 		"rof": "2.03",
-		"attackBonus": " - +12 vs. Cavalry",
-		"armorClass": "Archer, Cavalry(+11), Camel, Unique Unit",
+		"attackBonus": " - +12 vs. Cavalry \n - +1 vs. Marmeluke",
+		"armorClass": "Archer, Marmeluke, Camel, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
 		"speed": "1.4",
@@ -1932,7 +1972,7 @@
 		"upgradeFrom": "Mameluke",
 		"upgrade": "none",
 		"notes": "Benefits from melee attack and armor upgrades instead of ranged ones",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/Saracenmamluk_icon.png/revision/latest?cb=20130201163734"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/ab/MamelukeIcon-DE.png/revision/latest?cb=20191230150616"
 	},
 	"Teutonic Knight": {
 		"cost": "85f and 40g",
@@ -1952,7 +1992,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Teutonic Knight (1200f, 600g, 50sec)",
 		"notes": "Most powerful infantry unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/87/Crusade_avatar.png/revision/latest?cb=20140120144805"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/95/TeutonicKnightIcon-DE.png/revision/latest?cb=20191230145959"
 	},
 	"Elite Teutonic Knight": {
 		"cost": "85f and 40g",
@@ -1972,7 +2012,7 @@
 		"upgradeFrom": "Teutonic Knight",
 		"upgrade": "none",
 		"notes": "Most powerful infantry unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/87/Crusade_avatar.png/revision/latest?cb=20140120144805"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/95/TeutonicKnightIcon-DE.png/revision/latest?cb=20191230145959"
 	},
 	"Janissary": {
 		"cost": "60f and 55g",
@@ -1994,7 +2034,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Janissary (850f, 750g, 55sec)",
 		"notes": "Base HP is actually 35",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/26/JanissaryIcon.jpg/revision/latest?cb=20151203031046"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ed/JanissaryIcon-DE.png/revision/latest?cb=20191230145056"
 	},
 	"Elite Janissary": {
 		"cost": "60f and 55g",
@@ -2016,7 +2056,7 @@
 		"upgradeFrom": "Janissary",
 		"upgrade": "none",
 		"notes": "Base HP is actually 40 \nFrame delay is reduced to 0 as elite janissary",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/26/JanissaryIcon.jpg/revision/latest?cb=20151203031046"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ed/JanissaryIcon-DE.png/revision/latest?cb=20191230145056"
 	},
 	"Berserk": {
 		"cost": "65f and 25g",
@@ -2036,7 +2076,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Berserk (1300f, 550g, 45sec)",
 		"notes": "Regens HP - 20/min x2 with Beserkergang",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/06/VBRSK.jpg/revision/latest?cb=20170424082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0d/BerserkIcon-DE.png/revision/latest?cb=20191230150427"
 	},
 	"Elite Berserk": {
 		"cost": "65f and 25g",
@@ -2056,7 +2096,7 @@
 		"upgradeFrom": "Berserk",
 		"upgrade": "none",
 		"notes": "Regens HP - 20/min x2 with Beserkergang",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/06/VBRSK.jpg/revision/latest?cb=20170424082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0d/BerserkIcon-DE.png/revision/latest?cb=20191230150427"
 	},
 	"Jaguar Warrior": {
 		"cost": "60f and 30g",
@@ -2076,7 +2116,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Jaguar Warrior (1000f, 500g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a7/JaguarWarriorIcon.jpg/revision/latest?cb=20151203033334"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/JaguarWarriorIcon-DE.png/revision/latest?cb=20191230143816"
 	},
 	"Elite Jaguar Warrior": {
 		"cost": "60f and 30g",
@@ -2096,7 +2136,7 @@
 		"upgradeFrom": "Jaguar Warrior",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/a/a7/JaguarWarriorIcon.jpg/revision/latest?cb=20151203033334"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/32/JaguarWarriorIcon-DE.png/revision/latest?cb=20191230143816"
 	},
 	"Tarkan": {
 		"cost": "60f and 60g",
@@ -2116,7 +2156,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Tarkan (1000f, 500g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/TarkanIcon.jpg/revision/latest?cb=20151203033824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/TarkanIcon-DE.png/revision/latest?cb=20191230143626"
 	},
 	"Elite Tarkan": {
 		"cost": "60f and 60g",
@@ -2136,10 +2176,10 @@
 		"upgradeFrom": "Tarkan",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/TarkanIcon.jpg/revision/latest?cb=20151203033824"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/TarkanIcon-DE.png/revision/latest?cb=20191230143626"
 	},
 	"War Wagon": {
-		"cost": "110w and 60g",
+		"cost": "94w and 60g",
 		"tt": "21 seconds",
 		"building": "Castle",
 		"hp": "150",
@@ -2158,10 +2198,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite War Wagon (1000w, 800g, 75sec)",
 		"notes": "Strongest ranged unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/10/WarWagonIcon.jpg/revision/latest?cb=20151203032632"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4b/WarWagonIcon-DE.png/revision/latest?cb=20191230144646"
 	},
 	"Elite War Wagon": {
-		"cost": "110w and 60g",
+		"cost": "94w and 60g",
 		"tt": "21 seconds",
 		"building": "Castle",
 		"hp": "200",
@@ -2180,10 +2220,10 @@
 		"upgradeFrom": "War Wagon",
 		"upgrade": "none",
 		"notes": "Strongest ranged unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/10/WarWagonIcon.jpg/revision/latest?cb=20151203032632"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4b/WarWagonIcon-DE.png/revision/latest?cb=20191230144646"
 	},
 	"Plumed Archer": {
-		"cost": "40w and 40g in Castle Age, 35w and 35g in Imperial Age",
+		"cost": "40w and 40g in Castle Age, 40w and 40g in Imperial Age",
 		"tt": "16 seconds",
 		"building": "Castle",
 		"hp": "50",
@@ -2202,10 +2242,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Plumed Archer (700f, 1000w, 75sec)",
 		"notes": "Castle unit with lowest attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/40/PlumedArcherIcon.jpg/revision/latest?cb=20151203035428"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fd/PlumedArcherIcon-DE.png/revision/latest?cb=20191230144107"
 	},
 	"Elite Plumed Archer": {
-		"cost": "35w and 35g",
+		"cost": "40w and 40g",
 		"tt": "16 seconds",
 		"building": "Castle",
 		"hp": "65",
@@ -2224,7 +2264,7 @@
 		"upgradeFrom": "Plumed Archer",
 		"upgrade": "none",
 		"notes": "Castle unit with lowest attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/40/PlumedArcherIcon.jpg/revision/latest?cb=20151203035428"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fd/PlumedArcherIcon-DE.png/revision/latest?cb=20191230144107"
 	},
 	"Conquistador": {
 		"cost": "60f and 70g",
@@ -2237,7 +2277,7 @@
 		"projSpd": "5.5",
 		"rof": "2.93",
 		"attackBonus": " - +4 vs. Ram",
-		"armorClass": "Archer, Cavalry, Gunpowder Unit, Unique Unit",
+		"armorClass": "Archer, Cavalry, Cavalary Archer, Gunpowder Unit, Unique Unit",
 		"meleeArmor": "2",
 		"pierceArmor": "2",
 		"speed": "1.3",
@@ -2246,7 +2286,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Conquistador (1200f, 600g, 60sec)",
 		"notes": "Don't benefit from range increases",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fe/ConquistadorIcon.jpg/revision/latest?cb=20151203034712"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/ConquistadorIcon-DE.png/revision/latest?cb=20191230144302"
 	},
 	"Elite Conquistador": {
 		"cost": "60f and 70g",
@@ -2268,7 +2308,7 @@
 		"upgradeFrom": "Conquistador",
 		"upgrade": "none",
 		"notes": "Don't benefit from range increases",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fe/ConquistadorIcon.jpg/revision/latest?cb=20151203034712"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/9e/ConquistadorIcon-DE.png/revision/latest?cb=20191230144302"
 	},
 	"Kamayuk": {
 		"cost": "60f and 30g",
@@ -2278,7 +2318,7 @@
 		"range": "1",
 		"attack": "7 melee",
 		"rof": "2.03",
-		"attackBonus": " - +20 vs. War Elephant \n - +8 vs. Cavalry \n - +6 vs. Camel",
+		"attackBonus": " - +20 vs. War Elephant \n - +8 vs. Cavalry \n - +6 vs. Camel \n - +1 vs. Marmeluke",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
@@ -2288,7 +2328,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Kamayuk (900f, 500g, 45sec)",
 		"notes": "Anti-Cavalry with a long spear",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/19/Kamayukicon.png/revision/latest?cb=20170222130354"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/85/KamayukIcon-DE.png/revision/latest?cb=20191230141856"
 	},
 	"Elite Kamayuk": {
 		"cost": "60f and 30g",
@@ -2298,7 +2338,7 @@
 		"range": "1",
 		"attack": "8 melee",
 		"rof": "2.03",
-		"attackBonus": " - +20 vs. War Elephant \n - +12 vs. Cavalry \n - +10 vs. Camel",
+		"attackBonus": " - +20 vs. War Elephant \n - +12 vs. Cavalry \n - +10 vs. Camel \n - +1 vs. Marmeluke",
 		"armorClass": "Infantry, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -2308,10 +2348,10 @@
 		"upgradeFrom": "Kamayuk",
 		"upgrade": "none",
 		"notes": "Anti-Cavalry with a long spear",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/1/19/Kamayukicon.png/revision/latest?cb=20170222130354"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/85/KamayukIcon-DE.png/revision/latest?cb=20191230141856"
 	},
 	"Elephant Archer": {
-		"cost": "100f and 60g",
+		"cost": "100f and 80g",
 		"tt": "25 seconds",
 		"building": "Castle",
 		"hp": "280",
@@ -2330,10 +2370,10 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Elephant Archer (1000f, 800g, 60sec)",
 		"notes": "Has the most weaknesses of any unit in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c9/ElephantArcherIcon.jpg/revision/latest?cb=20151203035655"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fc/ElephantArcherIcon-DE.png/revision/latest?cb=20191230142830"
 	},
 	"Elite Elephant Archer": {
-		"cost": "100f and 60g",
+		"cost": "100f and 80g",
 		"tt": "25 seconds",
 		"building": "Castle",
 		"hp": "330",
@@ -2352,11 +2392,11 @@
 		"upgradeFrom": "Elephant Archer",
 		"upgrade": "none",
 		"notes": "Has the most weaknesses of any unit in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c9/ElephantArcherIcon.jpg/revision/latest?cb=20151203035655"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fc/ElephantArcherIcon-DE.png/revision/latest?cb=20191230142830"
 	},
 	"Genoese Crossbowman": {
 		"cost": "45w and 45g",
-		"tt": "22 seconds",
+		"tt": "14 seconds",
 		"building": "Castle",
 		"hp": "45",
 		"range": "4",
@@ -2364,7 +2404,7 @@
 		"accuracy": "100%",
 		"projSpd": "7",
 		"rof": "3.05",
-		"attackBonus": " - +5 vs. Cavalry \n - +5 vs. War Elephant \n - +4 vs. Camel \n - +4 vs. Ship",
+		"attackBonus": " - +5 vs. Cavalry \n - +5 vs. War Elephant \n - +4 vs. Camel \n - +4 vs. Ship \n - +4 vs. Fishing Ship",
 		"armorClass": "Archer, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -2374,11 +2414,11 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Genoese Crossbowman (900f, 750g, 60sec)",
 		"notes": "Genoese Crossbowman's bonus damage against cavalry probably refers to the weapon's ban by the Pope in 1096. The ban was applied because a mounted knight who spent years in military training could be killed easily by a peasant with little to no training who used a crossbow. As a result, the crossbow was considered as a threat against ruling elites and they lobbied the Roman Catholic Church to ban the weapon.",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/20/New_Genoese_Crossbowman.png/revision/latest?cb=20140117095719"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ea/GenoeseCrossbowmanIcon-DE.png/revision/latest?cb=20191230141637"
 	},
 	"Elite Genoese Crossbowman": {
 		"cost": "45w and 45g",
-		"tt": "19 seconds",
+		"tt": "11 seconds",
 		"building": "Castle",
 		"hp": "50",
 		"range": "4",
@@ -2386,7 +2426,7 @@
 		"accuracy": "100%",
 		"projSpd": "7",
 		"rof": "2.03",
-		"attackBonus": " - +7 vs. Cavalry \n - +7 vs. War Elephant \n - +6 vs. Camel \n - +5 vs. Ship",
+		"attackBonus": " - +7 vs. Cavalry \n - +7 vs. War Elephant \n - +6 vs. Camel \n - +5 vs. Ship \n - +5 vs. Fishing Ship",
 		"armorClass": "Archer, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "0",
@@ -2396,7 +2436,7 @@
 		"upgradeFrom": "Genoese Crossbowman",
 		"upgrade": "none",
 		"notes": "Genoese Crossbowman's bonus damage against cavalry probably refers to the weapon's ban by the Pope in 1096. The ban was applied because a mounted knight who spent years in military training could be killed easily by a peasant with little to no training who used a crossbow. As a result, the crossbow was considered as a threat against ruling elites and they lobbied the Roman Catholic Church to ban the weapon.",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/20/New_Genoese_Crossbowman.png/revision/latest?cb=20140117095719"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/e/ea/GenoeseCrossbowmanIcon-DE.png/revision/latest?cb=20191230141637"
 	},
 	"Magyar Huszar": {
 		"cost": "80f and 10g",
@@ -2416,7 +2456,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Magyar Huszar (800f, 600g, 60sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c0/Magyar_Huszar_icon.jpg/revision/latest?cb=20140115082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5b/MagyarHuszarIcon-DE.png/revision/latest?cb=20191230140432"
 	},
 	"Elite Magyar Huszar": {
 		"cost": "80f and 10g",
@@ -2436,11 +2476,11 @@
 		"upgradeFrom": "Magyar Huszar",
 		"upgrade": "none",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c0/Magyar_Huszar_icon.jpg/revision/latest?cb=20140115082845"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5b/MagyarHuszarIcon-DE.png/revision/latest?cb=20191230140432"
 	},
 	"Boyar": {
 		"cost": "50f and 80g",
-		"tt": "23 seconds",
+		"tt": "15 seconds",
 		"building": "Castle",
 		"hp": "100",
 		"range": "melee",
@@ -2456,27 +2496,27 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Boyar (1000f, 600g, 60sec)",
 		"notes": "Kind of weak against archer fire",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/57/New_Boyar.png/revision/latest?cb=20140117095913"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bf/BoyarIcon-DE.png/revision/latest?cb=20191230135130"
 	},
 	"Elite Boyar": {
 		"cost": "50f and 80g",
-		"tt": "23 seconds",
+		"tt": "15 seconds",
 		"building": "Castle",
-		"hp": "100",
+		"hp": "130",
 		"range": "melee",
-		"attack": "12",
+		"attack": "14",
 		"rof": "1.93",
 		"attackBonus": "none",
 		"armorClass": "Cavalry, Unique Unit",
-		"meleeArmor": "4",
-		"pierceArmor": "1",
+		"meleeArmor": "6",
+		"pierceArmor": "2",
 		"speed": "1.4",
 		"los": "5",
 		"line": "Slav UU",
 		"upgradeFrom": "Boyar",
 		"upgrade": "none",
 		"notes": "Kind of weak against archer fire",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/57/New_Boyar.png/revision/latest?cb=20140117095913"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/bf/BoyarIcon-DE.png/revision/latest?cb=20191230135130"
 	},
 	"Camel Archer": {
 		"cost": "50f and 60g",
@@ -2498,7 +2538,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Camel Archer (1000w, 500g, 45sec)",
 		"notes": "Anti Cavalry Archer",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/29/CamelArcherIcon.jpg/revision/latest?cb=20151203035031"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f4/CamelArcherIcon-DE.png/revision/latest?cb=20191230142121"
 	},
 	"Elite Camel Archer": {
 		"cost": "50f and 60g",
@@ -2520,7 +2560,7 @@
 		"upgradeFrom": "Camel Archer",
 		"upgrade": "none",
 		"notes": "Anti Cavalry Archer",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/2/29/CamelArcherIcon.jpg/revision/latest?cb=20151203035031"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f4/CamelArcherIcon-DE.png/revision/latest?cb=20191230142121"
 	},
 	"Shotel Warrior": {
 		"cost": "50f and 35g",
@@ -2540,7 +2580,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Shotel Warrior (1200f, 550g, 45sec)",
 		"notes": "Second highest unranged attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/97/ShotelIcon.png/revision/latest?cb=20151111153831"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/03/Shotelwarrioricon-DE.png/revision/latest?cb=20191210075606"
 	},
 	"Elite Shotel Warrior": {
 		"cost": "50f and 35g",
@@ -2560,7 +2600,7 @@
 		"upgradeFrom": "Shotel Warrior",
 		"upgrade": "none",
 		"notes": "Second highest unranged attack",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/9/97/ShotelIcon.png/revision/latest?cb=20151111153831"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/03/Shotelwarrioricon-DE.png/revision/latest?cb=20191210075606"
 	},
 	"Gbeto": {
 		"cost": "50f and 40g",
@@ -2582,7 +2622,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Gbeto (900f, 600g, 45sec)",
 		"notes": "Attacks count as melee so archer upgrades don't benefit this unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/76/GbetoIcon.png/revision/latest?cb=20151111072409"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/GbetoIcon-DE.png/revision/latest?cb=20191230140137"
 	},
 	"Elite Gbeto": {
 		"cost": "50f and 40g",
@@ -2604,7 +2644,7 @@
 		"upgradeFrom": "Gbeto",
 		"upgrade": "none",
 		"notes": "Attacks count as melee so archer upgrades don't benefit this unit",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/76/GbetoIcon.png/revision/latest?cb=20151111072409"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/0f/GbetoIcon-DE.png/revision/latest?cb=20191230140137"
 	},
 	"Organ Gun": {
 		"cost": "80w and 60g",
@@ -2612,7 +2652,7 @@
 		"building": "Castle",
 		"hp": "60",
 		"range": "7, Min: 1",
-		"attack": "16 melee",
+		"attack": "16",
 		"accuracy": "50%",
 		"projSpd": "5.5",
 		"rof": "3.45",
@@ -2626,7 +2666,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Organ Gun (1200f, 500g, 45sec)",
 		"notes": "Fires a volley of 5 bullets",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/OrganGunIcon.jpg/revision/latest?cb=20151203041000"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c3/OrganGunIcon-DE.png/revision/latest?cb=20191230141217"
 	},
 	"Elite Organ Gun": {
 		"cost": "80w and 60g",
@@ -2634,7 +2674,7 @@
 		"building": "Castle",
 		"hp": "70",
 		"range": "7, Min: 1",
-		"attack": "20 melee",
+		"attack": "20",
 		"accuracy": "50%",
 		"projSpd": "5.5",
 		"rof": "3.45",
@@ -2648,7 +2688,7 @@
 		"upgradeFrom": "Organ Gun",
 		"upgrade": "none",
 		"notes": "Fires a volley of 5 bullets",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/OrganGunIcon.jpg/revision/latest?cb=20151203041000"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c3/OrganGunIcon-DE.png/revision/latest?cb=20191230141217"
 	},
 	"Arambai": {
 		"cost": "80w and 60g",
@@ -2670,7 +2710,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Arambai (1100w, 675g, 65sec)",
 		"notes": "Worst Accuracy in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/Arambaiicon.png/revision/latest?cb=20161221155048"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6c/Arambaiicon-DE.png/revision/latest?cb=20191203073241"
 	},
 	"Elite Arambai": {
 		"cost": "80w and 60g",
@@ -2692,7 +2732,7 @@
 		"upgradeFrom": "Arambai",
 		"upgrade": "none",
 		"notes": "Worst Accuracy in the game",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/46/Arambaiicon.png/revision/latest?cb=20161221155048"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/6c/Arambaiicon-DE.png/revision/latest?cb=20191203073241"
 	},
 	"Ballista Elephant": {
 		"cost": "100f and 80g",
@@ -2705,7 +2745,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "2.5",
-		"attackBonus": " - +8 vs Ship \n - +3 vs Stone defense \n - +3 vs Standard building \n - +2 vs Building",
+		"attackBonus": " - +8 vs Ship \n - +8 vs Fishing Ship \n - +3 vs Stone defense \n - +3 vs Standard building \n - +2 vs Building",
 		"armorClass": "Cavalry(-2), War Elephant(-2), Seige Weapon(-2), Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
@@ -2715,7 +2755,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Ballista Elephant (1000f, 500g, 70sec)",
 		"notes": "Can cut down trees",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/09/Ballistaelephanticon.png/revision/latest?cb=20161226023839"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7e/Ballistaelephanticon-DE.png/revision/latest?cb=20191125051236"
 	},
 	"Elite Ballista Elephant": {
 		"cost": "100f and 80g",
@@ -2728,7 +2768,7 @@
 		"accuracy": "100%",
 		"projSpd": "6",
 		"rof": "2.5",
-		"attackBonus": " - +8 vs Ship \n - +4 vs Stone defense \n - +4 vs Standard building \n - +4 vs Building",
+		"attackBonus": " - +8 vs Ship \n - +8 vs Fishing Ship \n - +4 vs Stone defense \n - +4 vs Standard building \n - +4 vs Building",
 		"armorClass": "Cavalry(-2), War Elephant(-2), Seige Weapon(-2), Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "3",
@@ -2738,13 +2778,13 @@
 		"upgradeFrom": "Ballista Elephant",
 		"upgrade": "none",
 		"notes": "Can cut down trees",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/0/09/Ballistaelephanticon.png/revision/latest?cb=20161226023839"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7e/Ballistaelephanticon-DE.png/revision/latest?cb=20191125051236"
 	},
 	"Karambit Warrior": {
 		"cost": "30f and 15g",
 		"tt": "6 seconds",
 		"building": "Castle",
-		"hp": "35",
+		"hp": "30",
 		"range": "melee",
 		"attack": "6",
 		"rof": "2.03",
@@ -2758,7 +2798,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Karambit Warrior (900f, 600g, 40sec)",
 		"notes": "1 unit counts as half a population space",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b3/Karambitwarrioricon.png/revision/latest?cb=20161221162043"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/75/Karambitwarrioricon-DE.png/revision/latest?cb=20191117115320"
 	},
 	"Elite Karambit Warrior": {
 		"cost": "30f and 15g",
@@ -2778,7 +2818,7 @@
 		"upgradeFrom": "Karambit Warrior",
 		"upgrade": "none",
 		"notes": "1 unit counts as half a population space",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/b/b3/Karambitwarrioricon.png/revision/latest?cb=20161221162043"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/75/Karambitwarrioricon-DE.png/revision/latest?cb=20191117115320"
 	},
 	"Rattan Archer": {
 		"cost": "50w and 45g",
@@ -2800,7 +2840,7 @@
 		"upgradeFrom": "none",
 		"upgrade": "Elite Rattan Archer (1100f, 750g, 45sec)",
 		"notes": "none",
-		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/3/35/Rattanarchericon.png/revision/latest?cb=20161221164325"
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/c/c4/Rattanarchericon-DE.png/revision/latest?cb=20191120073108"
 	},
 	"Elite Rattan Archer": {
 		"cost": "50w and 45g",
@@ -2826,175 +2866,190 @@
 	},
 	"Konnik": {
 		"cost": "60f and 70g",
-		"tt": "????",
+		"tt": "19 seconds",
 		"building": "Castle",
-		"hp": "110",
+		"hp": "100, 40(dismounted)",
 		"range": "melee",
 		"attack": "12",
-		"blast": "????",
-		"rof": "????",
-		"attackBonus": "????",
-		"armorClass": "Cavalry, Infantry??, Unique Unit",
-		"meleeArmor": "2",
-		"pierceArmor": "1",
-		"speed": "????",
-		"los": "????",
+		"rof": "2.4",
+		"attackBonus": " - +4 vs. Standard Building(dismounted)",
+		"armorClass": "Cavalry, Infantry(dismounted), Unique Unit",
+		"meleeArmor": "2, 0(dismounted)",
+		"pierceArmor": "1, 0(dismounted)",
+		"speed": "1.35, 0.9(dismounted)",
+		"los": "5, 7(dismounted)",
 		"line": "Bulgarian UU",
 		"upgradeFrom": "none",
 		"upgrade": "Elite Konnik (1000f, 750g, ???sec)",
-		"notes": "Cavalry that fights as infantry when felled \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Cavalry that fights as infantry when felled",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/88/Konnikicon.png/revision/latest?cb=20191110154203"
 	},
 	"Elite Konnik": {
 		"cost": "60f and 70g",
-		"tt": "????",
+		"tt": "19 seconds",
 		"building": "Castle",
-		"hp": "130",
+		"hp": "120, 50(dismounted)",
 		"range": "melee",
-		"attack": "14",
-		"blast": "????",
-		"rof": "????",
-		"attackBonus": "????",
-		"armorClass": "Cavalry, Infantry??, Unique Unit",
-		"meleeArmor": "2",
-		"pierceArmor": "2",
-		"speed": "????",
-		"los": "????",
+		"attack": "14, 13(dismounted)",
+		"rof": "2.4",
+		"attackBonus": " - +4 vs. Standard Building(dismounted)",
+		"armorClass": "Cavalry, Infantry(dismounted), Unique Unit",
+		"meleeArmor": "2, 0(dismounted)",
+		"pierceArmor": "2, 1(dismounted)",
+		"speed": "1.35, 0.9(dismounted)",
+		"los": "5, 7(dismounted)",
 		"line": "Bulgarian UU",
 		"upgradeFrom": "Konnik",
 		"upgrade": "none",
-		"notes": "Cavalry that fights as infantry when felled \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Cavalry that fights as infantry when felled",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/8/88/Konnikicon.png/revision/latest?cb=20191110154203"
 	},
 	"Kipchak": {
 		"cost": "60w and 35g",
-		"tt": "????",
+		"tt": "20 seconds",
 		"building": "Castle",
-		"hp": "50",
+		"hp": "40",
 		"range": "4",
-		"attack": "4 pierce",
-		"accuracy": "????",
-		"blast": "????",
-		"projSpd": "????",
-		"rof": "????",
-		"attackBonus": "????",
+		"attack": "4 pierce(1st arrow), 3 pierce 0 melee(addition arrows)",
+		"accuracy": "90%",
+		"projSpd": "7",
+		"rof": "2.2",
+		"attackBonus": "none",
 		"armorClass": "Cavalry, Cavalry Archer, Archer, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
-		"speed": "????",
+		"speed": "1.4",
 		"los": "????",
 		"line": "Cuman UU",
 		"upgradeFrom": "none",
 		"upgrade": "Elite Kipchak (1100f, 1000w, ???sec)",
-		"notes": "Cavalry archer with rapid-fire attack \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Cavalry archer with rapid-fire attack",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f3/Kipchakicon.png/revision/latest?cb=20191110154623"
 	},
 	"Elite Kipchak": {
 		"cost": "60w and 35g",
-		"tt": "????",
+		"tt": "20 seconds",
 		"building": "Castle",
-		"hp": "55",
+		"hp": "45",
 		"range": "4",
-		"attack": "5 pierce",
-		"accuracy": "????",
-		"blast": "????",
-		"projSpd": "????",
-		"rof": "????",
-		"attackBonus": "????",
+		"attack": "5 pierce(1st arrow), 3 pierce 0 melee(addition arrows)",
+		"accuracy": "90%",
+		"projSpd": "7",
+		"rof": "2.2",
+		"attackBonus": "none",
 		"armorClass": "Cavalry, Cavalry Archer, Archer, Unique Unit",
 		"meleeArmor": "0",
 		"pierceArmor": "0",
-		"speed": "????",
+		"speed": "1.4",
 		"los": "????",
 		"line": "Cuman UU",
 		"upgradeFrom": "Kipchak",
 		"upgrade": "none",
-		"notes": "Cavalry archer with rapid-fire attack \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Cavalry archer with rapid-fire attack",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/f3/Kipchakicon.png/revision/latest?cb=20191110154623"
 	},
 	"Leitis": {
 		"cost": "50f and 80g",
-		"tt": "????",
+		"tt": "23 seconds",
 		"building": "Castle",
 		"hp": "100",
 		"range": "melee",
 		"attack": "12",
-		"blast": "????",
-		"rof": "????",
-		"attackBonus": "????",
+		"rof": "1.9",
+		"attackBonus": "none",
 		"armorClass": "Cavalry, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "2",
-		"speed": "????",
-		"los": "????",
+		"speed": "1.4",
+		"los": "5",
 		"line": "Lithuanian UU",
 		"upgradeFrom": "none",
-		"upgrade": "Elite Leitis (750f, 750g, ???sec)",
-		"notes": "Cavalry that ignores armor \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"upgrade": "Elite Leitis (750f, 750g, 45sec)",
+		"notes": "Cavalry that ignores armor",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/64/Leitisicon.png/revision/latest?cb=20191110154530"
 	},
 	"Elite Leitis": {
 		"cost": "50f and 80g",
-		"tt": "????",
+		"tt": "20 seconds",
 		"building": "Castle",
 		"hp": "130",
 		"range": "melee",
 		"attack": "14",
-		"blast": "????",
-		"rof": "????",
-		"attackBonus": "????",
+		"rof": "1.9",
+		"attackBonus": "none",
 		"armorClass": "Cavalry, Unique Unit",
 		"meleeArmor": "2",
 		"pierceArmor": "2",
-		"speed": "????",
-		"los": "????",
+		"speed": "1.4",
+		"los": "5",
 		"line": "Lithuanian UU",
 		"upgradeFrom": "Leitis",
 		"upgrade": "none",
-		"notes": "Cavalry that ignores armor \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Cavalry that ignores armor",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/64/Leitisicon.png/revision/latest?cb=20191110154530"
 	},
 	"Keshik": {
-		"cost": "50f and 80g",
-		"tt": "????",
+		"cost": "50f and 40g",
+		"tt": "23 seconds",
 		"building": "Castle",
-		"hp": "100",
+		"hp": "110",
 		"range": "melee",
-		"attack": "12",
-		"blast": "????",
-		"rof": "????",
-		"attackBonus": "????",
+		"attack": "9",
+		"rof": "1.9",
+		"attackBonus": "none",
 		"armorClass": "Cavalry, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "2",
-		"speed": "????",
-		"los": "????",
+		"speed": "1.4",
+		"los": "5",
 		"line": "Tatar UU",
 		"upgradeFrom": "none",
 		"upgrade": "Elite Keshik (700f, 900g, ???sec)",
-		"notes": "raiding Cavalry that generates gold fighting other units \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Generates 0.367 gold per second when attacking enemy units",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4c/Keshikicon.png/revision/latest?cb=20191110154643"
 	},
 	"Elite Keshik": {
-		"cost": "50f and 80g",
-		"tt": "????",
+		"cost": "50f and 40g",
+		"tt": "20 seconds",
 		"building": "Castle",
-		"hp": "130",
+		"hp": "140",
 		"range": "melee",
 		"attack": "14",
-		"blast": "????",
-		"rof": "????",
-		"attackBonus": "????",
+		"rof": "1.9",
+		"attackBonus": "none",
 		"armorClass": "Cavalry, Unique Unit",
 		"meleeArmor": "1",
 		"pierceArmor": "3",
-		"speed": "????",
-		"los": "????",
+		"speed": "1.4",
+		"los": "5",
 		"line": "Tatar UU",
 		"upgradeFrom": "Keshik",
 		"upgrade": "none",
-		"notes": "raiding Cavalry that generates gold fighting other units \nFill me up Daddy",
-		"image": "https://cdn0.iconfinder.com/data/icons/handdrawn-ui-elements/512/Question_Mark-512.png"
+		"notes": "Generates 0.367 gold per second when attacking enemy units",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4c/Keshikicon.png/revision/latest?cb=20191110154643"
+	},
+	
+	
+	
+	"King": {
+		"cost": "N/A",
+		"tt": "N/A",
+		"Building": "N/A",
+		"hp": "75",
+		"range": "N/A",
+		"attack": "none",
+		"rof": "N/A",
+		"attackBonus": "N/A",
+		"armorClass": "None",
+		"meleeArmor": "0",
+		"pierceArmor": "0",
+		"speed": "1.32",
+		"los": "6",
+		"line": "N/A",
+		"upgradeFrom": "N/A",
+		"upgrade": "N/A",
+		"notes": "Only availablein the regicide game mode where if you lose the king you lose the game",
+		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/6/63/KingA.png/revision/latest?cb=20161129101055"
 	}
 	
 	
