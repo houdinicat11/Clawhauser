@@ -1,31 +1,25 @@
 {
 	"Militia": {
-		"cost": {
-			"Food": 60,
-			"Gold": 20
-		},
+		"cost": "60f and 20g",
 		"tt": 21,
 		"building": "Barracks",
 		"hp": 40,
 		"range": 0,
 		"attack": 4,
 		"rof": 2.03,
-		"attackBonus": null,
+		"attackBonus": "none",
 		"armorClass": " - Infantry",
 		"armor": "0/1",
 		"speed": 0.9,
 		"los": 4,
 		"line": "Militia-Line",
-		"upgradeFrom": null,
+		"upgradeFrom": "none",
 		"upgrade": "Man of Arms (100f, 45g, 40sec)",
-		"notes": null,
+		"notes": "none",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/f/fb/MilitiaIcon.jpg/revision/latest?cb=20151202184737"
 	},
 	"Man-At-Arms": {
-		"cost": {
-			"Food": 60,
-			"Gold": 20
-		},
+		"cost": "60f and 20g",
 		"tt": 21,
 		"building": "Barracks",
 		"hp": 45,
@@ -44,10 +38,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/7c/ManAtArmsIcon.jpg/revision/latest?cb=20151202184742"
 	},
 	"Long Swordsman": {
-		"cost": {
-			"Food": 60,
-			"Gold": 20
-		},
+		"cost": "60f and 20g",
 		"tt": 21,
 		"building": "Barracks",
 		"hp": 60,
@@ -66,10 +57,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/7/71/LongswordsManIcon.jpg/revision/latest?cb=20151202185246"
 	},
 	"Two-Handed Swordsman": {
-		"cost": {
-			"Food": 60,
-			"Gold": 20
-		},
+		"cost": "60f and 20g",
 		"tt": 21,
 		"building": "Barracks",
 		"hp": 60,
@@ -88,10 +76,7 @@
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/5/5c/2HandedswordsmanIcon.jpg/revision/latest?cb=20151202185935"
 	},
 	"Champion": {
-		"cost": {
-			"Food": 60,
-			"Gold": 20
-		},,
+		"cost": "60f and 20g",
 		"tt": 21,
 		"building": "Barracks",
 		"hp": 70,
@@ -3057,6 +3042,130 @@
 		"upgrade": "none",
 		"notes": "Generates 0.367 gold per second when attacking enemy units",
 		"image": "https://vignette.wikia.nocookie.net/ageofempires/images/4/4c/Keshikicon.png/revision/latest?cb=20191110154643"
+	},
+	"Flaming Camel": {
+		"cost": "75f and 35g",
+		"tt": "20 seconds",
+		"building": "Castle",
+		"hp": "55",
+		"range": "melee",
+		"attack": "55",
+		"blast": "0.25",
+		"rof": "N/A",
+		"attackBonus": "  - +100 vs. Standard Building \n - +50 vs. Calvery \n - +50 vs. Camel \n - +130 vs. War Elephant",
+		"armorClass": "Camel, Unique Unit",
+		"meleeArmor": "1",
+		"pierceArmor": "1",
+		"speed": "1.3",
+		"los": "4",
+		"line": "Flaming Camel UU",
+		"upgradeFrom": "none",
+		"upgrade": "none",
+		"notes": "Can only be trained Tatars after researching Timurid Seigecraft",
+		"image": "https://static.wikia.nocookie.net/ageofempires/images/8/81/Flaming_camel_icon.png/revision/latest/scale-to-width-down/256?cb=20200403043038"
+	},
+
+
+	
+	"Flemish Militia": {
+		"cost": "60f and 25g",
+		"tt": "14 seconds",
+		"building": "Town Center",
+		"hp": "75",
+		"range": "melee",
+		"attack": "12",
+		"rof": "2",
+		"attackBonus": " - +8 vs. Calvery \n - +6 vs. Camel \n - +8 vs. War Elephant \n - +6 vs. Ship \n - +2 vs. Eagle Warrior \n - +2 vs. Standard Building",
+		"armorClass": "Infantry, Unique Unit",
+		"meleeArmor": "1",
+		"pierceArmor": "1",
+		"speed": "0.9",
+		"los": "7",
+		"line": "Burgundian Villager",
+		"upgradeFrom": "Viller",
+		"upgrade": "none",
+		"notes": "Can only be trained after researching Flemish Revolution which is a Burgundian Unique Tech",
+		"image": "https://static.wikia.nocookie.net/ageofempires/images/5/5b/Aoe2-icon-flemish-militia.png/revision/latest?cb=20201221071754"
+	},
+	"Coustillier": {
+		"cost": "55f and 55g",
+		"tt": "15 seconds",
+		"building": "Castle",
+		"hp": "115",
+		"range": "melee",
+		"attack": "8",
+		"rof": "1.9",
+		"attackBonus": "none",
+		"armorClass": "Cavalry, Unique Unit",
+		"meleeArmor": "2",
+		"pierceArmor": "2",
+		"speed": "1.35",
+		"los": "5",
+		"line": "Burgundian UU",
+		"upgradeFrom": "none",
+		"upgrade": "Elite Coustillier (1000f, 800g, 45sec)",
+		"notes": "Charges its attack over 40 seconds, dealing +25 melee damage on the first enemy unit attacked",
+		"image": "https://static.wikia.nocookie.net/ageofempires/images/e/eb/Aoe2-icon-coustillier.png/revision/latest/scale-to-width-down/256?cb=20201221071721"
+	},
+	"Elite Coustillier": {
+		"cost": "55f and 55g",
+		"tt": "14 seconds",
+		"building": "Castle",
+		"hp": "145",
+		"range": "melee",
+		"attack": "11",
+		"rof": "1.9",
+		"attackBonus": "none",
+		"armorClass": "Cavalry, Unique Unit",
+		"meleeArmor": "2",
+		"pierceArmor": "2",
+		"speed": "1.35",
+		"los": "5",
+		"line": "Burgendian UU",
+		"upgradeFrom": "Coustillier",
+		"upgrade": "none",
+		"notes": "Charges its attack over 40 seconds, dealing +30 melee damage on the first enemy unit attacked",
+		"image": "https://static.wikia.nocookie.net/ageofempires/images/e/eb/Aoe2-icon-coustillier.png/revision/latest/scale-to-width-down/256?cb=20201221071721"
+	},
+	"Serjeant": {
+		"cost": "60f and 35g",
+		"tt": "12 seconds Castle \n20 seconds Donjons",
+		"building": "Castle/Donjons",
+		"hp": "45-65",
+		"range": "melee",
+		"attack": "5-8",
+		"rof": "2",
+		"attackBonus": " - +2 vs. Eagle Warrior \n - +2 vs. Standard Building",
+		"armorClass": "Infantry, Unique Unit",
+		"meleeArmor": "2-3",
+		"pierceArmor": "2-3",
+		"speed": "0.9",
+		"los": "3",
+		"line": "Sicilian UU",
+		"upgradeFrom": "none",
+		"upgrade": "Elite Serjeant (1100f, 800g, 45sec)",
+		"notes": "Serjeants can be trained in the Feudal age and can build Donjons",
+		"image": "https://static.wikia.nocookie.net/ageofempires/images/2/23/Aoe2-icon-serjeant.png/revision/latest/scale-to-width-down/256?cb=20201221062217"
+	},
+	"Elite Serjeant": {
+		"cost": "60f and 35g",
+		"tt": "12 seconds Castle \n20 seconds Donjons",
+		"building": "Castle/Donjons",
+		"hp": "85",
+		"range": "melee",
+		"attack": "11",
+		"rof": "2",
+		"attackBonus": " - +3 vs. Eagle Warrior \n - +3 vs. Standard Building",
+		"armorClass": "Infantry, Unique Unit",
+		"meleeArmor": "4",
+		"pierceArmor": "4",
+		"speed": "0.9",
+		"los": "5",
+		"line": "Sicilian UU",
+		"upgradeFrom": "Serjeant",
+		"upgrade": "none",
+		"notes": "Serjeants can be trained in the Feudal age and can build Donjons",
+		"image": "https://static.wikia.nocookie.net/ageofempires/images/2/23/Aoe2-icon-serjeant.png/revision/latest/scale-to-width-down/256?cb=20201221062217"
 	},
 	
 	
