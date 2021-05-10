@@ -27,10 +27,6 @@
     "ytdl-core": "^0.29.5"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "nodemon": "^1.19.1"
-  }
-=======
     "nodemon": "^1.19.2"
   },
   "repository": {
@@ -41,5 +37,4 @@
     "url": "https://github.com/houdinicat11/Clawhauser/issues"
   },
   "homepage": "https://github.com/houdinicat11/Clawhauser#readme"
->>>>>>> 4fb0a7f9eb76396592f5f7d10cecb099dfd7edf4
 }
